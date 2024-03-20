@@ -1,0 +1,25 @@
+.sec-title {
+    z-index: 1;
+    position: relative;
+}
+
+.sec-title .title {
+    font-size: 42px;
+    font-weight: 600;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-title .title:after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
+    top: 35px;
+    z-index: -1;
+}
+
+.sec-title .title.bg-left:after {
+    left: 2px;
+}
