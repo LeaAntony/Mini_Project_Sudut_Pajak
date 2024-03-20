@@ -23,3 +23,23 @@
 .sec-title .title.bg-left:after {
     left: 2px;
 }
+
+.rs-footer .footer-title {
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: uppercase;
+
+    font-size: 20px;
+    z-index: 1;
+}
+
+.rs-footer .footer-title:after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    background: linear-gradient(90deg, #01a0f9 45%, #09c778 60%);
+    bottom: 0px;
+    left: 1px;
+    z-index: -1;
+}

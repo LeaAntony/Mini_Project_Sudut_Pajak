@@ -1,0 +1,12 @@
+.rs-footer {
+    background: #eff1f7;
+    position: relative;
+    padding-top: 95px;
+    background: url(../../images/background/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.fa-gradient {
+    color: #09c778;
+}
