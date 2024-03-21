@@ -12,13 +12,13 @@
             </li>
         </ul>
     </aside>
-    <nav class="mt-8 w-64">
+    <nav class="mt-8 w-64 mx-48">
         <h6 class="footer-title text-black">JAM KERJA</h6>
         <p class="text-stone-400">10.00 AM - 6.00 PM , Senin - Sabtu</p>
         <br>
-        <p class="text-stone-400">Tim Dukungan dan Konsultasi kami tersedia 24 / 7 untuk menjawab pertanyaan Anda</p>
+        <p class="text-stone-400 text-justify">Tim Dukungan dan Konsultasi kami tersedia 24 / 7 untuk menjawab pertanyaan Anda</p>
     </nav>
-    <nav class="mt-8 w-48">
+    <nav class="mt-8 w-36">
         <h6 class="footer-title text-black">NAVIGASI</h6>
         <a href="/profil" class="link link-hover link-accent text-stone-400">Profil</a>
         <a href="/kalkulator" class="link link-hover link-accent text-stone-400">Kalkulator</a>
@@ -31,7 +31,7 @@
         <a href="/berita" class="link link-hover link-accent text-stone-400">Berita</a>
         <a href="/bidang_usaha" class="link link-hover link-accent text-stone-400">Kategori Perbidang Usaha</a>
     </nav>
-    <nav class="mt-8 w-64">
+    <nav class="mt-8 w-64 ml-36">
         <h6 class="footer-title text-black">KEBIJAKAN PRIVASI</h6>
         <a href="/kontak" class="link link-hover link-accent text-stone-400">Kontak</a>
         <a href="/masuk" class="link link-hover link-accent text-stone-400">Masuk</a>
@@ -40,6 +40,6 @@
 </footer>
 <div class="footer-bottom text-center">
     <div class="copyright">
-        <p>© Copyrights 2023 <a href="#">Polibatam</a></p>
+        <p>© Copyrights 2023 <a href="https://www.polibatam.ac.id" class="link link-hover link-info text-stone-400">Polibatam</a></p>
     </div>
 </div>
