@@ -19,7 +19,7 @@
                         </ul>
                     </details>
                 </li>
-                <li><a>MASUK</a></li>
+                <li><a href="/login">MASUK</a></li>
             </ul>
         </div>
     </div>

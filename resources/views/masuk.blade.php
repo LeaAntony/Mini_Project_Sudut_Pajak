@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Masuk</title>
     <link rel="icon" type="image/png" href="./images/favicon.png">
     <link rel="stylesheet" href="./css/daisyui/full.min.css">
     <link rel="stylesheet" href="./css/template/title.css">
@@ -21,7 +21,7 @@
                 <div class="place-items-center sec-title">
                     <h1 class="font-blackbold text-4xl title bg-left leading-tight">Silahkan masuk terlebih dahulu</h1>
                 </div>
-                <form action="">
+                <form action="/">
                     <div class="mt-10">
                         <label for="Email">Email</label>
                         <label class="input input-bordered flex items-center gap-2">
@@ -56,7 +56,7 @@
                     <div class="flex flex-col w-full border-opacity-50 mt-5">
                         <button class="grid place-items-center btn btn-accent btn-xs sm:btn-sm md:btn-md lg:btn-lg">Masuk</button>
                         <div class="divider">OR</div>
-                        <div class="grid place-items-center btn btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg">Daftar</div>
+                        <a href="/daftar"><div class="grid place-items-center btn btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg">Daftar</div></a>
                     </div>
                     <div class="form-control mt-5">
                         <label class="cursor-pointer mx-auto">

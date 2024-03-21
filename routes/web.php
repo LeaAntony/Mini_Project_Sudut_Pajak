@@ -1,12 +1,14 @@
 <?php
 
+use App\Http\Controllers\DaftarController;
+use App\Http\Controllers\DasborController;
+use App\Http\Controllers\MasukController;
 use Illuminate\Support\Facades\Route;
-Use App\Http\Controllers\LoginController;
-Use App\Http\Controllers\DashboardController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', [LoginController::class, 'show']);
-Route::get('/', [DashboardController::class, 'show']);
+Route::get('/', [DasborController::class, 'tampilkan']);
+Route::get('/masuk', [MasukController::class, 'tampilkan']);
+Route::get('/daftar', [DaftarController::class, 'tampilkan']);

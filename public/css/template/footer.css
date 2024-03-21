@@ -5,8 +5,8 @@
     background: url(../../images/background/footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
 
-.fa-gradient {
-    color: #09c778;
+.footer-bottom {
+    background: #eef1f8;
 }
