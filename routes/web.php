@@ -3,6 +3,7 @@
 use App\Http\Controllers\DaftarController;
 use App\Http\Controllers\DasborController;
 use App\Http\Controllers\IdentifikasiController;
+use App\Http\Controllers\LayananController;
 use App\Http\Controllers\MasukController;
 use App\Http\Controllers\PemulihanController;
 use App\Http\Controllers\PemulihanSandiController;
@@ -18,3 +19,4 @@ Route::get('/daftar', [DaftarController::class, 'tampilkan']);
 Route::get('/identifikasi', [IdentifikasiController::class, 'tampilkan']);
 Route::get('/pemulihan', [PemulihanController::class, 'tampilkan']);
 Route::get('/pemulihan_sandi', [PemulihanSandiController::class, 'tampilkan']);
+Route::get('/layanan', [LayananController::class, 'tampilkan']);
