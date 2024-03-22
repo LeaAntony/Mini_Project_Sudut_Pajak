@@ -1,11 +1,13 @@
-@extends('layouts.main')
+@extends('layouts.secondary')
 
 @section('title', 'Peraturan Pajak Pusat')
+@section('judulBreadcrumbs', 'Peraturan Pajak')
+@section('breadcrumbs')
+
+<li>Peraturan Pajak Pusat</li>
+
+@endsection
 @section('content')
-
-@include('components.breadcrumbs1')
-@section('title', 'Peraturan Pajak')
-@section('title', 'Peraturan Pajak Pusat')
 
 <div class="mx-56 my-20">
     <h2 class="text-3xl font-semibold">Peraturan Pajak Pusat</h2>
