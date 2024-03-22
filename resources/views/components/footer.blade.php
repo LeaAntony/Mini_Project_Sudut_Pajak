@@ -1,4 +1,4 @@
-<footer class="footer p-10 text-base font-sans font-medium rs-footer h-150">
+<footer class="footer p-10 text-base font-medium rs-footer h-150">
     <aside class="ml-8 w-64">
         <img src="./images/logo.png" alt="" class="object-cover h-36 w-auto">
         <div class="text-justify text-stone-400">
@@ -38,7 +38,7 @@
         <a href="/daftar" class="link link-hover link-accent text-stone-400">Daftar</a>
     </nav>
 </footer>
-<div class="footer-bottom text-center">
+<div class="footer-bottom text-center py-5">
     <div class="copyright">
         <p>© Copyrights 2023 <a href="https://www.polibatam.ac.id" class="link link-hover link-info text-black">Polibatam</a></p>
     </div>

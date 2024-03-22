@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'My App')</title>
     <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/daisyui/full.min.css">
     <link rel="stylesheet" href="./css/fontawesome/all.min.css">
     <link rel="stylesheet" href="./css/template/title.css">
@@ -17,7 +18,7 @@
         @include('components.header')
     </header>
 
-    <div>
+    <div class="pt-28 main-content">
         @yield('content')
     </div>
 
