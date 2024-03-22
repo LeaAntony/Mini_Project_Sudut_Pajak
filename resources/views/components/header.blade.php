@@ -13,7 +13,7 @@
                 <li>
                     <details>
                         <summary>PERATURAN</summary>
-                        <ul class="p-2 shadow-md">
+                        <ul class="p-2 shadow-md z-10 w-80">
                             <li><a>Peraturan Pajak Pusat</a></li>
                             <li><a>Peraturan Pajak Daerah Kota Batam</a></li>
                         </ul>

@@ -17,10 +17,8 @@
         @include('components.header')
     </header>
 
-    <div class="container">
-        <main>
-            @yield('content')
-        </main>
+    <div>
+        @yield('content')
     </div>
 
     <footer>
