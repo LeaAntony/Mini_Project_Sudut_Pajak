@@ -27,7 +27,7 @@
         <a href="/konsultasi" class="link link-hover link-accent text-stone-400">Konsultasi</a>
     </nav>
     <nav class="mt-24 w-64">
-        <a href="/pelatihan" class="link link-hover link-accent text-stone-400">Pelatihan atau Sertifikasi</a>
+        <a href="/pelatihan" class="link link-hover link-accent text-stone-400 mt-2">Pelatihan atau Sertifikasi</a>
         <a href="/berita" class="link link-hover link-accent text-stone-400">Berita</a>
         <a href="/bidang_usaha" class="link link-hover link-accent text-stone-400">Kategori Perbidang Usaha</a>
     </nav>
@@ -40,6 +40,6 @@
 </footer>
 <div class="footer-bottom text-center">
     <div class="copyright">
-        <p>© Copyrights 2023 <a href="https://www.polibatam.ac.id" class="link link-hover link-info text-stone-400">Polibatam</a></p>
+        <p>© Copyrights 2023 <a href="https://www.polibatam.ac.id" class="link link-hover link-info text-black">Polibatam</a></p>
     </div>
 </div>

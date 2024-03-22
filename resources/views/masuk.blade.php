@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
+@extends('layouts.auth')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masuk</title>
-    <link rel="icon" type="image/png" href="./images/favicon.png">
-    <link rel="stylesheet" href="./css/daisyui/full.min.css">
-    <link rel="stylesheet" href="./css/template/title.css">
-    <script src="./js/daisyui/full.min.js"></script>
-</head>
+@section('title', 'Masuk')
+@section('content')
 
-<body>
-    <div class="container my-20 mx-auto">
-        <div class="grid grid-cols-12 gap-6">
-            <div class="place-items-center col-span-7">
-                <img src="./images/login_banner.png" alt="">
-            </div>
-            <div class="col-span-5">
                 <div class="place-items-center sec-title">
                     <h1 class="font-blackbold text-4xl title bg-left leading-tight">Silahkan masuk terlebih dahulu</h1>
                 </div>
@@ -38,11 +23,11 @@
                     <div class="mt-5">
                         <label for="Password">Kata Sandi</label>
                         <label class="input input-bordered flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
-                                class="w-4 h-4 opacity-70">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 opacity-70">
                                 <path fill-rule="evenodd"
                                     d="M14 6a4 4 0 0 1-4.899 3.899l-1.955 1.955a.5.5 0 0 1-.353.146H5v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-2.293a.5.5 0 0 1 .146-.353l3.955-3.955A4 4 0 1 1 14 6Zm-4-2a.75.75 0 0 0 0 1.5.5.5 0 0 1 .5.5.75.75 0 0 0 1.5 0 2 2 0 0 0-2-2Z"
-                                    clip-rule="evenodd" /></svg>
+                                    clip-rule="evenodd" />
+                            </svg>
                             <input type="password" class="grow" value="" placeholder="********" />
                         </label>
                     </div>
@@ -50,7 +35,7 @@
                         <label class="cursor-pointer mx-auto">
                             <input type="checkbox" class="checkbox checkbox-accent" />
                             <span class=" align-top mr-40">Ingat Saya</span>
-                            <a href="" class="link-accent align-top ">Lupa Kata Sandi?</a>
+                            <a href="/identifikasi" class="link-accent align-top ">Lupa Kata Sandi?</a>
                         </label>
                     </div>
                     <div class="flex flex-col w-full border-opacity-50 mt-5">
@@ -65,9 +50,5 @@
                         </label>
                     </div>
                 </form>
-            </div>
-        </div>
-    </div>
-</body>
 
-</html>
+@endsection

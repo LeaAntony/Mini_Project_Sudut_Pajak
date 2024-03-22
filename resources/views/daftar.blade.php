@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
+@extends('layouts.auth')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar</title>
-    <link rel="icon" type="image/png" href="./images/favicon.png">
-    <link rel="stylesheet" href="./css/daisyui/full.min.css">
-    <link rel="stylesheet" href="./css/template/title.css">
-    <script src="./js/daisyui/full.min.js"></script>
-</head>
+@section('title', 'Daftar')
+@section('content')
 
-<body>
-    <div class="container my-20 mx-auto">
-        <div class="grid grid-cols-12 gap-6">
-            <div class="place-items-center col-span-7">
-                <img src="./images/login_banner.png" alt="">
-            </div>
-            <div class="col-span-5">
                 <div class="place-items-center sec-title">
                     <h1 class="font-blackbold text-4xl title bg-left leading-tight">Silahkan masuk terlebih dahulu</h1>
                 </div>
@@ -58,7 +43,7 @@
                         </label>
                     </div>
                     <div class="mt-5">
-                        <label for="Password">Ketik Ulang Kata Sandi</label>
+                        <label for="Password">Konfirmasi Kata Sandi</label>
                         <label class="input input-bordered flex items-center gap-2">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
                                 class="w-4 h-4 opacity-70">
@@ -80,9 +65,5 @@
                         </label>
                     </div>
                 </form>
-            </div>
-        </div>
-    </div>
-</body>
 
-</html>
+@endsection
