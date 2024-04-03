@@ -8,6 +8,6 @@ class PemulihanController extends Controller
 {
     public function tampilkan()
     {
-        return view('pemulihan');
+        return view('auth/pemulihan');
     }
 }

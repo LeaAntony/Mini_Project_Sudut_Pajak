@@ -8,6 +8,6 @@ class IdentifikasiController extends Controller
 {
     public function tampilkan()
     {
-        return view('identifikasi');
+        return view('auth/identifikasi');
     }
 }

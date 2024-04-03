@@ -8,6 +8,6 @@ class DaftarController extends Controller
 {
     public function tampilkan()
     {
-        return view('daftar');
+        return view('auth/daftar');
     }
 }

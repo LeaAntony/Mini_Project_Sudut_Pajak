@@ -4,11 +4,11 @@
 @section('content')
 
                 <div class="place-items-center sec-title">
-                    <h1 class="font-blackbold text-4xl title bg-left leading-tight">Temukan Akun Anda</h1>
+                    <h1 class="font-blackbold text-4xl title bg-left leading-tight">Lupa kata sandi</h1>
                 </div>
                 <form action="/pemulihan">
                     <div class="mt-10">
-                        <p>Masukkan email Anda untuk mencari akun Anda.</p>
+                        <p>Lupa kata sandi Anda? Tidak masalah. Cukup beri tahu kami alamat email Anda dan kami akan mengirimkan email berisi tautan pengaturan ulang kata sandi yang memungkinkan Anda memilih yang baru.</p>
                     </div>
                     <div class="mt-5">
                         <label for="Email">Email</label>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="grid grid-cols-2 gap-4 border-opacity-50 mt-5">
                         <a href="/masuk" class="btn sm:btn-sm md:btn-md lg:btn-lg w-50">Batal</a>
-                        <button class="btn btn-accent sm:btn-sm md:btn-md lg:btn-lg ">Cari</button>
+                        <button class="btn btn-accent sm:btn-sm md:btn-md lg:btn-lg ">Kirim email pemulihan</button>
                     </div>
                 </form>
 
