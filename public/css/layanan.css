@@ -1,0 +1,23 @@
+.card:hover {
+    background: linear-gradient(-150deg, #12b4c8, #6669e6);
+    color: white;
+}
+
+.card:hover p {
+    color: white;
+}
+
+.card:after {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 70px;
+    background: linear-gradient(-150deg, #12b4c8, #6669e6);
+    left: 35px;
+    bottom: 65px;
+    transition: .7s;
+}
+
+.card:hover:after {
+    background: linear-gradient(-150deg, #fff, #fff);
+}
