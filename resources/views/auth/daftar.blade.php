@@ -6,7 +6,7 @@
                 <div class="place-items-center sec-title">
                     <h1 class="font-blackbold text-4xl title bg-left leading-tight">Silahkan masuk terlebih dahulu</h1>
                 </div>
-                <form action="">
+                <form action="/masuk">
                     <div class="mt-10">
                         <label for="Email">Nama Lengkap</label>
                         <label class="input input-bordered flex items-center gap-2">
@@ -54,14 +54,14 @@
                         </label>
                     </div>
                     <div class="flex flex-col w-full border-opacity-50 mt-5">
-                        <button class="grid place-items-center btn btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg">Daftar</button>
+                        <x-button class="">Daftar</x-button>
                         <div class="divider">OR</div>
-                        <a href="/masuk"><div class="grid place-items-center btn btn-accent btn-xs sm:btn-sm md:btn-md lg:btn-lg">Masuk</div></a>
+                        <x-link_button href="/masuk" class="">Masuk</x-link_button>
                     </div>
                     <div class="form-control mt-5">
                         <label class="cursor-pointer mx-auto">
-                            <a href="" class="link-accent align-text-top mr-20">Masuk sebagai Admin?</a>
-                            <a href="" class="link-accent align-text-top">Masuk sebagai Konsultan?</a>
+                            <x-a href="" class="align-text-top mr-20">Masuk sebagai Admin?</x-a>
+                            <x-a href="" class="align-text-top">Masuk sebagai Konsultan?</x-a>
                         </label>
                     </div>
                 </form>

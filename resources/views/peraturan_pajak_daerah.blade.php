@@ -10,8 +10,10 @@
 
 @section('content')
 
-<div class="mx-56 my-20">
+<div class="mx-56 my-20 card w-auto bg-base-100 shadow-xl rounded relative p-8">
+    <!-- Judul Besar -->
     <h2 class="text-3xl font-semibold">Peraturan Pajak Daerah Kota Batam</h2>
+    <!-- Isi Peraturan -->
     <p class="text-justify text-slate-500 my-7">
         Peraturan pajak daerah Kota Batam adalah peraturan yang dikeluarkan oleh Pemerintah Kota Batam untuk mengatur pungutan, penyetoran, penggunaan, dan pengawasan pajak di wilayah Kota Batam. Kota Batam merupakan salah satu kota di Indonesia yang memiliki otonomi khusus dalam mengelola urusan pemerintahan, termasuk dalam hal perpajakan.
     </p>

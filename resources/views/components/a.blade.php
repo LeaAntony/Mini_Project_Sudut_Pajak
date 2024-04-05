@@ -1,0 +1,1 @@
+<a href="{{ $href }}" class="{{ $class }} bg-gradient-to-r from-cyan-400 to-blue-400 hover:from-blue-300 hover:to-cyan-300 active:from-blue-200 active:to-cyan-200 text-transparent bg-clip-text" >{{ $slot }}</a>

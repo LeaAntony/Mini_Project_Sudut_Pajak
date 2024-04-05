@@ -35,18 +35,18 @@
                         <label class="cursor-pointer mx-auto">
                             <input type="checkbox" class="checkbox checkbox-accent" />
                             <span class=" align-top mr-40">Ingat Saya</span>
-                            <a href="/identifikasi" class="link-accent align-top ">Lupa Kata Sandi?</a>
+                            <x-a href="/identifikasi" class="align-top">Lupa Kata Sandi?</x-a>
                         </label>
                     </div>
                     <div class="flex flex-col w-full border-opacity-50 mt-5">
-                        <button class="grid place-items-center btn btn-accent btn-xs sm:btn-sm md:btn-md lg:btn-lg">Masuk</button>
-                        <div class="divider">OR</div>
-                        <a href="/daftar"><div class="grid place-items-center btn btn-info btn-xs sm:btn-sm md:btn-md lg:btn-lg">Daftar</div></a>
+                        <x-button class="">Masuk</x-button>
+                        <div class="divider">Atau</div>
+                        <x-link_button href="/daftar" class="">Daftar</x-link_button>
                     </div>
                     <div class="form-control mt-5">
                         <label class="cursor-pointer mx-auto">
-                            <a href="" class="link-info align-text-top mr-20">Masuk sebagai Admin?</a>
-                            <a href="" class="link-info align-text-top">Masuk sebagai Konsultan?</a>
+                            <x-a href="" class="align-text-top mr-20">Masuk sebagai Admin?</x-a>
+                            <x-a href="" class="align-text-top">Masuk sebagai Konsultan?</x-a>
                         </label>
                     </div>
                 </form>

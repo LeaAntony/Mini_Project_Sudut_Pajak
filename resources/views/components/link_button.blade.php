@@ -1,0 +1,1 @@
+<a href="{{ $href }}" class="{{ $class }} btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-gradient-to-r from-cyan-400 to-blue-400 hover:from-blue-300 hover:to-cyan-300 active:from-blue-200 active:to-cyan-200 focus:outline-none focus:ring focus:ring-sky-300 text-white" >{{ $slot }}</a>

@@ -9,8 +9,10 @@
 @endsection
 @section('content')
 
-<div class="mx-56 my-20">
+<div class="mx-56 my-20 card w-auto bg-base-100 shadow-xl rounded relative p-8">
+    <!-- Judul Besar -->
     <h2 class="text-3xl font-semibold">Peraturan Pajak Pusat</h2>
+    <!-- Isi Peraturan -->
     <p class="text-justify text-slate-500 my-7">
         Peraturan pajak daerah adalah peraturan yang dikeluarkan oleh pemerintah daerah atau pemerintah setempat, yang mengatur mengenai pungutan, penyetoran, penggunaan, dan pengawasan pajak di wilayah tertentu. Pajak daerah merupakan sumber pendapatan bagi pemerintah daerah untuk membiayai pengeluaran dan penyediaan layanan publik di daerah tersebut.
     </p>
