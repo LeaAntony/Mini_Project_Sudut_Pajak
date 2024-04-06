@@ -1,7 +1,7 @@
     <nav class="navbar bg-base-100 shadow-md mx-auto fixed z-50">
         <div class="navbar-start">
             <div class="ml-36">
-                <img src="./images/logo.png" alt="" class="object-cover h-24 w-auto">
+                <img src="/images/logo.png" alt="" class="object-cover h-24 w-auto">
             </div>
         </div>
         <div class="navbar-center hidden lg:flex md:flex mr-36">

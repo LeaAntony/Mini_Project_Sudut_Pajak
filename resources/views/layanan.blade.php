@@ -10,7 +10,7 @@
 
 @section('content')
 
-<link rel="stylesheet" href="./css/layanan.css">
+<link rel="stylesheet" href="/css/layanan.css">
 
 <div class="container mx-auto mb-40">
     <div class="mt-20 mb-10 text-center text-5xl">

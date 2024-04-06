@@ -5,12 +5,12 @@
 
 <link rel="stylesheet" href="./css/page.css">
 
-<div class="my-12">
+<div class="my-6">
     <!-- Judul Besar -->
     <div class="grid grid-cols-12 gap-0">
-        <i class="fa fa-calculator fa-2xl col-start-5 col-span-1 text-teal-500" style="font-size: 75px;"></i>
+        <i class="fa fa-calculator fa-2xl col-start-5 col-span-1 text-teal-500" style="font-size: 60px;"></i>
         <h2 class="text-4xl col-span-4 font-semibold text-teal-500 "> KALKULATOR PAJAK <div
-                class="font-medium text-teal-700">PPh 21</div>
+                class="text-sm font-medium text-teal-700">PPh 21</div>
         </h2>
     </div>
     <!-- Kalkulator -->
@@ -20,7 +20,7 @@
         <div id="Informasi" class="carousel-item relative w-full h-1/2">
             <div class="mx-56 my-10 card bg-base-100 shadow-xl rounded relative p-8 w-full">
                 <!-- Timeline -->
-                <div class="mx-auto mb-5">
+                <div class="mx-auto mb-5 text-sm">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-start timeline-box">Informasi Wajib Pajak</div>
@@ -197,7 +197,7 @@
         <div id="Penghasilan" class="carousel-item relative w-full h-3/4 ">
             <div class="mx-56 my-10 card w-auto bg-base-100 shadow-xl rounded relative p-8 w-full">
                 <!-- Timeline -->
-                <div class="mx-auto mb-5">
+                <div class="mx-auto mb-5 text-sm">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-start timeline-box">Informasi Wajib Pajak</div>
@@ -348,7 +348,7 @@
         <div id="Perhitungan" class="carousel-item relative w-full">
             <div class="mx-56 my-10 card w-auto bg-base-100 shadow-xl rounded relative p-8 w-full">
                 <!-- Timeline -->
-                <div class="mx-auto mb-5">
+                <div class="mx-auto mb-5 text-sm">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-start timeline-box">Informasi Wajib Pajak</div>

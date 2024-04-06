@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./css/template/breadcrumbs.css">
+<link rel="stylesheet" href="/css/template/breadcrumbs.css">
 
 <div class="breadcrumbs place-content-center text-center font-sans text-white">
     <h1 class="text-5xl font-semibold">@yield('judulBreadcrumbs', 'My App')</h1>

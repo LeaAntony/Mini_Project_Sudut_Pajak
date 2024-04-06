@@ -26,7 +26,7 @@
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Kuliner</p>
                     <div class="card-actions">
-                        <a href="/kuliner"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/kuliner"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Fashion</p>
                     <div class="card-actions">
-                    <a href="/fashion"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/fashion"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Otomotif</p>
                     <div class="card-actions">
-                    <a href="/otomotif"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/otomotif"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Agribisnis</p>
                     <div class="card-actions">
-                    <a href="/agribisnis"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/agribisnis"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Kosmetik</p>
                     <div class="card-actions">
-                    <a href="/kosmetik"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/kosmetik"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Event Organizer</p>
                     <div class="card-actions">
-                    <a href="/event"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/event"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>

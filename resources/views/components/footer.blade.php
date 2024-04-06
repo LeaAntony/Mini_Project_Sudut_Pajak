@@ -1,6 +1,6 @@
 <footer class="footer p-10 text-base font-medium rs-footer h-150 grid grid-cols-12 gap-1">
-    <aside class="col-start-2 col-span-2">
-        <img src="./images/logo.png" alt="" class="object-cover h-36 w-auto">
+    <aside class="col-start-1 col-span-2">
+        <img src="/images/logo.png" alt="" class="object-cover h-36 w-auto">
         <div class="text-justify text-stone-400">
             <p>Sudut Pajak merupakan layanan pajak berbasis website dapat memberikan layanan perpajakan online secara gratis baik konsultasi maupun secara teori</p>
         </div>
@@ -10,11 +10,11 @@
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
         </div>
     </aside>
-    <nav class="mt-8 col-start-5 col-span-2">
+    <nav class="mt-8 col-start-4 col-span-3">
         <h6 class="footer-title text-black">JAM KERJA</h6>
         <p class="text-stone-400">10.00 AM - 6.00 PM , Senin - Sabtu</p>
         <br>
-        <p class="text-stone-400 text-justify">Tim Dukungan dan Konsultasi kami tersedia 24 / 7 untuk menjawab pertanyaan Anda</p>
+        <p class="text-stone-400 text-justify">Tim Dukungan dan Konsultasi kami tersedia 24/7 untuk menjawab pertanyaan Anda</p>
     </nav>
     <nav class="mt-8 col-start-8 col-span-1">
         <h6 class="footer-title text-black">NAVIGASI</h6>
