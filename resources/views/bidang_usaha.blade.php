@@ -4,6 +4,7 @@
 @section('judulBreadcrumbs', 'Kategori Perbidang Usaha')
 @section('breadcrumbs')
 
+<li><a href="/layanan">Layanan</a></li>
 <li>Kategori Perbidang Usaha</li>
 
 @endsection
