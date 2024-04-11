@@ -39,13 +39,13 @@
                         </label>
                     </div>
                     <div class="flex flex-col w-full border-opacity-50 mt-5">
-                        <x-button class="">Masuk</x-button>
+                        <x-button class="sm:btn-sm md:btn-md lg:btn-lg">Masuk</x-button>
                         <div class="divider">Atau</div>
-                        <x-link_button href="/daftar" class="">Daftar</x-link_button>
+                        <x-link_button href="/daftar" class="sm:btn-sm md:btn-md lg:btn-lg">Daftar</x-link_button>
                     </div>
                     <div class="form-control mt-5">
                         <label class="cursor-pointer mx-auto">
-                            <x-a href="" class="align-text-top mr-20">Masuk sebagai Admin?</x-a>
+                            <x-a href="/admin" class="align-text-top mr-20">Masuk sebagai Admin?</x-a>
                             <x-a href="" class="align-text-top">Masuk sebagai Konsultan?</x-a>
                         </label>
                     </div>

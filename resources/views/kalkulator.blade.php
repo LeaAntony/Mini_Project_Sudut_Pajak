@@ -8,7 +8,7 @@
 <div class="my-6">
     <!-- Judul Besar -->
     <div class="grid grid-cols-12 gap-0">
-        <i class="fa fa-calculator fa-2xl col-start-5 col-span-1 text-teal-500" style="font-size: 60px;"></i>
+        <i class="fi fi-rr-calculator text-4xl col-start-5 col-span-1 text-teal-500" style="font-size: 60px;"></i>
         <h2 class="text-4xl col-span-4 font-semibold text-teal-500 "> KALKULATOR PAJAK <div
                 class="text-sm font-medium text-teal-700">PPh 21</div>
         </h2>
@@ -187,7 +187,7 @@
                         <td></td>
                         <td></td>
                         <td>
-                            <x-link_button href="#Penghasilan" class="">Selanjutnya</x-link_button>
+                            <x-link_button href="#Penghasilan" class="sm:btn-sm md:btn-md lg:btn-lg">Selanjutnya</x-link_button>
                         </td>
                     </tr>
                 </table>
@@ -337,8 +337,8 @@
                         <td></td>
                         <td></td>
                         <td>
-                            <x-link_button href="#Informasi" class="">Sebelumnya</x-link_button>
-                            <x-link_button href="#Perhitungan" class="">Selanjutnya</x-link_button>
+                            <x-link_button href="#Informasi" class="sm:btn-sm md:btn-md lg:btn-lg">Sebelumnya</x-link_button>
+                            <x-link_button href="#Perhitungan" class="sm:btn-sm md:btn-md lg:btn-lg">Selanjutnya</x-link_button>
                         </td>
                     </tr>
                 </table>
@@ -539,8 +539,8 @@
                         <td></td>
                         <td></td>
                         <td>
-                            <x-link_button href="/kalkulator" class="">Reset</x-link_button>
-                            <x-link_button href="Perhitungan" class="">Simpan</x-link_button>
+                            <x-link_button href="/kalkulator" class="sm:btn-sm md:btn-md lg:btn-lg">Reset</x-link_button>
+                            <x-link_button href="Perhitungan" class="sm:btn-sm md:btn-md lg:btn-lg">Simpan</x-link_button>
                         </td>
                     </tr>
                 </table>

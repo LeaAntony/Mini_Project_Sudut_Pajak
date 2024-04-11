@@ -2,12 +2,12 @@
     <aside class="col-start-1 col-span-2">
         <img src="/images/logo.png" alt="" class="object-cover h-36 w-auto">
         <div class="text-justify text-stone-400">
-            <p>Sudut Pajak merupakan layanan pajak berbasis website dapat memberikan layanan perpajakan online secara gratis baik konsultasi maupun secara teori</p>
+            <p>Sudut Pajak merupakan layanan pajak berbasis website yang dapat memberikan layanan perpajakan online secara gratis baik konsultasi maupun secara teori</p>
         </div>
         <div class="social-links mx-auto">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram mx-20"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <x-a href="#" class=""><i class="fi fi-brands-facebook mr-10"></i></x-a>
+            <x-a href="#" class=""><i class="fi fi-brands-instagram mx-5"></i></x-a>
+            <x-a href="#" class=""><i class="fi fi-brands-twitter ml-10"></i></x-a>
         </div>
     </aside>
     <nav class="mt-8 col-start-4 col-span-3">
@@ -38,6 +38,6 @@
 </footer>
 <div class="footer-bottom text-center py-5">
     <div class="copyright">
-        <p>© Copyrights 2023 <a href="https://www.polibatam.ac.id" class="link link-hover link-info text-black">Polibatam</a></p>
+        <p>Copyright © 2024 - <a href="https://www.polibatam.ac.id" class="link link-hover link-info text-black">Polibatam</a></p>
     </div>
 </div>

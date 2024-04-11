@@ -54,9 +54,9 @@
                         </label>
                     </div>
                     <div class="flex flex-col w-full border-opacity-50 mt-5">
-                        <x-button class="">Daftar</x-button>
+                        <x-button class="sm:btn-sm md:btn-md lg:btn-lg">Daftar</x-button>
                         <div class="divider">OR</div>
-                        <x-link_button href="/masuk" class="">Masuk</x-link_button>
+                        <x-link_button href="/masuk" class="sm:btn-sm md:btn-md lg:btn-lg">Masuk</x-link_button>
                     </div>
                     <div class="form-control mt-5">
                         <label class="cursor-pointer mx-auto">

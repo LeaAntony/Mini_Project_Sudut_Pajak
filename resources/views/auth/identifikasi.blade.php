@@ -25,7 +25,7 @@
                     </div>
                     <div class="grid grid-cols-2 gap-4 border-opacity-50 mt-5">
                         <a href="/masuk" class="btn sm:btn-sm md:btn-md lg:btn-lg w-50">Batal</a>
-                        <x-button class="">Kirim email pemulihan</x-button>
+                        <x-button class="sm:btn-sm md:btn-md lg:btn-lg">Kirim email pemulihan</x-button>
                     </div>
                 </form>
 

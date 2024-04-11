@@ -46,7 +46,7 @@
                         </label>
                     </div>
                     <div class="grid grid-cols-1 gap-4 border-opacity-50 mt-5">
-                        <x-button class="">Simpan Sandi Baru</x-button>
+                        <x-button class="sm:btn-sm md:btn-md lg:btn-lg">Simpan Sandi Baru</x-button>
                     </div>
                 </form>
 
