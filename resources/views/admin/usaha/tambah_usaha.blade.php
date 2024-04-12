@@ -1,6 +1,6 @@
 @extends('layouts.admin_main')
 
-@section('title', 'Dasbor Admin | Sudut Pajak')
+@section('title', 'Tambah Usaha | Sudut Pajak')
 @section('content')
 
 <link rel="stylesheet" href="/css/datatables/datatables.datatables.css">

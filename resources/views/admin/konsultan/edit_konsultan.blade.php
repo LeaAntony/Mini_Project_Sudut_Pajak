@@ -1,6 +1,6 @@
 @extends('layouts.admin_main')
 
-@section('title', 'Dasbor Admin | Sudut Konsultan')
+@section('title', 'Edit Konsultan | Sudut Konsultan')
 @section('content')
 
 <link rel="stylesheet" href="/css/datatables/datatables.datatables.css">

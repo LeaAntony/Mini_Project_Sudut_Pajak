@@ -87,7 +87,7 @@
             <div class="ml-4 text-stone-400 bg-white text-semibold">
                 AKUN
             </div>
-            <a href="admin/pengaturan"
+            <a href="admin/pengaturan_akun"
                 class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-rr-user-pen"></i>
                 <div>
@@ -138,7 +138,7 @@
                     <p class="font-normal">Manajemen Kuis <i class="fi fi-tr-quiz-alt"></i></p>
                     <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href="/admin/kuis">List Kuis</a></li>
-                        <li><a href="/admin/kuis/hasil_kuis">List Jawaban Kuis</a></li>
+                        <li><a href="/admin/kuis/hasil_kuis">List Hasil Kuis</a></li>
                     </ul>
                 </div>
             </div>
@@ -146,7 +146,7 @@
             <div class="ml-4 text-stone-400 bg-white text-semibold">
                 AKUN
             </div>
-            <a href="/admin/pengaturan"
+            <a href="/admin/pengaturan_akun"
                 class="hover:ml-32 justify-end pr-5 hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white w-full p-2 rounded-full transform ease-in-out duration-300 flex">
                 <p>Pengaturan Akun <i class="fi fi-rr-user-pen"></i></p>
             </a>
