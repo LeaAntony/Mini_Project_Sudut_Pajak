@@ -4,6 +4,9 @@
 @section('judulBreadcrumbs', ' Detail Artikel Pembelajaran PPh')
 @section('breadcrumbs')
 
+<li><a href="/layanan">Layanan</a></li>
+<li>Pembelajaran PPh</li>
+<li>Artikel Pembelajaran PPh</li>
 <li>Detail Artikel Pembelajaran PPh</li>
 
 @endsection
@@ -16,7 +19,7 @@
     <div class="card bg-base-100 shadow-xl relative pl-4 pr-4 pt-2 pb-4 max-w-4xl mx-auto mb-4">
         <div class="card-body">
             <h1 class="card-title text-xl font-bold">Pengaruh Pajak Penghasilan (PPh) terhadap Cash Flow UMKM dalam Industri Fashion</h1></br>
-            <img src="images/shop.jpg" alt="Card Image" class="card-image w-3/4 mx-auto"></br>
+            <img src="/images/shop.jpg" alt="Card Image" class="card-image w-3/4 mx-auto"></br>
             <p class="text-base text-gray-600 mt-2">Dalam industri fashion yang dinamis, di mana setiap perubahan dalam penerimaan dan 
                 pengeluaran memiliki implikasi besar terhadap keseimbangan arus kas, Pajak Penghasilan (PPh) menjadi salah satu aspek yang memerlukan perhatian khusus dari para pelaku usaha. Kewajiban PPh bagi Usaha Mikro, Kecil, dan Menengah (UMKM) dalam industri ini tak dapat dihindari, 
                 dan pengelolaannya dapat berdampak langsung pada stabilitas finansial perusahaan. Tingkat persaingan yang tinggi, perubahan tren, dan fluktuasi pasar adalah ciri khas dari industri fashion. Dalam konteks ini, setiap langkah keuangan, termasuk kewajiban pajak, harus dipertimbangkan dengan cermat untuk memastikan kelancaran operasional dan pertumbuhan yang berkelanjutan. PPh dapat menjadi beban finansial yang signifikan jika tidak dikelola dengan baik. Hal ini dapat memengaruhi likuiditas perusahaan dan bahkan menyebabkan kesulitan keuangan 
