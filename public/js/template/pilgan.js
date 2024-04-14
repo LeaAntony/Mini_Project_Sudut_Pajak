@@ -1,19 +1,19 @@
 // JavaScript untuk menangani tipe
 const radioPilihanGanda = document.getElementById('pilihan_ganda');
-const radioEssai = document.getElementById('essay');
+const radioEssai = document.getElementById('esai');
 const soalPilihanGanda = document.getElementById('soalPilihanGanda');
-const soalEssai = document.getElementById('soalEssai');
+const soalEsai = document.getElementById('soalEsai');
 
 radioPilihanGanda.addEventListener('change', () => {
     if (radioPilihanGanda.checked) {
         soalPilihanGanda.classList.remove('hidden');
-        soalEssai.classList.add('hidden');
+        soalEsai.classList.add('hidden');
     }
 });
 
 radioEssai.addEventListener('change', () => {
     if (radioEssai.checked) {
-        soalEssai.classList.remove('hidden');
+        soalEsai.classList.remove('hidden');
         soalPilihanGanda.classList.add('hidden');
     }
 });

@@ -42,7 +42,7 @@
 
     <div class="flex flex-wrap -mx-4">
     <!-- Card 1 -->
-    <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video1'">
+    <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/j9_FezE9jpc" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -53,7 +53,7 @@
 
 
  <!-- Card 2 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video2'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/ujDOREoD4r0" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -63,7 +63,7 @@
 
 
 <!-- Card 3 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video3'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/5DFZGvrBcMo" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -73,7 +73,7 @@
 
 
 <!-- Card 4 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video4'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/dz5Ik4lWRQE" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -82,7 +82,7 @@
 </div>
 
    <!-- Card 5 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video5'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/6gN8ggrw1z4" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -93,7 +93,7 @@
     </br>
 
    <!-- Card 6 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video6'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/at-Q9OmqmD0" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -102,7 +102,7 @@
 </div>
 
 <!-- Card 7 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video7'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/tsfZSoRf13o" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -112,7 +112,7 @@
 
 
 <!-- Card 8 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video8'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/2iRlSEmWuPo" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -122,7 +122,7 @@
 
 
 <!-- Card 9 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video9'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/IV514aauars" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
@@ -131,7 +131,7 @@
 </div>
 
 <!-- Card 10 -->
-<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='video10'">
+<div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4" onclick="window.location.href='/pembelajaran/video/detail0'">
     <!-- Embedded Video -->
     <iframe width="100%" height="220" src="https://www.youtube.com/embed/LVpAdDgc3PA" frameborder="0" allowfullscreen></iframe>
     <div class="card-body">
