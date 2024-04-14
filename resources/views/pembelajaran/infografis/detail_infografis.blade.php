@@ -3,7 +3,12 @@
 @section('title', 'Infografis Pembelajaran PPh')
 @section('judulBreadcrumbs', 'Infografis Pembelajaran PPh')
 @section('breadcrumbs')
+
+<li><a href="/layanan">Layanan</a></li>
+<li><a href="/pembelajaran">Pembelajaran PPh</a></li>
+<li><a href="/pembelajaran/infografis">Infografis Pembelajaran PPh</a></li>
 <li>Detail Infografis Pembelajaran PPh</li>
+
 @endsection
 
 @section('content')
