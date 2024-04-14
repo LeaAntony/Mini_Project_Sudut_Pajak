@@ -4,6 +4,10 @@
 @section('judulBreadcrumbs', ' Detail Video Pembelajaran PPh')
 @section('breadcrumbs')
 
+
+<li><a href="/layanan">Layanan</a></li>
+<li><a href="/pembelajaran">Pembelajaran PPh</a></li>
+<li><a href="/pembelajaran/video">Video Pembelajaran PPh</a></li>
 <li>Detail Video Pembelajaran PPh</li>
 
 @endsection

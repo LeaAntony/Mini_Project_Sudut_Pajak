@@ -5,7 +5,7 @@
 @section('breadcrumbs')
 
 <li><a href="/layanan">Layanan</a></li>
-<li>Pembelajaran PPh</li>
+<li><a href="/pembelajaran">Pembelajaran PPh</a></li>
 <li>Artikel Pembelajaran PPh</li>
 
 @endsection
