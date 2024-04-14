@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="/css/template/footer.css">
     <script src="/js/daisyui/daisyui.min.js"></script>
 </head>
-<body class="bg-slate-100">
+<body class="flex flex-col min-h-screen bg-slate-100">
     <header>
         @include('components.header')
     </header>
 
-    <div class="pt-28 main-content">
+    <div class="flex-1 pt-28 main-content">
         @include('components.breadcrumbs')
         @yield('content')
     </div>

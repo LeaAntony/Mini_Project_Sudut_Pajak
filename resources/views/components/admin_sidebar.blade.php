@@ -19,7 +19,7 @@
         <!-- MAX SIDEBAR-->
         <div id="sidebar" class="max hidden my-20 flex-col space-y-2 w-full h-[calc(100vh)]">
             <a href="/admin"
-                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-rr-home"></i>
                 <div>
                     Dasbor
@@ -30,55 +30,62 @@
                 MENU
             </div>
             <a href="/admin/berita"
-                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-tr-newspaper"></i>
                 <div>
                     Manajemen Berita
                 </div>
             </a>
             <a href="/admin/usaha"
-                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-rr-briefcase"></i>
                 <div>
                     Manajemen Usaha
                 </div>
             </a>
             <a href="/admin/pajak"
-                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-tr-tax-alt"></i>
                 <div>
                     Manajemen Pajak
                 </div>
             </a>
             <a href="/admin/pelathian"
-                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-rr-chart-user"></i>
                 <div>
                     Manajemen Pelatihan
                 </div>
             </a>
             <a href="/admin/konsultan"
-                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-rr-team-check-alt"></i>
                 <div>
                     Manajemen Konsultan
                 </div>
             </a>
+            <a href="/admin/pembelajaran"
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                <i class="fi fi-rr-e-learning"></i>
+                <div>
+                    Manajemen Pembelajaran
+                </div>
+            </a>
             <div class="collapse collapse-arrow w-full text-stone-400 shadow-2xl bg-white">
                 <input type="checkbox" />
                 <div class="collapse-title">
-                    <i class="ml-4 mr-2 fi fi-tr-quiz-alt"></i>
+                    <i class="mr-2 fi fi-tr-quiz-alt"></i>
                     Manajemen Kuis
                 </div>
                 <div class="collapse-content">
                     <hr>
                     <a href="/admin/kuis"
-                        class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row space-x-3">
+                        class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r pl-4 rounded-full transform ease-in-out duration-300 flex flex-row space-x-3">
                         List Kuis
                     </a>
                     <br>
                     <a href="/admin/kuis/hasil_kuis"
-                        class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row space-x-3">
+                        class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r -mt-5 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row space-x-3">
                         List Hasil Kuis
                     </a>
                 </div>
@@ -88,14 +95,14 @@
                 AKUN
             </div>
             <a href="admin/pengaturan_akun"
-                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-rr-user-pen"></i>
                 <div>
                     Pengaturan Akun
                 </div>
             </a>
             <a href="/masuk"
-                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-8 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
+                class="hover:ml-4 w-full hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white p-2 pl-4 rounded-full transform ease-in-out duration-300 flex flex-row items-center space-x-3">
                 <i class="fi fi-rr-sign-out-alt"></i>
                 <div>
                     Keluar
@@ -131,6 +138,10 @@
             <a href="/admin/konsultan"
                 class="hover:ml-40 justify-end pr-5 hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white w-full p-2 rounded-full transform ease-in-out duration-300 flex">
                 <p>Manajemen Konsultan <i class="fi fi-rr-team-check-alt"></i></p>
+            </a>
+            <a href="/admin/pembelajaran"
+                class="hover:ml-48 justify-end pr-5 hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white w-full p-2 rounded-full transform ease-in-out duration-300 flex">
+                <p>Manajemen Pembelajaran <i class="fi fi-rr-e-learning"></i></i></p>
             </a>
             <div tabindex="0" role="button"
                 class="dropdown dropdown-right btn btn-lg hover:ml-36 justify-end pr-5 hover:from-white hover:to-green-400 hover:text-blue-500 bg-gradient-to-r text-stone-400 shadow-2xl bg-white w-full p-2 transform ease-in-out duration-300 flex">

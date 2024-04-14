@@ -34,8 +34,8 @@
                     <div class="flex items-center mb-4">
                         <input type="radio" id="pilihan_ganda" name="tipe_soal" value="pilihan_ganda" class="mr-2" checked>
                         <label for="pilihan_ganda" class="mr-4">Pilihan Ganda</label>
-                        <input type="radio" id="essay" name="tipe_soal" value="essay" class="mr-2">
-                        <label for="essay">Esai</label>
+                        <input type="radio" id="esai" name="tipe_soal" value="esai" class="mr-2">
+                        <label for="esai">Esai</label>
                     </div>
             
                     <div id="soalPilihanGanda" class="mb-4">
@@ -69,7 +69,7 @@
                             <input type="radio" name="radio-4" id="jawaban_e" class="radio radio-accent -ml-32 mt-3" disabled />
                         </div>
                     </div>
-                    <div id="soalEssai" class="mb-4 hidden"></div>
+                    <div id="soalEsai" class="mb-4 hidden"></div>
                 </label>
                 <button class="btn bg-gradient-to-r from-cyan-400 to-blue-400 hover:from-blue-300 hover:to-cyan-300 active:from-blue-200 active:to-cyan-200 focus:outline-none focus:ring focus:ring-sky-300 text-white" id="submit" disabled >Edit</button>
             </form>
