@@ -1,0 +1,53 @@
+/* title underline */
+h2 {
+    padding: 10px 0 0 0;
+    position: relative;
+    z-index: 0;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    width: 25%;
+    height: 10px;
+    background: linear-gradient(to left, #10b983, #0ea5e8);
+    z-index: -1;
+}
+
+#layanan h2::before, #berita h2::before, #faq h2::before {
+    left: 45%;
+    width: 10%;
+}
+
+/* animasi gambar untuk section tentang sudut pajak dan section konsultasi */
+.moving-image img {
+    animation: moveLeftRight 5s ease-in infinite;
+    -webkit-animation: moveLeftRight 5s ease-in infinite;
+}
+
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(3%);
+        -webkit-transform: translateX(3%);
+        -moz-transform: translateX(3%);
+        -ms-transform: translateX(3%);
+        -o-transform: translateX(3%);
+    }
+
+    100% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
