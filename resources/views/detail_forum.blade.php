@@ -1,17 +1,18 @@
-<@extends('layouts.secondary')
+@extends('layouts.secondary')
 
-@section('title', 'Detail Forum - Pengaruh Kebijakan Pajak Terhadap Investasi')
-@section('judulBreadcrumbs', 'Detail Forum')
+@section('title', 'Forum Pajak')
+@section('judulBreadcrumbs', 'Forum Pajak')
 @section('breadcrumbs')
 
-<li>Beranda</li>
-<li>Layanan</li>
+<li><a href="/layanan">Layanan</a></li>
 <li>Forum Pajak</li>
 <li>Detail Forum</li>
 
 @endsection
 
 @section('content')
+@section('content')
+</br>
 <div class="container mx-auto mt-8">
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
         <div class="px-6 py-4 border-b border-gray-200">
