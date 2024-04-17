@@ -9,6 +9,6 @@ class DetailBeritaController extends Controller
 {
     public function tampilkan()
     {
-        return view('detail_berita');
+        return view('berita/detail_berita');
     }
 }

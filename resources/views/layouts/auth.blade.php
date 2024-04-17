@@ -12,7 +12,7 @@
     <script src="/js/daisyui/daisyui.min.js"></script>
 </head>
 
-<body>
+<body class="poppins">
     <div class="container my-20 mx-auto">
         <div class="grid grid-cols-12 gap-6">
             <div class="place-items-center col-span-7">

@@ -15,12 +15,12 @@
     <script src="/js/daisyui/daisyui.min.js"></script>
     
 </head>
-<body class="bg-slate-100 flex flex-col min-h-screen">
+<body class="bg-slate-100 flex flex-col min-h-screen poppins">
     <header>
         @include('components.header')
     </header>
 
-    <div class="flex-1 pt-28 poppins">
+    <div class="flex-1 pt-28">
         @yield('content')
     </div>
 
