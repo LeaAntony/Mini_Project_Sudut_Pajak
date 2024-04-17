@@ -82,7 +82,7 @@
             </div>
             
             <div class="flex items-start mb-4">
-                <img src="/imagesforum//elonmusk.jpg" alt="User Avatar" class="h-10 w-10 rounded-full mr-4">
+                <img src="/images/forum//elonmusk.jpg" alt="User Avatar" class="h-10 w-10 rounded-full mr-4">
                 <div>
                     <p class="font-semibold">Elon Musk</p>
                     <p class="text-sm text-gray-600">17 Agustus 2024</p>
