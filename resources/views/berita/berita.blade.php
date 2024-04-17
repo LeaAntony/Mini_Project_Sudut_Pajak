@@ -16,7 +16,6 @@
 
 
 <div class="article-container">
-    <!-- Kelompokkan artikel dalam satu div grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <!-- berita 1 -->
         <div class="relative bg-white" style="margin-left: 32%; width: 110%; height: 100%;">
