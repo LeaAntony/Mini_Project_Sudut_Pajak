@@ -12,11 +12,18 @@
 @section('content')
 
 <div class=" mx-auto w-full max-w-lg mb-4 mt-10 justify-self-center">
-    <form action="#" method="GET" class="flex items-center bg-gradient-to-b from-blue-500 to-green-500 border border-gray-200 rounded-full shadow-sm">
-        <input type="text" name="search" placeholder="Cari..." class="w-full pl-4 pr-12 py-3 focus:outline-none rounded-l-full text-lg"> <!-- Meningkatkan tinggi, lebar, dan ukuran teks -->
-        <button type="submit" class="text-white px-6 py-3 hover:bg-blue-600 focus:outline-none rounded-r-full text-lg">Cari</button> <!-- Meningkatkan tinggi, lebar, dan ukuran teks -->
+    <form action="#" method="GET"
+        class="flex items-center bg-gradient-to-b from-blue-500 to-green-500 border border-gray-200 rounded-full shadow-sm">
+        <input type="text" name="search" placeholder="Cari..."
+            class="w-full pl-4 pr-12 py-3 focus:outline-none rounded-l-full text-lg">
+        <!-- Meningkatkan tinggi, lebar, dan ukuran teks -->
+        <button type="submit"
+            class="text-white px-6 py-3 hover:bg-blue-600 focus:outline-none rounded-r-full text-lg">Cari</button>
+        <!-- Meningkatkan tinggi, lebar, dan ukuran teks -->
     </form>
 </div>
+</br>
+</br>
 
 <div class="container">
     <div class="grid grid-cols-3 ml-10 mt-8 mb-10">
@@ -39,7 +46,9 @@
                     src="https://ddtc-cdn1.sgp1.digitaloceanspaces.com/ori/200313091005infografispajakprogresifpphkaryawan.jpg"
                     alt="infografis menghitung pph 21" style="max-width: 100%; height: 690px;" /></figure>
             <div class="card-body">
-                <h2 class="card-title">Menghitung Pajak Progresif PPh Pasal 21. </h2>
+                <a href="/pembelajaran/infografis/detail_infografis">
+                    <h2 class="card-title">Menghitung Pajak Progresif PPh Pasal 21. </h2>
+                </a>
                 <div class="card-actions justify-end">
                 </div>
             </div>
@@ -50,10 +59,12 @@
                     src="https://ddtc-cdn1.sgp1.digitaloceanspaces.com/ori/210730090036INFOGRAFISContohPenghitunganPPhPasal21DitanggungPemerintah(2).jpg"
                     alt="infografis menghitung pph 21" style="max-width: 100%; height: 690px;" /></figure>
             <div class="card-body">
-                <h2 class="card-title">Menghitung PPh Pasal 21 Ditanggung Pemerintah.</h2>
+                <a href="/pembelajaran/infografis/detail_infografis">
+                    <h2 class="card-title">Menghitung PPh Pasal 21 Ditanggung Pemerintah.</h2>
+                </a>
                 <div class="card-actions justify-end">
                 </div>
             </div>
         </div>
-
-        @endsection
+        
+@endsection
