@@ -32,7 +32,7 @@
         <div class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative h-auto" style="height: 700px;">
             <p class="text-xl text-left font-bold text-bold-500">Pengaruh Pajak Penghasilan (PPh) terhadap Cash Flow UMKM dalam Industri Fashion</p>
             <br>
-            <img src="/images/shop.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
+            <img src="/images/pembelajaran/shop.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
             <p class="text-sm text-gray-600 mt-2">Pajak Penghasilan (PPh) merupakan kewajiban yang tak terhindarkan bagi Usaha Mikro, Kecil, dan Menengah
                 (UMKM) di industri fashion. Bagaimana PPh memengaruhi aliran kas (cash flow) merupakan perhatian serius
@@ -55,7 +55,7 @@
         <div class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative h-auto" style="height: 700px;">
             <p class="text-xl text-left font-bold text-bold-500">Strategi Pemasaran Digital untuk Meningkatkan Visibilitas dan Penjualan UMKM di Era Digita</p>
             <br>
-            <img src="/images/digital.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
+            <img src="/images/pembelajaran/digital.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
             <p class="text-sm text-gray-600 mt-2">Dalam era digital yang terus berkembang, UMKM (Usaha Mikro, Kecil, dan Menengah) dihadapkan pada tantangan baru dan peluang baru. Salah satu aspek penting yang perlu 
                 dipertimbangkan oleh UMKM adalah strategi pemasaran digital untuk meningkatkan visibilitas dan penjualan produk atau layanan mereka. Pemasaran digital telah menjadi kunci sukses bagi banyak UMKM dalam menghadapi <a href="/pembelajaran/artikel/detail_artikel" class="text-blue-500">read more</a></p>
@@ -79,7 +79,7 @@
         <div class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative h-auto" style="height: 700px;">
             <p class="text-xl text-left font-bold text-bold-500">Membangun Strategi Pemasaran Inovatif untuk Meningkatkan Daya Saing UMKM di Pasar Modern</p>
             <br>
-            <img src="/images/pasar.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
+            <img src="/images/pembelajaran/pasar.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
             <p class="text-sm text-gray-600 mt-2">Dalam menghadapi lingkungan bisnis yang semakin kompetitif, UMKM (Usaha Mikro, Kecil, dan Menengah) perlu mengembangkan strategi pemasaran yang inovatif guna memperkuat posisi mereka di pasar dan meningkatkan penjualan produk atau layanan.
                 Salah satu langkah penting adalah memanfaatkan media konvensional secara optimal. UMKM dapat memilih saluran pemasaran yang sesuai dengan karakteristik produk atau layanan mereka, seperti iklan di koran lokal, majalah industri, atau pamflet yang didistribusikan di area strategis.  <a href="/pembelajaran/artikel/detail_artikel" class="text-blue-500">read more</a></p>
@@ -98,7 +98,7 @@
         <div class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative h-auto" style="height: 700px;">
             <p class="text-xl text-left font-bold text-bold-500">Membangun Kemitraan yang Berkelanjutan: Kunci Kesuksesan UMKM di Pasar Global</p>
             <br>
-            <img src="/images/pasarglobal.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
+            <img src="/images/pembelajaran/pasarglobal.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
             <p class="text-sm text-gray-600 mt-2">Dalam era digital yang terus berkembang, UMKM (Usaha Mikro, Kecil, dan Menengah) dihadapkan pada tantangan baru dan peluang baru. Salah satu aspek penting yang perlu dipertimbangkan 
                 oleh UMKM adalah strategi pemasaran digital untuk meningkatkan visibilitas dan penjualan produk atau layanan mereka. Pemasaran digital telah menjadi kunci sukses bagi banyak UMKM dalam menghadapi persaingan di era digital ini. Dengan memanfaatkan berbagai platform dan teknik pemasaran digital. <a href="/pembelajaran/artikel/detail_artikel" class="text-blue-500">read more</a></p>
@@ -123,7 +123,7 @@
         <div class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative h-auto" style="height: 700px;">
             <p class="text-xl text-left font-bold text-bold-500">Meningkatkan Produktivitas Kerja di Lingkungan UMKM: Strategi Efektif yang Dapat Diterapkan</p>
             <br>
-            <img src="/images/umkm.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
+            <img src="/images/pembelajaran/umkm.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
             <p class="text-sm text-gray-600 mt-2">Dalam lingkungan Usaha Mikro, Kecil, dan Menengah (UMKM), peningkatan produktivitas kerja menjadi kunci utama untuk mencapai efisiensi dan kesuksesan bisnis. Salah satu strategi yang dapat 
                 diterapkan adalah dengan menginvestasikan dalam teknologi yang tepat, seperti perangkat lunak manajemen proyek atau alat kolaborasi online, yang dapat mempermudah koordinasi antar tim dan mempercepat proses kerja. <a href="/pembelajaran/artikel/detail_artikel" class="text-blue-500">read more</a></p>
@@ -142,7 +142,7 @@
         <div class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative h-auto" style="height: 700px;">
             <p class="text-xl text-left font-bold text-bold-500">Dinamika Politik Terkait Reformasi Pajak Penghasilan: Implikasi bagi Warga Negara dan Perekonomian</p>
             <br>
-            <img src="/images/politik.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
+            <img src="/images/pembelajaran/politik.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
             <p class="text-sm text-gray-600 mt-2">Dalam konteks politik, perdebatan tentang pajak penghasilan merupakan topik yang selalu hangat. Reformasi pajak penghasilan, 
                  baik di tingkat nasional maupun global, sering kali menjadi agenda penting bagi para pemimpin politik dan pengambil kebijakan. Implikasi dari kebijakan perpajakan ini tidak
@@ -167,7 +167,7 @@
         <div class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative h-auto" style="height: 700px;">
             <p class="text-xl text-left font-bold text-bold-500">Meningkatkan Efisiensi Operasional UMKM melalui Teknologi Berbasis Cloud</p>
             <br>
-            <img src="/images/cloud.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
+            <img src="/images/pembelajaran/cloud.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
             <p class="text-sm text-gray-600 mt-2">Dalam era digital ini, penggunaan teknologi berbasis cloud telah menjadi salah satu strategi yang efektif dalam meningkatkan efisiensi operasional Usaha Mikro, Kecil, dan Menengah (UMKM). Cloud computing menyediakan akses mudah dan fleksibel ke berbagai layanan IT, mulai 
                  penyimpanan data hingga aplikasi bisnis, tanpa perlu menginvestasikan biaya besar dalam infrastruktur IT. <a href="/pembelajaran/artikel/detail_artikel" class="text-blue-500">Read more</a></p>
@@ -186,7 +186,7 @@
         <div class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative h-auto" style="height: 700px;">
             <p class="text-xl text-left font-bold text-bold-500">Membangun Kebijakan Inklusif untuk Menyokong Pertumbuhan UMKM dalam Ekonomi Digital</p>
             <br>
-            <img src="/images/ekonomi.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
+            <img src="/images/pembelajaran/ekonomi.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
             <p class="text-sm text-gray-600 mt-2">Dalam konteks globalisasi dan transformasi digital yang terus berlangsung, Usaha Mikro, Kecil, dan Menengah (UMKM) menjadi bagian integral dari perekonomian modern.
                     Namun <a href="/pembelajaran/artikel/detail_artikel" class="text-blue-500">read more</a></p>
