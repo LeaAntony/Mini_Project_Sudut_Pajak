@@ -15,7 +15,7 @@
 <div class="container-md mx-auto mb-40">
     <div class="grid grid-cols-2 gap-10 ml-20 mt-24">
         <div class="card bg-base-100 shadow-xl rounded relative" style="width: 920px;">
-            <img src="images/1691555803.jpg" alt="Kuliner">
+            <img src="/images/1691555803.jpg" alt="Kuliner">
             <div class="flex items-center px-3 mt-8 text-blue-500">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-5" viewBox="0 0 20 20" fill="currentColor">
                     <path

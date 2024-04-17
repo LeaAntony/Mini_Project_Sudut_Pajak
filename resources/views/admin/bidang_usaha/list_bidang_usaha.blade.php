@@ -9,11 +9,11 @@
 <script src="/js/datatables/datatables.js"></script>
 <script src="/js/datatables/datatables.tailwindcss.js"></script>
 
-<x-admin_top_panel>List Usaha</x-admin_top_panel>
+<x-admin_top_panel>List Bidang Usaha</x-admin_top_panel>
 <div class="place-items-center">
     <div class="card bg-white shadow-xl mx-16 overflow-visible -mt-10">
         <div class="card-body">
-            <x-link_button href="/admin/usaha/tambah_usaha" class="w-32 h-10 -mb-12 z-50">Tambah</x-link_button>
+            <x-link_button href="/admin/bidang_usaha/tambah_bidang_usaha" class="w-32 h-10 -mb-12 z-50">Tambah</x-link_button>
             <table id="data-tables" class="table bg-white z-0">
                 <!-- head -->
                 <thead class="min-w-full">
@@ -31,8 +31,8 @@
                         <td>Amsakar Achmad, Terus Dorong Pertumbuhan UMKM Menggerakkan Ekonomi Lokal</td>
                         <td>Artikel</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <!-- row 2 -->
@@ -41,8 +41,8 @@
                         <td>Hore! 'Diskon' Pajak untuk UMKM Jadi Permanen</td>
                         <td>Artikel</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <!-- row 3 -->
@@ -51,8 +51,8 @@
                         <td>Pajak Pengiriman Menjadi Kendala Usaha UMKM Di Batam</td>
                         <td>Blog</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <tr class="hover">
@@ -60,8 +60,8 @@
                         <td>Pemko Dukung UMKM Berkembang, Batam Pamerkan Produk Unggulan</td>
                         <td>Artikel</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <tr class="hover">
@@ -69,8 +69,8 @@
                         <td>UMKM di Batam Diminta Bersiap Menyambut Perbaikan Ekonomi yang Lebih Baik</td>
                         <td>Blog</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <tr class="hover">
@@ -78,8 +78,8 @@
                         <td>Kanwil DJP Jakarta Timur Kenalkan CTAS pada IKPI Jaktim</td>
                         <td>Blog</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <tr class="hover">
@@ -87,8 +87,8 @@
                         <td>Kunjungi Kantor Kecamatan, KPP Denbar Lakukan Koordinasi</td>
                         <td>Blog</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <tr class="hover">
@@ -96,8 +96,8 @@
                         <td>Belajar dari Kegigihan dan Tanggung Jawab Pak Hendra</td>
                         <td>Blog</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <tr class="hover">
@@ -105,8 +105,8 @@
                         <td>Layanan Pojok Pajak Hadir di Dinas Pendidikan Kota Jambi</td>
                         <td>Artikel</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                     <tr class="hover">
@@ -114,8 +114,8 @@
                         <td>Pajak Kubu Raya Sampaikan Terima Kasih Kepada Polres</td>
                         <td>Artikel</td>
                         <td>
-                            <a href="/admin/usaha/edit_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
-                            <a href="/admin/usaha/hapus_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
+                            <a href="/admin/bidang_usaha/edit_bidang_usaha"><i class="fi fi-rr-edit mx-2 text-blue-500"></i></a>
+                            <a href="/admin/bidang_usaha/hapus_bidang_usaha"><i class="fi fi-rr-trash mx-2 text-red-400"></i></a>
                         </td>
                     </tr>
                 </tbody>

@@ -5,7 +5,7 @@
 @section('breadcrumbs')
 
 <li><a href="/layanan">Layanan</a></li>
-<li><a href="/bidang_usaha">Kategori Perbidang Usaha</a></li>
+<li><a href="/bidang_usaha">Bidang Usaha</a></li>
 <li>Bidang Kosmetik</li>
 
 @endsection

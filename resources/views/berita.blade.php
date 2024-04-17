@@ -4,7 +4,7 @@
 @section('judulBreadcrumbs', 'Berita')
 @section('breadcrumbs')
 
-<li><a href="/Layanan">Layanan</a></li>
+<li><a href="/layanan">Layanan</a></li>
 <li>Berita</li>
 
 @endsection
@@ -23,7 +23,7 @@
             <img src="/images/berita1.jpg" alt="Card Image" class="w-full">
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Amsakar Achmad, Terus Dorong Pertumbuhan UMKM Menggerakkan Ekonomi Lokal</strong></h2>
-                <p class="text-sm text-gray-600 mt-2">Wakil Walikota Kota Batam, Amsakar Achmad, terus memperkuat upayanya dalam mendorong pertumbuhan Usaha Mikro, Kecil, dan Menengah (UMKM) sebagai salah satu pilar utama dalam mengge <a href="#" class="text-blue-500">read
+                <p class="text-sm text-gray-600 mt-2">Wakil Walikota Kota Batam, Amsakar Achmad, terus memperkuat upayanya dalam mendorong pertumbuhan Usaha Mikro, Kecil, dan Menengah (UMKM) sebagai salah satu pilar utama dalam mengge <a href="/berita/detail_berita" class="text-blue-500">read
                         more</a></p>
                 <div class="flex items-center mt-4 text-blue-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
@@ -45,7 +45,7 @@
                 <h2 class="card-title text-lg font-medium"><strong>Pajak Pengiriman Menjadi Kendala Usaha UMKM Di Batam</strong></h2>
                 </br>
                 <p class="text-sm text-gray-600 mt-2">Konsultan UMKM Batam terus melakukan perekrutan dan pembibingan 
-                    kepada masyarakat. Salah satu mitranya adalah Polma Chaniago, pemilik Cresspom bawang goreng, yang berhasil mengubah haluan dari usaha konvensional menjadi usaha yang lebih berkelanjutan dan inovatif. Dengan bimbingan dan dukungan dari konsultan UMKM Batam, Polma Chaniago mampu meningkatkan kualitas produknya, memperluas jaringan pemasarannya, dan meraih kesuksesan dalam bisnisnya. <a href="#" class="text-blue-500">read
+                    kepada masyarakat. Salah satu mitranya adalah Polma Chaniago, pemilik Cresspom bawang goreng, yang berhasil mengubah haluan dari usaha konvensional menjadi usaha yang lebih berkelanjutan dan inovatif. Dengan bimbingan dan dukungan dari konsultan UMKM Batam, Polma Chaniago mampu meningkatkan kualitas produknya, memperluas jaringan pemasarannya, dan meraih kesuksesan dalam bisnisnya. <a href="/berita/detail_berita" class="text-blue-500">read
                         more</a></p>
                              
                 <div class="flex items-center mt-4 text-blue-500">
@@ -68,7 +68,7 @@
                 <h2 class="card-title text-lg font-medium"><strong>Upaya Tingkatkan Pemasaran Produk UMKM, Pemko Batam Gelar Pelatihan Packaging</strong></h2>
              </br>
                 <p class="text-sm text-gray-600 mt-2">Upaya Tingkatkan Pemasaran Produk UMKM, Pemko Batam Gelar Pelatihan Packaging
-                Pemerintah Kota Batam melalui Dinas Koperasi dan Usaha Mikro, menggelar Pelatihan Packaging dalam Rangka Meningkatkan Pemasaran Produk UMKM Kota Batam, yang dibuka secara langsung  <a href="#" class="text-blue-500">read
+                Pemerintah Kota Batam melalui Dinas Koperasi dan Usaha Mikro, menggelar Pelatihan Packaging dalam Rangka Meningkatkan Pemasaran Produk UMKM Kota Batam, yang dibuka secara langsung  <a href="/berita/detail_berita" class="text-blue-500">read
                         more</a></p>
                                   </br>
                                 </br>
@@ -97,7 +97,7 @@
             <img src="/images/pemko.jpg" alt="Card Image" class="w-full">
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Pemko Batam Menggelar Pelatihan Strategi Pemasaran untuk UMKM</strong></h2>
-                <p class="text-sm text-gray-600 mt-2">Pemerintah Kota Batam telah meluncurkan program pelatihan strategi pemasaran yang bertujuan untuk mendukung dan meningkatkan pemasaran produk UMKM di kota tersebut. Inisiatif ini, yang diselenggarakan oleh Dinas Koperasi dan Usaha Mikro <a href="#" class="text-blue-500">read
+                <p class="text-sm text-gray-600 mt-2">Pemerintah Kota Batam telah meluncurkan program pelatihan strategi pemasaran yang bertujuan untuk mendukung dan meningkatkan pemasaran produk UMKM di kota tersebut. Inisiatif ini, yang diselenggarakan oleh Dinas Koperasi dan Usaha Mikro <a href="/berita/detail_berita" class="text-blue-500">read
                         more</a></p>
                 <div class="flex items-center mt-4 text-blue-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
@@ -119,7 +119,7 @@
                 <h2 class="card-title text-lg font-medium"><strong>Pajak Menjadi Pertimbangan Serius Bagi Pelaku Usaha Kuliner Indonesia</strong></h2>
                 </br>
                 <p class="text-sm text-gray-600 mt-2">Pajak menjadi salah satu aspek yang tidak dapat dihindari dalam dunia usaha kuliner di Indonesia. Meskipun demikian, implikasi pajak terhadap pelaku usaha kuliner bisa menjadi pertimbangan serius yang memengaruhi keberlangsungan usaha mereka.
-                    Dalam industri kuliner, pajak diterapkan pada berbagai tingkatan, termasuk pajak penjualan, pajak penghasilan, serta pajak daerah seperti pajak restoran. Pajak penjualan, misalnya, mempengaruhi   <a href="#" class="text-blue-500">read
+                    Dalam industri kuliner, pajak diterapkan pada berbagai tingkatan, termasuk pajak penjualan, pajak penghasilan, serta pajak daerah seperti pajak restoran. Pajak penjualan, misalnya, mempengaruhi   <a href="/berita/detail_berita" class="text-blue-500">read
                         more</a></p>
                 <div class="flex items-center mt-4 text-blue-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
@@ -140,7 +140,7 @@
                 <h2 class="card-title text-lg font-medium"><strong>Menggali Harta Karun Fiskal dalam Dunia Fashion: Strategi Pajak untuk Sukses Bisnis</strong></h2>
              </br>
                 <p class="text-sm text-gray-600 mt-2">Industri fashion tidak hanya tentang gaya dan tren, tetapi juga melibatkan strategi keuangan yang cerdas untuk menghadapi tantangan fiskal. Dalam dunia yang terus berubah dan kompetitif ini, memahami peran pajak dan menerapkan strategi yang tepat dapat menjadi kunci keberhasilan bagi perusahaan fashion.
-                Salah satu aspek yang perlu dipahami dalam industri fashion adalah pajak penjualan. Dengan harga produk yang seringkali menjadi <a href="#" class="text-blue-500">read
+                Salah satu aspek yang perlu dipahami dalam industri fashion adalah pajak penjualan. Dengan harga produk yang seringkali menjadi <a href="/berita/detail_berita" class="text-blue-500">read
                         more</a></p>
                 <div class="flex items-center mt-4 text-blue-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">

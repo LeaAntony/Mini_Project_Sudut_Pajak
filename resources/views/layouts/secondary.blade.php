@@ -19,7 +19,7 @@
         @include('components.header')
     </header>
 
-    <div class="flex-1 pt-28 main-content">
+    <div class="flex-1 pt-28 poppins">
         @include('components.breadcrumbs')
         @yield('content')
     </div>

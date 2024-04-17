@@ -1,11 +1,11 @@
 @extends('layouts.secondary')
 
-@section('title', 'Kategori Perbidang Usaha')
-@section('judulBreadcrumbs', 'Kategori Perbidang Usaha')
+@section('title', 'Bidang Usaha')
+@section('judulBreadcrumbs', 'Bidang Usaha')
 @section('breadcrumbs')
 
 <li><a href="/layanan">Layanan</a></li>
-<li>Kategori Perbidang Usaha</li>
+<li>Bidang Usaha</li>
 
 @endsection
 
