@@ -51,7 +51,7 @@
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <!-- Embedded Image -->
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil1.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil1.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <!-- Menambahkan kelas card-title untuk menargetkan efek hover -->
@@ -64,19 +64,20 @@
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <!-- Embedded Image -->
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil2.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil2.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Pengantar Hukum Pajak 7. Timbul dan Hilangnya Utang
                         Pajak</strong></h2>
             </div>
         </div>
+
         <!--card3-->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <!-- Embedded Image -->
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil3.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil3.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>PPh Pasal 21 TER atas Bonus dan THR (New 2024). Simak
@@ -87,7 +88,7 @@
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil4.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil4.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Cara Hitung dan Input PPh 21 atas THR di eBupot 21
@@ -98,7 +99,7 @@
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil5.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil5.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>PPh Pasal 21 Pengertian dan tarifnya Simak Vdeo
@@ -109,7 +110,7 @@
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil6.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil6.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>cara hitung pph 21 pegawai tetap Simak video Berkut
@@ -120,7 +121,7 @@
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil7.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil7.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Terbaru! Simulasi Penghitungan Tarif Efektif
@@ -131,7 +132,7 @@
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil8.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil8.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Simak Video berikut untuk mengethaui Cara Mudah
@@ -142,7 +143,7 @@
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
             onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil9.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil9.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Simak Video berikut untuk mengetahui PPh Pasal 21 TER
@@ -153,7 +154,7 @@
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
             onclick="window.location.href='/pembelajaran/video/detail_video0'">
             <div style="width: 100%; overflow: hidden;">
-                <img src="/images/tumbanil10.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
+                <img src="/images/pembelajaran/tumbanil10.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong> Simak video ini untuk Menghitung PPh 21 Pegawai
