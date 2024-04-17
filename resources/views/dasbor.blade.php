@@ -15,21 +15,21 @@
 {{-- carousel --}}
 <div class="carousel w-full">
     <div id="slide1" class="carousel-item relative w-full">
-        <img src="./images/carousel1.png" class="w-full" />
+        <img src="/images/carousel1.png" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle opacity-75">❮</a>
             <a href="#slide2" class="btn btn-circle opacity-75">❯</a>
         </div>
     </div>
     <div id="slide2" class="carousel-item relative w-full">
-        <img src="./images/carousel2.jpeg" class="w-full" />
+        <img src="/images/carousel2.jpeg" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle opacity-75">❮</a>
             <a href="#slide3" class="btn btn-circle opacity-75">❯</a>
         </div>
     </div>
     <div id="slide3" class="carousel-item relative w-full">
-        <img src="./images/carousel3.png" class="w-full" />
+        <img src="/images/carousel3.png" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle opacity-75">❮</a>
             <a href="#slide1" class="btn btn-circle opacity-75">❯</a>
@@ -51,7 +51,7 @@
             </p>
         </div>
         <div class="moving-image">
-            <img src="./images/Pajak.png" class="w-fit">
+            <img src="/images/Pajak.png" class="w-fit">
         </div>
     </div>
 </div>
@@ -60,7 +60,7 @@
 <div class="bg-gradient-to-b from-emerald-500 to-sky-500 my-24">
     <div class="grid grid-cols-4 justify-items-center mx-40 py-20">
         <div class="relative w-fit">
-            <img src="./images/count-shape.png" class="w-full">
+            <img src="/images/count-shape.png" class="w-full">
             <div class="absolute transform -translate-y-1/2 left-5 right-5 top-1/2 pb-5">
                 <span class="flex justify-center my-3">
                     <p id="counter1" class="text-center text-white text-5xl  font-bold"></p>
@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="relative w-fit">
-            <img src="./images/count-shape.png" class="w-full">
+            <img src="/images/count-shape.png" class="w-full">
             <div class="absolute transform -translate-y-1/2 top-1/2 pb-5">
                 <span class="flex justify-center my-3">
                     <p id="counter2" class="text-center text-white text-5xl  font-bold"></p>
@@ -80,7 +80,7 @@
             </div>
         </div>
         <div class="relative w-fit">
-            <img src="./images/count-shape.png" class="w-full">
+            <img src="/images/count-shape.png" class="w-full">
             <div class="absolute transform -translate-y-1/2 left-5 right-5 top-1/2 pb-5">
                 <span class="flex justify-center my-3">
                     <p id="counter3" class="text-center text-white text-5xl  font-bold"></p>
@@ -90,7 +90,7 @@
             </div>
         </div>
         <div class="relative w-fit">
-            <img src="./images/count-shape.png" class="w-full">
+            <img src="/images/count-shape.png" class="w-full">
             <div class="absolute transform -translate-y-1/2 left-5 right-5 top-1/2 pb-5">
                 <span class="flex justify-center my-3">
                     <p id="counter4" class="text-center text-white text-5xl  font-bold"></p>
@@ -110,7 +110,7 @@
         {{-- konsultasi --}}
         <div class="card w-full h-full bg-base-100 shadow-md mx-5">
             <figure class="px-10 pt-10">
-                <img src="./images/layanan1.png" class="rounded-xl" />
+                <img src="/images/layanan1.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center ">
                 <p class="card-title text-2xl font-bold">Konsultasi</p>
@@ -129,7 +129,7 @@
         {{-- pelatihan atau sertifikasi --}}
         <div class="card w-full h-full bg-base-100 shadow-md mx-5">
             <figure class="px-10 pt-10">
-                <img src="./images/layanan2.png" class="rounded-xl" />
+                <img src="/images/layanan2.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center ">
                 <p class="card-title text-2xl font-bold">Pelatihan atau Sertifikasi</p>
@@ -147,7 +147,7 @@
         {{-- berita --}}
         <div class="card w-full h-full bg-base-100 shadow-md mx-5">
             <figure class="px-10 pt-10">
-                <img src="./images/layanan3.png" class="rounded-xl" />
+                <img src="/images/layanan3.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center ">
                 <p class="card-title text-2xl font-bold">Berita</p>
@@ -164,7 +164,7 @@
         {{-- kategori per bidang usaha --}}
         <div class="card w-full h-full bg-base-100 shadow-md mx-5">
             <figure class="px-10 pt-10">
-                <img src="./images/layanan4.png" class="rounded-xl" />
+                <img src="/images/layanan4.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center ">
                 <p class="card-title text-2xl font-bold">Kategori Perbidang Usaha</p>
@@ -199,7 +199,7 @@
             </a>
         </div>
         <div class="moving-image">
-            <img src="./images/konsultasi1.png" class="w-fit">
+            <img src="/images/konsultasi1.png" class="w-fit">
         </div>
     </div>
 </div>
@@ -377,7 +377,7 @@
 {{-- kontak --}}
 <div class="relative">
     <div class="relative flex z-10">
-        <img src="./images/background/contact-bg.jpg" class="w-full h-full">
+        <img src="/images/background/contact-bg.jpg" class="w-full h-full">
     </div>
     <div class="absolute flex top-0 left-60 -mt-20 z-20">
         <div class="box-content rounded w-96 bg-white shadow-xl p-12">

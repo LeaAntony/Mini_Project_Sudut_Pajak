@@ -48,7 +48,7 @@
     <div class="flex flex-wrap -mx-4">
         <!-- Card 1 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <!-- Embedded Image -->
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil1.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
@@ -61,7 +61,7 @@
         </div>
         <!-- Card 2 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <!-- Embedded Image -->
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil2.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
@@ -73,7 +73,7 @@
         </div>
         <!--card3-->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <!-- Embedded Image -->
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil3.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
@@ -85,7 +85,7 @@
         </div>
         <!-- Card 4 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil4.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
@@ -96,7 +96,7 @@
         </div>
         <!-- Card 5 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil5.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
@@ -107,7 +107,7 @@
         </div>
         <!-- Card 6 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil6.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
@@ -118,7 +118,7 @@
         </div>
         <!-- Card 7 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil7.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
@@ -129,7 +129,7 @@
         </div>
         <!-- Card 8 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil8.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
@@ -140,7 +140,7 @@
         </div>
         <!-- Card 9 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail'">
+            onclick="window.location.href='/pembelajaran/video/detail_video'">
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil9.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
@@ -151,7 +151,7 @@
         </div>
         <!-- Card 10 -->
         <div class="card bg-base-100 shadow-xl relative max-w-xs mx-auto mb-4 ml-4"
-            onclick="window.location.href='/pembelajaran/video/detail0'">
+            onclick="window.location.href='/pembelajaran/video/detail_video0'">
             <div style="width: 100%; overflow: hidden;">
                 <img src="/images/tumbanil10.jpg" style="width: 100%; height: auto;" alt="Thumbnail Image">
             </div>
