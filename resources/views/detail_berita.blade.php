@@ -5,7 +5,7 @@
 @section('breadcrumbs')
 
 <li><a href="/layanan">Layanan</a></li>
-<li><a href="#">Berita</a></li>
+<li><a href="/berita">Berita</a></li>
 <li>Detail Artikel & Berita</li>
 
 @endsection
