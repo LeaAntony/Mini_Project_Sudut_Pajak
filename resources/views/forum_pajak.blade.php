@@ -51,7 +51,7 @@
         <div class="px-6 py-4">
             <h2 class="text-xl font-bold mb-2">Pengaruh Reformasi Pajak Terhadap Perekonomian Global</h2> 
             <div class="flex items-center text-sm text-gray-600">
-                <img src="/images/elonmusk.jpg" alt="User Avatar 3" class="h-8 w-8 rounded-full mr-2">
+                <img src="/images/forum/elonmusk.jpg" alt="User Avatar 3" class="h-8 w-8 rounded-full mr-2">
                 <p class="font-semibold">Elon Musk</p> 
                 <span class="mx-2">|</span>
                 <p>20 Agustus 2024</p>
@@ -71,7 +71,7 @@
         <div class="px-6 py-4">
             <h2 class="text-xl font-bold mb-2">Pentingnya Pendidikan Pajak bagi Generasi Muda</h2> 
             <div class="flex items-center text-sm text-gray-600">
-                <img src="/images/emma.jpg" alt="User Avatar 2" class="h-8 w-8 rounded-full mr-2">
+                <img src="/images/forum/emma.jpg" alt="User Avatar 2" class="h-8 w-8 rounded-full mr-2">
                 <p class="font-semibold">Emma Watson</p> 
                 <span class="mx-2">|</span>
                 <p>15 Agustus 2024</p> 
@@ -97,7 +97,7 @@
         <div class="px-6 py-4">
             <h2 class="text-xl font-bold mb-2">Teknologi dalam Meningkatkan Kepatuhan Pajak</h2> 
             <div class="flex items-center text-sm text-gray-600">
-                <img src="/images/henrycavill.jpg" alt="User Avatar 1" class="h-8 w-8 rounded-full mr-2">
+                <img src="/images/forum/henrycavill.jpg" alt="User Avatar 1" class="h-8 w-8 rounded-full mr-2">
                 <p class="font-semibold">Henry Cavill</p>
                 <span class="mx-2">|</span>
                 <p>10 Agustus 2024</p> 
@@ -117,7 +117,7 @@
     <div class="px-6 py-4">
         <h2 class="text-xl font-bold mb-2">Transparansi Pajak dalam Mendorong Pembangunan Ekonomi Berkelanjutan</h2>
         <div class="flex items-center text-sm text-gray-600">
-            <img src="/images/milliebrown.jpg" alt="User Avatar 2" class="h-8 w-8 rounded-full mr-2">
+            <img src="/images/forum/milliebrown.jpg" alt="User Avatar 2" class="h-8 w-8 rounded-full mr-2">
             <p class="font-semibold">Mille Bobby Brown</p> 
             <span class="mx-2">|</span>
             <p>14 Agustus 2024</p> 
@@ -138,7 +138,7 @@
         <div class="px-6 py-4">
             <h2 class="text-xl font-bold mb-2">Dampak Kebijakan Pajak Terhadap Pengembangan Usaha Kecil Menengah </h2> 
             <div class="flex items-center text-sm text-gray-600">
-                <img src="/images/jamie.jpg" alt="User Avatar 2" class="h-8 w-8 rounded-full mr-2">
+                <img src="/images/forum/jamie.jpg" alt="User Avatar 2" class="h-8 w-8 rounded-full mr-2">
                 <p class="font-semibold">Jamie Bower</p> 
                 <span class="mx-2">|</span>
                 <p>15 Agustus 2024</p> 
