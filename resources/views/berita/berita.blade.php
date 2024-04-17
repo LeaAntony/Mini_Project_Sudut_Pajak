@@ -20,7 +20,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <!-- berita 1 -->
         <div class="relative bg-white" style="margin-left: 32%; width: 110%; height: 100%;">
-            <img src="/images/berita1.jpg" alt="Card Image" class="w-full">
+            <img src="/images/berita/berita1.jpg" alt="Card Image" class="w-full">
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Amsakar Achmad, Terus Dorong Pertumbuhan UMKM Menggerakkan Ekonomi Lokal</strong></h2>
                 <p class="text-sm text-gray-600 mt-2">Wakil Walikota Kota Batam, Amsakar Achmad, terus memperkuat upayanya dalam mendorong pertumbuhan Usaha Mikro, Kecil, dan Menengah (UMKM) sebagai salah satu pilar utama dalam mengge <a href="/berita/detail_berita" class="text-blue-500">read
@@ -40,7 +40,7 @@
         
         <!-- berita 2 -->
         <div class="relative bg-white" style="width: 55%; margin-left: 47%; height: 100%;">
-            <img src="/images/beritaberita2.jpg" alt="Card Image" class="w-full">
+            <img src="/images/berita/beritaberita2.jpg" alt="Card Image" class="w-full">
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Pajak Pengiriman Menjadi Kendala Usaha UMKM Di Batam</strong></h2>
                 </br>
@@ -63,7 +63,7 @@
 
         <!-- berita 3 -->
         <div class="relative bg-white" style="width: 55%; margin-left: 7%; height: 100%;">
-            <img src="/images/packaging.jpg" alt="Card Image" class="w-full">
+            <img src="/images/berita/packaging.jpg" alt="Card Image" class="w-full">
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Upaya Tingkatkan Pemasaran Produk UMKM, Pemko Batam Gelar Pelatihan Packaging</strong></h2>
              </br>
@@ -94,7 +94,7 @@
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <!-- berita 4 -->
         <div class="relative bg-white" style="margin-left: 32%; width: 110%; height: 100%;">
-            <img src="/images/pemko.jpg" alt="Card Image" class="w-full">
+            <img src="/images/berita/pemko.jpg" alt="Card Image" class="w-full">
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Pemko Batam Menggelar Pelatihan Strategi Pemasaran untuk UMKM</strong></h2>
                 <p class="text-sm text-gray-600 mt-2">Pemerintah Kota Batam telah meluncurkan program pelatihan strategi pemasaran yang bertujuan untuk mendukung dan meningkatkan pemasaran produk UMKM di kota tersebut. Inisiatif ini, yang diselenggarakan oleh Dinas Koperasi dan Usaha Mikro <a href="/berita/detail_berita" class="text-blue-500">read
@@ -114,7 +114,7 @@
 
         <!-- berita 5 -->
         <div class="relative bg-white" style="width: 55%; margin-left: 47%; height: 100%;">
-            <img src="/images/makanan.jpg" alt="Card Image" class="w-full">
+            <img src="/images/berita/makanan.jpg" alt="Card Image" class="w-full">
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Pajak Menjadi Pertimbangan Serius Bagi Pelaku Usaha Kuliner Indonesia</strong></h2>
                 </br>
@@ -135,7 +135,7 @@
         </div>
       <!-- berita 6 -->
       <div class="relative bg-white" style="width: 55%; margin-left: 7%; height: 100%;">
-            <img src="/images/gaya.jpg" alt="Card Image" class="w-full">
+            <img src="/images/berita/gaya.jpg" alt="Card Image" class="w-full">
             <div class="card-body">
                 <h2 class="card-title text-lg font-medium"><strong>Menggali Harta Karun Fiskal dalam Dunia Fashion: Strategi Pajak untuk Sukses Bisnis</strong></h2>
              </br>
