@@ -46,7 +46,7 @@
             <p class="text-lg mt-7 text-justify text-sky-500">Menyediakan layanan kuis edukasi perpajakan yang bertujuan untuk
                 meningkatkan pemahaman dan kesiapan dalam mengelola pajak.</p>
         </a>
-        <a href="/pelatihan_sertifikasi"
+        <a href="/pelatihan"
             class="card w-auto bg-base-100 shadow-xl mt-5 pt-14 pr-8 pb-36 pl-8 rounded relative duration-500 h-80 col-span-2 ">
             <p class="text-xl text-left font-bold text-bold-500">Pelatihan atau Sertifikasi</p>
             <p class="text-lg mt-7 text-justify text-sky-500">Memberikan pelatihan di bidang perpajakan seperti brevet pajak dan
