@@ -41,7 +41,7 @@
         <div class="px-6 py-4">
             <p class="text-gray-700">Investasi memiliki peran penting dalam pertumbuhan ekonomi. Bagaimana kebijakan pajak mempengaruhi keputusan perusahaan dalam berinvestasi? Diskusikan pengaruhnya di sini.</p> 
             <div class="mt-4 flex justify-end">
-                <a href="#" class="text-blue-500">Lihat Topik</a> 
+                <a href="/forum_pajak/detail_forum_pajak" class="text-blue-500">Lihat Topik</a> 
             </div>
         </div>
     </div>
@@ -61,7 +61,7 @@
         <div class="px-6 py-4">
             <p class="text-gray-700">Reformasi pajak memiliki dampak signifikan pada perekonomian global. Diskusikan perubahan kebijakan pajak terbaru dan bagaimana hal itu mempengaruhi ekonomi di berbagai negara.</p> 
             <div class="mt-4 flex justify-end">
-                <a href="#" class="text-blue-500">Lihat Topik</a> 
+                <a href="/forum_pajak/detail_forum_pajak" class="text-blue-500">Lihat Topik</a> 
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@
         <div class="px-6 py-4">
             <p class="text-gray-700">Pendidikan pajak sangat penting bagi generasi muda untuk memahami tanggung jawab mereka dalam sistem perpajakan. Diskusikan strategi dan metode yang efektif untuk memperkenalkan konsep pajak kepada anak-anak dan remaja.</p> 
             <div class="mt-4 flex justify-end">
-                <a href="#" class="text-blue-500">Lihat Topik</a> 
+                <a href="/forum_pajak/detail_forum_pajak" class="text-blue-500">Lihat Topik</a> 
             </div>
         </div>
     </div>
@@ -107,7 +107,7 @@
         <div class="px-6 py-4">
             <p class="text-gray-700">Dalam dunia yang semakin terhubung secara digital, teknologi memainkan peran penting dalam meningkatkan kepatuhan pajak. Mari kita diskusikan bagaimana teknologi seperti blockchain, kecerdasan buatan, dan analisis data</p>
             <div class="mt-4 flex justify-end">
-                <a href="#" class="text-blue-500">Lihat Topik</a> 
+                <a href="/forum_pajak/detail_forum_pajak" class="text-blue-500">Lihat Topik</a> 
             </div>
         </div>
     </div>
@@ -128,7 +128,7 @@
         <p class="text-gray-700">Transparansi pajak menjadi kunci dalam membangun ekonomi yang berkelanjutan dan inklusif. Bergabunglah dalam diskusi untuk menjelajahi peran transparansi dalam mengurangi kesenjangan pajak,
              memperkuat integritas sistem perpajakan, dan mendukung pembangunan ekonomi yang berkelanjutan</p> 
         <div class="mt-4 flex justify-end">
-            <a href="#" class="text-blue-500">Lihat Topik</a> 
+            <a href="/forum_pajak/detail_forum_pajak" class="text-blue-500">Lihat Topik</a> 
         </div>
     </div>
 </div>
@@ -148,7 +148,7 @@
         <div class="px-6 py-4">
             <p class="text-gray-700">Kebijakan pajak memiliki dampak yang signifikan pada perkembangan usaha kecil menengah (UKM). Mari kita jelajahi bagaimana berbagai kebijakan pajak, seperti tarif pajak, insentif, dan pengaturan pajak penghasilan, memengaruhi operasional</p> 
             <div class="mt-4 flex justify-end">
-                <a href="#" class="text-blue-500">Lihat Topik</a>
+                <a href="/forum_pajak/detail_forum_pajak" class="text-blue-500">Lihat Topik</a>
             </div>
         </div>`
     </div>

@@ -5,7 +5,7 @@
 @section('breadcrumbs')
 
 <li><a href="/layanan">Layanan</a></li>
-<li>Forum Pajak</li>
+<li><a href="/forum_pajak">Forum Pajak</a></li>
 <li>Detail Forum</li>
 
 @endsection
