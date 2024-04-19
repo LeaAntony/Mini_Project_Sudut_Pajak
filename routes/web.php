@@ -56,6 +56,7 @@ use App\Http\Controllers\pembelajaran\video\DetailVideoController;
 use App\Http\Controllers\pembelajaran\video\VideoController;
 use App\Http\Controllers\PembelajaranController;
 use App\Http\Controllers\PeraturanPajakController;
+use App\Http\Controllers\KuisController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -119,3 +120,4 @@ Route::get('/berita', [BeritaController::class, 'tampilkan']);
 Route::get('/pelatihan_sertifikasi', [PelatihanSertifikasiController::class, 'tampilkan']);
 Route::get('/berita/detail_berita', [DetailBeritaController::class, 'tampilkan']);
 Route::get('/forum_pajak/detail_forum_pajak', [DetailForumController::class, 'tampilkan']);
+Route::get('/kuis', [KuisController::class, 'tampilkan']);
