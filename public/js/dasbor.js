@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const counterElement = document.getElementById("counter1");
     const startValue = 0;
     const endValue = 100;
-    const animationDuration = 2500;
+    const animationDuration = 2000;
     animateCounting(counterElement, startValue, endValue, animationDuration);
 });
 
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const counterElement = document.getElementById("counter2");
     const startValue = 0;
     const endValue = 200;
-    const animationDuration = 2500;
+    const animationDuration = 2000;
     animateCounting(counterElement, startValue, endValue, animationDuration);
 });
 
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const counterElement = document.getElementById("counter3");
     const startValue = 0;
     const endValue = 250;
-    const animationDuration = 2500;
+    const animationDuration = 2000;
     animateCounting(counterElement, startValue, endValue, animationDuration);
 });
 
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const counterElement = document.getElementById("counter4");
     const startValue = 0;
     const endValue = 150;
-    const animationDuration = 2500;
+    const animationDuration = 2000;
     animateCounting(counterElement, startValue, endValue, animationDuration);
 });
 
@@ -53,7 +53,10 @@ $(document).ready(function(){
     $('.autoplay').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
+        swipeToSlide: true,
+        arrows: false,
         autoplay: true,
         autoplaySpeed: 3000,
+        speed: 3000
     });
 });

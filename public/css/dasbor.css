@@ -1,6 +1,5 @@
 /* title underline */
 h2 {
-    padding: 10px 0 0 0;
     position: relative;
     z-index: 0;
 }
@@ -8,8 +7,8 @@ h2 {
 h2::before {
     content: "";
     position: absolute;
-    bottom: 1px;
-    width: 25%;
+    bottom: 2px;
+    width: 20%;
     height: 10px;
     background: linear-gradient(to left, #10b983, #0ea5e8);
     z-index: -1;
