@@ -98,6 +98,23 @@
             </div>
             
             <div class="flex items-start mb-4">
+                <img src="/images/forum//jamie.jpg" alt="User Avatar" class="h-10 w-10 rounded-full mr-4">
+                <div>
+                    <p class="font-semibold">Jamie Bower</p>
+                    <p class="text-sm text-gray-600">17 Agustus 2024</p>
+                    <p class="text-gray-700">Tentu, sangat menarik untuk membahas dampak kebijakan pajak terhadap investasi perusahaan. Namun, saya penasaran, bagaimana Anda melihat peran kebijakan pajak dalam mendukung inovasi dan pertumbuhan ekonomi berkelanjutan? Apakah Anda percaya bahwa pemerintah seharusnya lebih fokus pada keringanan pajak atau insentif investasi untuk sektor-sektor tertentu, ataukah lebih pada penyesuaian tarif pajak penghasilan perusahaan secara umum?</p>
+                    <button class="reply-button text-blue-500 mb-2 focus:outline-none">Balas</button>
+                    <form action="#" method="POST" class="reply-form mb-2 hidden">
+                        @csrf
+                        <textarea name="comment" rows="2" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" placeholder="Balas komentar ini..."></textarea>
+                        <button type="submit" class="mt-2 px-4 py-1 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none">Kirim</button>
+                    </form>
+                    <span class="mx-2">|</span>
+                    <button class="reply-button text-blue-500 mb-2 focus:outline-none">Hapus</button>
+                </div>
+            </div>
+
+            <div class="flex items-start mb-4">
                 <img src="/images/forum/jamie.jpg" alt="User Avatar" class="h-10 w-10 rounded-full mr-4">
                 <div>
                     <form action="#" method="POST">
