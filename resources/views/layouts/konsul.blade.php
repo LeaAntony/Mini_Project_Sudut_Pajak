@@ -10,7 +10,7 @@
     <script src="/js/daisyui/daisyui.min.js"></script>
     
 </head>
-<body class="bg-slate-100">
+<body>
 <div class="flex-1 pt-5 mb-5">
         @yield('content')
     </div>

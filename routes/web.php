@@ -57,6 +57,10 @@ use App\Http\Controllers\pembelajaran\video\VideoController;
 use App\Http\Controllers\PembelajaranController;
 use App\Http\Controllers\PeraturanPajakController;
 use App\Http\Controllers\KuisController;
+use App\Http\Controllers\KonsultasiController;
+use App\Http\Controllers\konsultasi\DetailKategoriController;
+use App\Http\Controllers\konsultasi\ChatController;
+use App\Http\Controllers\konsultasi\ProfilKonsultanController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -121,3 +125,7 @@ Route::get('/pelatihan_sertifikasi', [PelatihanSertifikasiController::class, 'ta
 Route::get('/berita/detail_berita', [DetailBeritaController::class, 'tampilkan']);
 Route::get('/forum_pajak/detail_forum_pajak', [DetailForumController::class, 'tampilkan']);
 Route::get('/kuis', [KuisController::class, 'tampilkan']);
+Route::get('/konsultasi', [KonsultasiController::class, 'tampilkan']);
+Route::get('/konsultasi/detail_kategori', [DetailKategoriController::class, 'tampilkan']);
+Route::get('/konsultasi/chat', [ChatController::class, 'tampilkan']);
+Route::get('/konsultasi/profil_konsultan', [ProfilKonsultanController::class, 'tampilkan']);
