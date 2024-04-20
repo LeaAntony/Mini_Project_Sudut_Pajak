@@ -31,7 +31,7 @@
                         </a>
                 </div>
                 <div>
-                    <img src="/images/1691558783.jpg" alt="" style="width: 680px; position: absolute; right: 50px;">
+                    <img src="/images/pelatihan/1691558783.jpg" alt="" style="width: 680px; position: absolute; right: 50px;">
                 </div>
             </div>
             <div class="grid grid-cols-2 gap-20 mt-20">
@@ -75,7 +75,7 @@
                     </a>
                 </div>
                 <div>
-                    <img src="/images/1691542426.jpg" alt="" style="width: 680px; position: absolute; right: 50px;">
+                    <img src="/images/pelatihan/1691542426.jpg" alt="" style="width: 680px; position: absolute; right: 50px;">
                 </div>
             </div>
         </div>

@@ -23,56 +23,56 @@
     <div class="flex items-center justify-center container mx-9">
         <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div class="card w-80 h-fit bg-base-100 shadow-xl rounded relative">
-                <figure><img src="images/kuliner.jpg" alt="Kuliner" /></figure>
+                <figure><img src="/images/bidang_usaha/kuliner.jpg" alt="Kuliner" /></figure>
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Kuliner</p>
                     <div class="card-actions">
-                        <a href="/bidang_usaha/kuliner"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/kuliner"><button class="btn bg-blue-500 hover:bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
             <div class="card w-80 h-fit bg-base-100 shadow-xl rounded relative">
-                <figure><img src="images/pesyen.jpg" alt="Fashion" /></figure>
+                <figure><img src="/images/bidang_usaha/pesyen.jpg" alt="Fashion" /></figure>
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Fashion</p>
                     <div class="card-actions">
-                        <a href="/bidang_usaha/fashion"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/fashion"><button class="btn bg-blue-500 hover:bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
             <div class="card w-80 h-fit bg-base-100 shadow-xl rounded relative">
-                <figure><img src="images/mobil.jpg" alt="Mobil" /></figure>
+                <figure><img src="/images/bidang_usaha/mobil.jpg" alt="Mobil" /></figure>
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Otomotif</p>
                     <div class="card-actions">
-                        <a href="/bidang_usaha/otomotif"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/otomotif"><button class="btn bg-blue-500 hover:bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
             <div class="card w-80 h-fit bg-base-100 shadow-xl rounded relative">
-                <figure><img src="images/agri.jpg" alt="Agribisnis" /></figure>
+                <figure><img src="/images/bidang_usaha/agri.jpg" alt="Agribisnis" /></figure>
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Agribisnis</p>
                     <div class="card-actions">
-                        <a href="/bidang_usaha/agribisnis"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/agribisnis"><button class="btn bg-blue-500 hover:bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
             <div class="card w-80 h-fit bg-base-100 shadow-xl rounded relative">
-                <figure><img src="images/kosmetik.jpg" alt="Kosmetik" /></figure>
+                <figure><img src="/images/bidang_usaha/kosmetik.jpg" alt="Kosmetik" /></figure>
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Kosmetik</p>
                     <div class="card-actions">
-                        <a href="/bidang_usaha/kosmetik"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/kosmetik"><button class="btn bg-blue-500 hover:bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
             <div class="card w-80 h-fit bg-base-100 shadow-xl rounded relative">
-                <figure><img src="images/event-organizer.jpg" alt="Event" /></figure>
+                <figure><img src="/images/bidang_usaha/event-organizer.jpg" alt="Event" /></figure>
                 <div class="card-body p-5">
                     <p class="card-title">Bidang Event Organizer</p>
                     <div class="card-actions">
-                        <a href="/bidang_usaha/event"><button class="btn bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
+                        <a href="/bidang_usaha/event"><button class="btn bg-blue-500 hover:bg-blue-500 text-white w-48">Lihat Selengkapnya</button></a>
                     </div>
                 </div>
             </div>
