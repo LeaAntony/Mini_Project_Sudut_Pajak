@@ -1,11 +1,12 @@
 @extends('layouts.secondary')
 
 @section('title', 'Materi Pelatihan Atau Sertifikasi')
-@section('judulBreadcrumbs', 'Materi Pelatihan Atau Sertifikasi')
+@section('judulBreadcrumbs', 'Detail Pelatihan Atau Sertifikasi')
 @section('breadcrumbs')
 
 <li><a href="/layanan">Layanan</a></li>
-<li>Pelatihan Atau Sertifikasi</li>
+<li><a href="/pelatihan">Pelatihan Atau Sertifikasi</a></li>
+<li>Detail Pelatihan Atau Sertifikasi</li>
 
 @endsection
 

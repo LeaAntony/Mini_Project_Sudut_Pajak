@@ -8,6 +8,6 @@ class KonsultasiController extends Controller
 {
     public function tampilkan()
     {
-        return view('/konsultasi');
+        return view('konsultasi');
     }
 }

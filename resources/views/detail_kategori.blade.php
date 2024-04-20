@@ -34,17 +34,17 @@
         <!-- Carousel -->
         <div class="carousel w-full">
             <div id="item1" class="carousel-item w-full flex flex-col items-center">
-                <img src="/images/Konsultasi2.png" class="w-full" />
+                <img src="/images/konsultasi/Konsultasi2.png" class="w-full" />
                 <p class="text-center text-sm mt-2">Sudut pajak memiliki spesialis yang berkompeten terhadap
                     permasalahan pajak yang dialami oleh klien.</p>
             </div>
             <div id="item2" class="carousel-item w-full flex flex-col items-center">
-                <img src="/images/Pajak.png" class="w-full" />
+                <img src="/images/konsultasi/Pajak.png" class="w-full" />
                 <p class="text-center text-sm mt-2">Sudut pajak menyediakan 2 (dua) metode konsultasi: Live chat maupun
                     via Microsoft team. </p>
             </div>
             <div id="item3" class="carousel-item w-full flex flex-col items-center">
-                <img src="/images/Konsultasi2.png" class="w-full" />
+                <img src="/images/konsultasi/Konsultasi2.png" class="w-full" />
                 <p class="text-center text-sm mt-2">Sudut pajak memiliki menu penjadwalan untuk mengatur waktu
                     konsultasi</p>
             </div>
@@ -62,7 +62,7 @@
             <p class="font-bold text-2xl">Mengapa Chat Spesialis disini?</p>
         </div>
         <div class="flex items-center mt-8">
-            <img src="/images/Layanan1.png" class="w-20 h-20" alt="Layanan">
+            <img src="/images/konsultasi/layanan1.png" class="w-20 h-20" alt="Layanan">
             <div class="ml-4">
                 <p class="text-sm">Konsultasikan kebutuhan Pajak Anda dengan Kami Bicara langsung dengan konsultan kami.
                 </p>
@@ -70,14 +70,14 @@
         </div>
 
         <div class="flex items-center mt-8">
-            <img src="/images/Layanan2.png" class="w-20 h-20" alt="Layanan">
+            <img src="/images/konsultasi/layanan2.png" class="w-20 h-20" alt="Layanan">
             <div class="ml-4">
                 <p class="text-sm">Sudut Pajak dapat membantu permasalahan perpajakan anda. </p>
             </div>
         </div>
 
         <div class="flex items-center mt-8">
-            <img src="/images/Layanan3.png" class="w-20 h-20" alt="Layanan">
+            <img src="/images/konsultasi/layanan3.png" class="w-20 h-20" alt="Layanan">
             <div class="ml-4">
                 <p class="text-sm">Chat spesialis pajak dapat membantu anda untuk memecahkan masalah perpajakan anda</p>
             </div>
