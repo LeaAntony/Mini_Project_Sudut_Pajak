@@ -29,7 +29,7 @@
                             <p><input type="radio" name="radio-1" id="jawaban_b" class="radio radio-accent -mb-1 my-1" disabled checked /> Bebek</p>
                             <p><input type="radio" name="radio-1" id="jawaban_c" class="radio radio-accent -mb-1 my-1" disabled /> Cacing</p>
                             <p><input type="radio" name="radio-1" id="jawaban_d" class="radio radio-accent -mb-1 my-1" disabled /> Domba</p>
-                            <p><input type="radio" name="radio-1" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Entok</p>
+                            <p><input type="radio" name="radio-1" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Elang</p>
                         </div>
                         <div class="my-3">
                             <select class="select select-accent w-full max-w-xs">
@@ -51,7 +51,7 @@
                             <p><input type="radio" name="radio-2" id="jawaban_b" class="radio radio-accent -mb-1 my-1" disabled checked /> Bebek</p>
                             <p><input type="radio" name="radio-2" id="jawaban_c" class="radio radio-accent -mb-1 my-1" disabled /> Cacing</p>
                             <p><input type="radio" name="radio-2" id="jawaban_d" class="radio radio-accent -mb-1 my-1" disabled /> Domba</p>
-                            <p><input type="radio" name="radio-2" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Entok</p>
+                            <p><input type="radio" name="radio-2" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Elang</p>
                         </div>
                         <div class="my-3">
                             <select class="select select-accent w-full max-w-xs">
@@ -73,7 +73,7 @@
                             <p><input type="radio" name="radio-3" id="jawaban_b" class="radio radio-accent -mb-1 my-1" disabled checked /> Bebek</p>
                             <p><input type="radio" name="radio-3" id="jawaban_c" class="radio radio-accent -mb-1 my-1" disabled /> Cacing</p>
                             <p><input type="radio" name="radio-3" id="jawaban_d" class="radio radio-accent -mb-1 my-1" disabled /> Domba</p>
-                            <p><input type="radio" name="radio-3" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Entok</p>
+                            <p><input type="radio" name="radio-3" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Elang</p>
                         </div>
                         <div class="my-3">
                             <select class="select select-accent w-full max-w-xs">
@@ -95,7 +95,7 @@
                             <p><input type="radio" name="radio-4" id="jawaban_b" class="radio radio-accent -mb-1 my-1" disabled checked /> Bebek</p>
                             <p><input type="radio" name="radio-4" id="jawaban_c" class="radio radio-accent -mb-1 my-1" disabled /> Cacing</p>
                             <p><input type="radio" name="radio-4" id="jawaban_d" class="radio radio-accent -mb-1 my-1" disabled /> Domba</p>
-                            <p><input type="radio" name="radio-4" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Entok</p>
+                            <p><input type="radio" name="radio-4" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Elang</p>
                         </div>
                         <div class="my-3">
                             <select class="select select-accent w-full max-w-xs">
@@ -117,7 +117,7 @@
                             <p><input type="radio" name="radio-5" id="jawaban_b" class="radio radio-accent -mb-1 my-1" disabled checked /> Bebek</p>
                             <p><input type="radio" name="radio-5" id="jawaban_c" class="radio radio-accent -mb-1 my-1" disabled /> Cacing</p>
                             <p><input type="radio" name="radio-5" id="jawaban_d" class="radio radio-accent -mb-1 my-1" disabled /> Domba</p>
-                            <p><input type="radio" name="radio-5" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Entok</p>
+                            <p><input type="radio" name="radio-5" id="jawaban_e" class="radio radio-accent -mb-1 my-1" disabled /> Elang</p>
                         </div>
                         <div class="my-3">
                             <select class="select select-accent w-full max-w-xs">

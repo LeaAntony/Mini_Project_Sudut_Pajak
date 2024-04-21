@@ -9,11 +9,11 @@
 <div class="text-center">
     <div class="card bg-base-100 shadow-xl mx-16 overflow-visible -mt-10">
         <div class="card-body">
-            <div>
-                <h2 class="card-title">Identitas</h2>
+            <div class="mb-20">
+                <h2 class="card-title mb-10">Identitas</h2>
                 <form action="/admin/usaha">
                     <div class="grid grid-rows-2 grid-flow-col gap-3">
-                        <label class="form-control w-full">
+                        <label class="form-control w-full mb-10">
                             <div class="label">
                                 <span class="label-text">Nama</span>
                             </div>
@@ -43,12 +43,13 @@
                 </form>
             </div>
             <hr class="my-5">
-            <div>
-                <h2 class="card-title">Foto</h2>
+            <div class="mb-20">
+                <h2 class="card-title mb-10">Foto</h2>
                 <form action="/admin/usaha">
                     <div class="avatar">
-                        <div class="w-24 rounded-full">
-                            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        <div class="w-48 rounded-full border">
+                            <img src="https://cdn-icons-png.flaticon.com/512/21/21104.png" alt="profile"
+                            class="shadow rounded-full object-cover" />
                         </div>
                     </div>
                     <label class="form-control w-full">
@@ -62,22 +63,22 @@
                 </form>
             </div>
             <hr class="my-5">
-            <div>
-                <h2 class="card-title">Kata Sandi</h2>
+            <div class="mb-20">
+                <h2 class="card-title mb-10">Kata Sandi</h2>
                 <form action="/admin/usaha">
-                    <label class="form-control w-full">
+                    <label class="form-control w-full mb-10">
                         <div class="label">
                             <span class="label-text">Kata Sandi Saat ini</span>
                         </div>
                         <input type="text" placeholder="Masukkan Kata Sandi Saat ini" class="input input-accent w-full" />
                     </label>
-                    <label class="form-control w-full">
+                    <label class="form-control w-full mb-10">
                         <div class="label">
                             <span class="label-text">Kata Sandi Baru</span>
                         </div>
                         <input type="text" placeholder="Masukkan Kata Sandi Baru" class="input input-accent w-full" />
                     </label>
-                    <label class="form-control w-full">
+                    <label class="form-control w-full mb-10">
                         <div class="label">
                             <span class="label-text">Konfirmasi Kata Sandi Baru</span>
                         </div>
