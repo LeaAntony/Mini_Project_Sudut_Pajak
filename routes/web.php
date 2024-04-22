@@ -45,6 +45,7 @@ use App\Http\Controllers\DasborController;
 use App\Http\Controllers\forum\DetailForumController;
 use App\Http\Controllers\ForumPajakController;
 use App\Http\Controllers\KalkulatorController;
+use App\Http\Controllers\kuis\DetailKuisController;
 use App\Http\Controllers\LayananController;
 use App\Http\Controllers\LihatPdfController;
 use App\Http\Controllers\pelatihan_sertifikasi\DetailPelatihanSertifikasiController;
@@ -127,6 +128,7 @@ Route::get('/pelatihan_sertifikasi/detail_pelatihan_sertifikasi', [DetailPelatih
 Route::get('/berita/detail_berita', [DetailBeritaController::class, 'tampilkan']);
 Route::get('/forum_pajak/detail_forum_pajak', [DetailForumController::class, 'tampilkan']);
 Route::get('/kuis', [KuisController::class, 'tampilkan']);
+Route::get('/kuis/detail_kuis', [DetailKuisController::class, 'tampilkan']);
 Route::get('/konsultasi', [KonsultasiController::class, 'tampilkan']);
 Route::get('/konsultasi/detail_kategori', [DetailKategoriController::class, 'tampilkan']);
 Route::get('/konsultasi/chat', [ChatController::class, 'tampilkan']);
