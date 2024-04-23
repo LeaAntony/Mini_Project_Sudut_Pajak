@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container mx-auto mb-32">
-    <div class="m-20">
+    <div class="mx-20 my-10">
         <div class="flex gap-5">
             <svg class="fill-teal-500" id="kuis" height="64" viewBox="0 0 24 24" width="64"
                 xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
@@ -65,7 +65,7 @@
                         </a>
                     </div>
                     <div class="inline mt-10">
-                        <a href=""
+                        <a href="/kuis/jawaban"
                         class="btn bg-gradient-to-l from-emerald-500 to-blue-500 text-white px-20">
                             Selesai
                         </a>
