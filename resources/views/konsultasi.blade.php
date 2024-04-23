@@ -123,7 +123,7 @@
                 <div class="ml-4">
                     <span class="flex items-center">
                         <i class="fa-solid fa-suitcase"></i>
-                        <p class="font-bold text-sm ml-2">1 tahun</p>
+                        <p class="font-bold text-sm ml-2">5 tahun</p>
                     </span>
                 </div>
             </div>

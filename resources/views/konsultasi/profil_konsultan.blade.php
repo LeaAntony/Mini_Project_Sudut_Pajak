@@ -21,7 +21,7 @@
                     untuk memberikan saran pajak yang akurat dan efektif. </p>
                 <p class="text-sm mt-2"><span class="font-semibold">Email:</span> HakaseMiurae@gmail.com</p>
                 <p class="text-sm mt-2"><span class="font-semibold">Jenjang Karir:</span> Analisis Keuangan, Senior Analisis Keuangan.</p>
-                <p class="text-sm mt-2"><span class="font-semibold">Alumnus:</span> Universitas Indonesia, S.E.</p>
+                <p class="text-sm mt-2"><span class="font-semibold">Alumnus:</span> Universitas Indonesia</p>
             </div>
         </div>
         <div class="px-4 pb-4">

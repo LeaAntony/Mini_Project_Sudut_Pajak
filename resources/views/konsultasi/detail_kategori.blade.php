@@ -2,8 +2,6 @@
 
 @section('title', 'Konsultasi')
 
-<a href ="/konsultasi"></a>
-
 @section('content')
 
 <style>
@@ -97,7 +95,7 @@
         </br>
 
         <div class="flex mt-8">
-            <img src="/images/konsultasi/pakar-1.jpg" class="w-32 h-32" alt="Gambar">
+            <img src="/images/konsultasi/pakar-1.jpg" class="w-32 h-32" alt="Pakar Pajak">
             <div class="ml-4">
                 <p class="font-bold">Drs. Hakase Miurae</p>
                 <p class="text-sm">PPh badan</p>
@@ -107,7 +105,7 @@
         </div>
 
         <div class="flex mt-8">
-            <img src="/images/konsultasi/pakar-2.jpg" class="w-32 h-32" alt="Gambar">
+            <img src="/images/konsultasi/pakar-2.jpg" class="w-32 h-32" alt="Pakar Pajak">
             <div class="ml-4">
                 <p class="font-bold">Melisa Syla</p>
                 <p class="text-sm">PPh badan</p>
@@ -117,7 +115,7 @@
         </div>
 
         <div class="flex items-center mt-8">
-            <img src="/images/konsultasi/pakar-3.png" class="w-32 h-32" alt="Gambar">
+            <img src="/images/konsultasi/pakar-3.png" class="w-32 h-32" alt="Pakar Pajak">
             <div class="ml-4">
                 <p class="font-bold">Park Kim</p>
                 <p class="text-sm">PPh badan</p>
@@ -127,7 +125,7 @@
         </div>
 
         <div class="flex items-center mt-8">
-            <img src="/images/konsultasi/pakar-4.jpg" class="w-32 h-32" alt="Gambar">
+            <img src="/images/konsultasi/pakar-4.jpg" class="w-32 h-32" alt="Pakar Pajak">
             <div class="ml-4">
                 <p class="font-bold">Mikasa Ackerman</p>
                 <p class="text-sm">PPh badan</p>
