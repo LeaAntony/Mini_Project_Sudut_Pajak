@@ -66,13 +66,16 @@ use App\Http\Controllers\KonsultasiController;
 use App\Http\Controllers\konsultasi\DetailKategoriController;
 use App\Http\Controllers\konsultasi\ChatController;
 use App\Http\Controllers\konsultasi\ProfilKonsultanController;
+use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\TamuController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', [DasborController::class, 'tampilkan']);
+Route::get('/', [TamuController::class, 'tampilkan']);
+Route::get('/dasbor', [DasborController::class, 'tampilkan']);
 Route::get('/masuk', [MasukController::class, 'tampilkan']);
 Route::get('/daftar', [DaftarController::class, 'tampilkan']);
 Route::get('/identifikasi', [IdentifikasiController::class, 'tampilkan']);
@@ -139,3 +142,4 @@ Route::get('/konsultasi', [KonsultasiController::class, 'tampilkan']);
 Route::get('/konsultasi/detail_kategori', [DetailKategoriController::class, 'tampilkan']);
 Route::get('/konsultasi/chat', [ChatController::class, 'tampilkan']);
 Route::get('/konsultasi/profil_konsultan', [ProfilKonsultanController::class, 'tampilkan']);
+Route::get('/profil', [ProfilController::class, 'tampilkan']);

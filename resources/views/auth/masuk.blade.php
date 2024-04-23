@@ -6,7 +6,7 @@
                 <div class="place-items-center sec-title">
                     <h1 class="font-blackbold text-4xl title bg-left leading-tight">Silahkan masuk terlebih dahulu</h1>
                 </div>
-                <form action="/">
+                <form action="/dasbor">
                     <div class="mt-10">
                         <label for="Email">Email</label>
                         <label class="input input-bordered flex items-center gap-2">
@@ -45,8 +45,7 @@
                     </div>
                     <div class="form-control mt-5">
                         <label class="cursor-pointer mx-auto">
-                            <x-a href="/admin" class="align-text-top mr-20">Masuk sebagai Admin?</x-a>
-                            <x-a href="" class="align-text-top">Masuk sebagai Konsultan?</x-a>
+                            <x-a href="/admin" class="align-text-top">Masuk sebagai Admin?</x-a>
                         </label>
                     </div>
                 </form>

@@ -58,12 +58,6 @@
                         <div class="divider">OR</div>
                         <x-link_button href="/masuk" class="sm:btn-sm md:btn-md lg:btn-lg">Masuk</x-link_button>
                     </div>
-                    <div class="form-control mt-5">
-                        <label class="cursor-pointer mx-auto">
-                            <x-a href="" class="align-text-top mr-20">Masuk sebagai Admin?</x-a>
-                            <x-a href="" class="align-text-top">Masuk sebagai Konsultan?</x-a>
-                        </label>
-                    </div>
                 </form>
 
 @endsection

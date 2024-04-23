@@ -20,7 +20,7 @@
                         id="kataSandiBtn">Kata Sandi</button>
                 </h2>
                 <div id="identitasSection">
-                    <form action="/admin/usaha">
+                    <form action="/admin/pengaturan_akun">
                         <div class="grid grid-rows-2 grid-flow-col gap-3">
                             <label class="form-control w-full mb-10">
                                 <div class="label">
@@ -52,7 +52,7 @@
                     </form>
                 </div>
                 <div id="fotoProfilSection" class="hidden">
-                    <form action="/admin/usaha">
+                    <form action="/admin/pengaturan_akun">
                         <div class="avatar">
                             <div class="w-48 rounded-full border">
                                 <img src="https://cdn-icons-png.flaticon.com/512/21/21104.png" alt="profile"
@@ -70,7 +70,7 @@
                     </form>
                 </div>
                 <div id="kataSandiSection" class="hidden">
-                    <form action="/admin/usaha">
+                    <form action="/admin/pengaturan_akun">
                         <label class="form-control w-full mb-5">
                             <div class="label">
                                 <span class="label-text">Kata Sandi Saat ini</span>
