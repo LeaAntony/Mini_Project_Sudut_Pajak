@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="container w-screen h-screen mx-auto">
+<div class="container mx-auto mb-32">
     <div class="m-20">
         <div class="flex gap-5">
             <svg class="fill-teal-500" id="kuis" height="64" viewBox="0 0 24 24" width="64"
