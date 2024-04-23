@@ -148,15 +148,81 @@
         <div class="px-6 py-4">
             <p class="text-gray-700">Kebijakan pajak memiliki dampak yang signifikan pada perkembangan usaha kecil menengah (UKM). Mari kita jelajahi bagaimana berbagai kebijakan pajak, seperti tarif pajak, insentif, dan pengaturan pajak penghasilan, memengaruhi operasional</p> 
             <div class="mt-4 flex justify-end">
-                <a href="/forum_pajak/detail_forum_pajak" class="text-blue-500">Lihat Topik</a>
+                <p href="/forum_pajak/detail_forum_pajak" class="text-blue-500">Lihat Topik</p>
+                <span class="mx-2">|</span>
+                <p href="" class="text-blue-500">Hapus</p>
             </div>
         </div>`
     </div>
 </div>
-</br>
-</br>
+
+<div>
+    <div class="p-4">
+    </div>
+    <div class="px-6 py-4">
+        <div class="mt-4 flex justify-between items-center ">
+            <div class="ml-auto"> 
+            <a href="#" onclick="showPopup()" class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-r hover:from-blue-600 hover:to-green-600 px-6 py-3 focus:outline-none rounded-full text-lg">Upload Forum Anda</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="popup" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center hidden">
+    <div class="bg-white p-6 rounded-lg shadow-md max-w-4xl transform scale-0 transition-transform duration-300 w-full"> <!-- Menambahkan max-w-4xl untuk memperluas lebar kartu -->
+        <h2 class="text-xl font-bold mb-4">Tambah Forum Anda</h2>
+        <form id="forumForm">
+            <div class="mb-4">
+                <label for="judul" class="block text-sm font-medium text-gray-700">Judul Topik:</label>
+                <input type="text" id="judul" name="judul" class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200">
+            </div>
+            <div class="mb-4">
+                <label for="deskripsi" class="block text-sm font-medium text-gray-700">Deskripsi Topik:</label>
+                <textarea id="deskripsi" name="deskripsi" rows="4" class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"></textarea>
+            </div>
+            <div class="flex justify-end">
+            <button type="submit" class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-r hover:from-blue-600 hover:to-green-600 px-6 py-3 focus:outline-none rounded-full text-lg">Upload Forum</button>
+            </div>
+        </form>
+        <button onclick="hidePopup()" class="absolute top-0 right-0 m-4 text-gray-600 hover:text-gray-800 focus:outline-none">&times;</button>
+    </div>
+</div>
 
 
+<script>
+    function showPopup() {
+        var popup = document.getElementById("popup");
+        popup.classList.remove("hidden");
+        setTimeout(function() {
+            popup.querySelector(".transform").classList.add("scale-100");
+        }, 50);
+    }
+
+    function hidePopup() {
+        var popup = document.getElementById("popup");
+        popup.querySelector(".transform").classList.remove("scale-100");
+        setTimeout(function() {
+            popup.classList.add("hidden");
+        }, 300);
+    }
+
+    document.getElementById("forumForm").addEventListener("submit", function(event) {
+        event.preventDefault(); 
+
+        var judul = document.getElementById("judul").value;
+        var deskripsi = document.getElementById("deskripsi").value;
+
+       
+        console.log("Judul Forum: ", judul);
+        console.log("Deskripsi Forum: ", deskripsi);
+
+        
+        hidePopup();
+    });
+</script>
+
+</br>
+</br> 
 
 @endsection
 
