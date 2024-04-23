@@ -169,16 +169,16 @@
 </div>
 
 <div id="popup" class="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center hidden">
-    <div class="bg-white p-6 rounded-lg shadow-md max-w-4xl transform scale-0 transition-transform duration-300 w-full"> <!-- Menambahkan max-w-4xl untuk memperluas lebar kartu -->
+    <div class="bg-white p-6 rounded-lg shadow-md max-w-4xl transform scale-0 transition-transform duration-300 w-full"> 
         <h2 class="text-xl font-bold mb-4">Tambah Forum Anda</h2>
         <form id="forumForm">
             <div class="mb-4">
                 <label for="judul" class="block text-sm font-medium text-gray-700">Judul Topik:</label>
-                <input type="text" id="judul" name="judul" class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200">
+                <input type="text" id="judul" name="judul" class="card w-full h-full bg-base-100 border border-2 border-teal-500 shadow-md">
             </div>
             <div class="mb-4">
                 <label for="deskripsi" class="block text-sm font-medium text-gray-700">Deskripsi Topik:</label>
-                <textarea id="deskripsi" name="deskripsi" rows="4" class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"></textarea>
+                <textarea id="deskripsi" name="deskripsi" rows="4" class="card w-full h-full bg-base-100 border border-2 border-teal-500 shadow-md"></textarea>
             </div>
             <div class="flex justify-end">
             <button type="submit" class="text-white bg-gradient-to-r from-blue-500 to-green-500 hover:bg-gradient-to-r hover:from-blue-600 hover:to-green-600 px-6 py-3 focus:outline-none rounded-full text-lg">Upload Forum</button>
