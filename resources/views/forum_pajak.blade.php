@@ -32,7 +32,7 @@
             <h2 class="text-xl font-bold mb-2">Pengaruh Kebijakan Pajak Terhadap Investasi</h2> 
             <div class="flex items-center text-sm text-gray-600">
                 <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=48" alt="User Avatar 1" class="h-8 w-8 rounded-full mr-2">
-                <p class="font-semibold">John Doe</p> <
+                <p class="font-semibold">John Doe</p> 
                 <span class="mx-2">|</span>
                 <p>10 Agustus 2024</p> 
             </div>
