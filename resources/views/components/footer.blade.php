@@ -10,28 +10,33 @@
             <x-a href="#" class=""><i class="fi fi-brands-twitter ml-10"></i></x-a>
         </div>
     </aside>
-    <nav class="mt-8 col-start-4 col-span-3">
+    <nav class="mt-8 col-start-4 col-span-2">
         <h6 class="footer-title text-black">JAM KERJA</h6>
-        <p class="text-stone-400">10.00 AM - 6.00 PM , Senin - Sabtu</p>
+        <p class="text-stone-400">10.00 AM - 6.00 PM ,</p>
+        <p class="text-stone-400"> Senin - Sabtu</p>
         <br>
         <p class="text-stone-400 text-justify">Tim Dukungan dan Konsultasi kami tersedia 24/7 untuk menjawab pertanyaan Anda</p>
     </nav>
-    <nav class="mt-8 col-start-8 col-span-1">
+    <nav class="mt-8 col-start-7 col-span-1">
         <h6 class="footer-title text-black">NAVIGASI</h6>
-        <a href="/profil" class="link link-hover link-accent text-stone-400">Profil</a>
-        <a href="/kalkulator" class="link link-hover link-accent text-stone-400">Kalkulator</a>
         <a href="https://taxcenter-polibatam.id" class="link link-hover link-accent text-stone-400">Aplikasi Pajak</a>
-        <a href="/peraturan" class="link link-hover link-accent text-stone-400">Peraturan</a>
+        <a href="/berita" class="link link-hover link-accent text-stone-400">Berita</a>
+        <a href="/bidang_usaha" class="link link-hover link-accent text-stone-400">Bidang Usaha</a>
+        <a href="/forum_pajak" class="link link-hover link-accent text-stone-400">Forum Pajak</a>
+        <a href="/kalkulator" class="link link-hover link-accent text-stone-400">Kalkulator</a>
         <a href="/konsultasi" class="link link-hover link-accent text-stone-400">Konsultasi</a>
     </nav>
-    <nav class="mt-24 col-start-9 col-span-1">
-        <a href="/pelatihan" class="link link-hover link-accent text-stone-400 mt-2">Pelatihan atau Sertifikasi</a>
-        <a href="/berita" class="link link-hover link-accent text-stone-400">Berita</a>
-        <a href="/bidang_usaha" class="link link-hover link-accent text-stone-400">Kategori Perbidang Usaha</a>
+    <nav class="mt-24 col-start-8 col-span-2">
+        <a href="/kuis" class="link link-hover link-accent text-stone-400 mt-2">Kuis</a>
+        <a href="/pelatihan_sertifikasi" class="link link-hover link-accent text-stone-400">Pelatihan atau Sertifikasi</a>
+        <a href="/pembelajaran" class="link link-hover link-accent text-stone-400">Pembelajaran</a>
+        <a href="/peraturan_pajak_daerah" class="link link-hover link-accent text-stone-400">Peraturan Pajak Daerah</a>
+        <a href="/peraturan_pajak_pusat" class="link link-hover link-accent text-stone-400">Peraturan Pajak Pusat</a>
+        <a href="/profil" class="link link-hover link-accent text-stone-400">Profil</a>
     </nav>
     <nav class="mt-8 col-start-11 col-span-2">
         <h6 class="footer-title text-black">KEBIJAKAN PRIVASI</h6>
-        <a href="/kontak" class="link link-hover link-accent text-stone-400">Kontak</a>
+        <a href="/dasbor#kontakKami" class="link link-hover link-accent text-stone-400">Kontak</a>
         <a href="/masuk" class="link link-hover link-accent text-stone-400">Masuk</a>
         <a href="/daftar" class="link link-hover link-accent text-stone-400">Daftar</a>
     </nav>

@@ -437,11 +437,11 @@
 </div>
 
 {{-- kontak --}}
-<div class="relative">
+<div class="relative" >
     <div class="relative flex z-10">
         <img src="/images/background/contact-bg.jpg" class="w-full h-full">
     </div>
-    <div class="absolute flex top-0 left-60 -mt-20 z-20">
+    <div class="absolute flex top-0 left-60 -mt-20 z-20" id="kontakKami">
         <div class="box-content rounded w-96 bg-white shadow-xl p-12">
             <h2 class="text-4xl font-bold my-10">Hubungi Kami</h2>
             <div class="my-10 ">
