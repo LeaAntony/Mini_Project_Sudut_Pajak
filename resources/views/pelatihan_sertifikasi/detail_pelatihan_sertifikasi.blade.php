@@ -54,12 +54,14 @@
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wYYnfRmTCvI" frameborder="0"
                         allowfullscreen class="block mt-7"></iframe>
                 </div>
-                <h2 class="text-xl font-semibold mb-4 mt-4">Akses Link Pembelajaran</h2>
-                <p class="text-gray-700">Anda dapat mengunduh materi perpajakan sesuai dengan apa yang anda butuhkan
-                    untuk mengatasi permasalahan perpajakan anda</p>
-                <div class="card-actions justify-end mt-4">
-                    <div
-                        class="bg-gradient-to-r from-teal-500 to-blue-500 h-1 w-20 py-1 px-2 absolute top-0 left-6 mt-6">
+                <div class="mt-4">
+                    <h2 class="text-xl font-semibold mb-4">Akses Link Pembelajaran</h2>
+                    <p class="text-gray-700">Anda dapat mengunduh materi perpajakan sesuai dengan apa yang anda butuhkan
+                        untuk mengatasi permasalahan perpajakan anda</p>
+                    <div class="card-actions justify-end mt-4">
+                        <div
+                            class="bg-gradient-to-r from-teal-500 to-blue-500 h-1 w-20 py-1 px-2 absolute top-0 left-6 mt-6">
+                        </div>
                     </div>
                 </div>
             </div>
