@@ -51,7 +51,7 @@
             </p>
         </div>
         <div class="moving-image">
-            <img src="/images/dasbor/pajak.png" class="w-fit">
+            <img src="/images/dasbor/pajak.png" class="w-full h-full">
         </div>
     </div>
 </div>
@@ -112,11 +112,10 @@
                 <img src="/images/dasbor/layanan/layanan1.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center text-pretty">
-                <p class="card-title text-2xl font-bold">Konsultasi</p>
+                <p class="card-title text-xl font-bold">Konsultasi</p>
                 <p class="my-5 leading-relaxed">
                     Layanan konseling perpajakan yang dilaksanakan oleh expert perpajakan yang dimiliki oleh
-                    Sudut pajak
-                    sesuai dengan kebutuhan Wajib Pajak yang dibantu
+                    Sudut pajak sesuai dengan kebutuhan Wajib Pajak yang dibantu
                 </p>
                 <div class="card-actions">
                     <a class="btn bg-gradient-to-l from-emerald-500 to-sky-500 rounded-full px-10 text-white"
@@ -132,7 +131,7 @@
                 <img src="/images/dasbor/layanan/layanan2.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center text-pretty">
-                <p class="card-title text-2xl font-bold">Pelatihan atau Sertifikasi</p>
+                <p class="card-title text-xl font-bold">Pelatihan atau Sertifikasi</p>
                 <p class="my-3 leading-relaxed">
                     Memberikan pelatihan di bidang perpajakan seperti brevet pajak dan pelatihan lainnya terkait
                     perpajakan serta memberikan sertifikasi di bidang perpajakan.
@@ -151,7 +150,7 @@
                 <img src="/images/dasbor/layanan/layanan3.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center text-pretty">
-                <p class="card-title text-2xl font-bold">Berita</p>
+                <p class="card-title text-xl font-bold">Berita</p>
                 <p class="my-3 leading-relaxed">
                     Memberikan informasi terkait peristiwa-peristiwa yang berkaitan dengan perpajakan
                 </p>
@@ -169,7 +168,7 @@
                 <img src="/images/dasbor/layanan/layanan4.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center text-pretty">
-                <p class="card-title text-2xl font-bold">Kategori Perbidang Usaha</p>
+                <p class="card-title text-xl font-bold">Kategori Perbidang Usaha</p>
                 <p class="my-3 leading-relaxed">
                     Memberikan layanan edukasi perpajakan yang terkait bidang-bidang usaha tertentu secara
                     spesifik
@@ -189,7 +188,7 @@
                 <img src="/images/dasbor/layanan/layanan1.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center text-pretty">
-                <p class="card-title text-2xl font-bold">Forum Pajak</p>
+                <p class="card-title text-xl font-bold">Forum Pajak</p>
                 <p class="my-3 leading-relaxed">
                     Tempat untuk bertanya dan berbagi ilmu di bidang perpajakan
                 </p>
@@ -207,7 +206,7 @@
                 <img src="/images/dasbor/layanan/layanan3.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center text-pretty">
-                <p class="card-title text-2xl font-bold">Pembelajaran PPh</p>
+                <p class="card-title text-xl font-bold">Pembelajaran PPh</p>
                 <p class="my-3 leading-relaxed">
                     Menyajikan layanan pendidikan perpajakan yang disesuaikan dengan kebutuhan spesifik dari berbagai sektor usaha untuk meningkatkan pemahaman dan kesiapan pajak
                 </p>
@@ -225,7 +224,7 @@
                 <img src="/images/dasbor/layanan/layanan2.png" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center text-pretty">
-                <p class="card-title text-2xl font-bold">Kuis</p>
+                <p class="card-title text-xl font-bold">Kuis</p>
                 <p class="my-3 leading-relaxed">
                     Menyediakan layanan Quiz edukasi perpajakan yang bertujuan untuk meningkatkan pemahaman dan kesiapan dalam mengelola pajak
                 </p>
@@ -247,9 +246,8 @@
             <h2 class="text-4xl font-bold">
                 Aplikasi Online Pajak Solusi Pintar Mengelola Pajak Anda
             </h2>
-            <p class="text-justify leading-relaxed text-xl my-10">
-                Mengelola pajak di Indonesia kini semakin mudah. Saatnya hitung, setor, dan lapor pajak perusahaan Anda
-                di satu aplikasi pajak online terpadu
+            <p class="text-justify text-lg leading-relaxed my-10">
+                Mengelola pajak di Indonesia kini semakin mudah. Saatnya hitung, setor, dan lapor pajak perusahaan Anda di satu aplikasi pajak online terpadu
             </p>
             <a class="btn bg-gradient-to-l from-emerald-500 to-sky-500 rounded-full px-10 text-white"
             href="/konsultasi">
@@ -257,7 +255,7 @@
             </a>
         </div>
         <div class="moving-image">
-            <img src="/images/dasbor/konsultasi.png" class="w-fit">
+            <img src="/images/dasbor/konsultasi.png" class="w-full h-full">
         </div>
     </div>
 </div>
@@ -267,7 +265,7 @@
     <div>
         <h2 class="text-center text-4xl font-bold">Berita</h2>
     </div>
-    <div class="grid grid-cols-4 gap-5 mx-60 my-10">
+    <div class="grid grid-cols-4 gap-5 mx-40 my-10">
         {{-- berita 1 --}}
         <div class="col-span-2">
             <div class="card w-full h-full bg-base-100 shadow-xl">
@@ -359,29 +357,29 @@
 </div>
 
 {{-- FAQ --}}
-<div class="my-48 py-20 bg-white" id="faq">
+<div class="my-40 py-20 bg-white" id="faq">
     <div class="mb-10">
         <h2 class="text-center text-4xl font-bold">Frequently Asked Question</h2>
     </div>
-    <div class="mx-96">
+    <div class="mx-60">
         <div tabindex="0" class="collapse collapse-arrow bg-zinc-100 my-5">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl text-blue-500 font-semibold">
+            <div class="collapse-title text-lg text-blue-500 font-semibold">
                 Siapa saja yang dapat menggunakan website ini?
             </div>
             <div class="collapse-content">
-                <p class=" text-lg text-lg py-5">
+                <p class="text-base py-5">
                     UMKM Kota Batam, Mahasiswa, Masyarakat Umum, Vendor Website (Admin), dan Konsultan Spesialis Pajak
                 </p>
             </div>
         </div>
         <div tabindex="0" class="collapse collapse-arrow bg-zinc-100 my-5">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl text-blue-500 font-semibold">
+            <div class="collapse-title text-lg text-blue-500 font-semibold">
                 Bagaimana cara User mendaftar di Website Sudut Pajak?
             </div>
             <div class="collapse-content">
-                <ol class="list-decimal list-outside leading-loose  text-lg py-5 px-5">
+                <ol class="list-decimal list-outside leading-loose text-base py-5 px-5">
                     <li>Klik masuk pada tab masuk</li>
                     <li>Silahkan klik daftar</li>
                     <li>Selesaikan pendaftaran dengan melengkapi biodata diri</li>
@@ -390,15 +388,15 @@
         </div>
         <div tabindex="0" class="collapse collapse-arrow bg-zinc-100 my-5">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl text-blue-500 font-semibold">
+            <div class="collapse-title text-lg text-blue-500 font-semibold">
                 Bagaimana Cara Menggunakan Fitur Kalkulator di Sudut Pajak?
             </div>
             <div class="collapse-content">
-                <p class="leading-loose text-lg pt-5">
+                <p class="leading-loose text-base pt-5">
                     Dalam Aplikasi Sudut Pajak, Anda dapat melakukan perhitungan PPh 21 atas gaji dengan langkah-langkah
                     sebagai berikut
                 </p>
-                <ol class="list-decimal list-outside leading-loose text-lg pb-5 px-5">
+                <ol class="list-decimal list-outside leading-loose text-base pb-5 px-5">
                     <li>Klik opsi 'kalkulator' pada navigasi</li>
                     <li>Isilah informasi sesuai dengan data yang diperlukan</li>
                     <li>
@@ -411,25 +409,23 @@
         </div>
         <div tabindex="0" class="collapse collapse-arrow bg-zinc-100 my-5">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl text-blue-500 font-semibold ">
+            <div class="collapse-title text-lg text-blue-500 font-semibold ">
                 Apa yang Dimaksud dengan Aplikasi Pajak?
             </div>
             <div class="collapse-content">
-                <p class=" text-lg py-5">
-                    Fitur ini akan mengarahkan Anda ke situs Tax Center Politeknik Negeri Batam, yang menawarkan layanan
-                    bantuan perpajakan seperti Lapor Pajak Orang Pribadi dan Lapor Pajak Badan Usaha
+                <p class="text-base py-5">
+                    Fitur ini akan mengarahkan Anda ke situs Tax Center Politeknik Negeri Batam, yang menawarkan layanan bantuan perpajakan seperti Lapor Pajak Orang Pribadi dan Lapor Pajak Badan Usaha
                 </p>
             </div>
         </div>
         <div tabindex="0" class="collapse collapse-arrow bg-zinc-100 my-5">
             <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl text-blue-500 font-semibold">
+            <div class="collapse-title text-lg text-blue-500 font-semibold">
                 Apa Fungsi dari Fitur Peraturan Pajak?
             </div>
             <div class="collapse-content">
-                <p class=" text-lg py-5">
-                    Fitur ini berisi informasi tentang Peraturan Pajak Pusat dan Peraturan Pajak Daerah Kota Batam. Anda
-                    dapat mengunduh rincian peraturan-peraturan ini dari laman tersebut
+                <p class="text-base py-5">
+                    Fitur ini berisi informasi tentang Peraturan Pajak Pusat dan Peraturan Pajak Daerah Kota Batam. Anda dapat mengunduh rincian peraturan-peraturan ini dari laman tersebut
                 </p>
             </div>
         </div>
@@ -437,29 +433,29 @@
 </div>
 
 {{-- kontak --}}
-<div class="relative" >
-    <div class="relative flex z-10">
+<div class="relative mt-10">
+    <div class="relative z-10">
         <img src="/images/background/contact-bg.jpg" class="w-full h-full">
     </div>
-    <div class="absolute flex top-0 left-60 -mt-20 z-20" id="kontakKami">
-        <div class="box-content rounded w-96 bg-white shadow-xl p-12">
-            <h2 class="text-4xl font-bold my-10">Hubungi Kami</h2>
-            <div class="my-10 ">
-                <h3 class="text-xl font-bold mb-2">Alamat</h3>
-                <p class="text-wrap">
-                    Politeknik Negeri Batam <br>
-                    Jl. Ahmad Yani Batam Kota, Kota Batam <br>
-                    Kepulauan Riau, Indonesia
-                </p>
+    <div class="absolute top-0 left-60 -mt-20 z-20">
+        <div class="box-content rounded w-fit h-full bg-white shadow-xl p-20">
+            <h2 class="text-4xl font-bold">Hubungi Kami</h2>
+            <div class="mt-10">
+                <p class="text-lg font-bold mb-2">Alamat</p>
+                <span class="grid text-wrap">
+                    <p>Politeknik Negeri Batam</p>
+                    <p>Jl. Ahmad Yani Batam Kota, Kota Batam</p>
+                    <p>Kepulauan Riau, Indonesia</p>                    
+                </span>
             </div>
-            <div class="my-10 ">
-                <h3 class="text-xl font-bold mb-2">WhatsApp</h3>
+            <div class="mt-10">
+                <p class="text-lg font-bold mb-2">WhatsApp</p>
                 <a href="https://wa.me/6281378021623" class="hover:text-teal-500">
                     +62 813-7802-1623
                 </a>
             </div>
-            <div class="my-10 ">
-                <h3 class="text-xl font-bold mb-2">Email</h3>
+            <div class="mt-10">
+                <p class="text-lg font-bold mb-2">Email</p>
                 <a href="mailto: taxcenter@polibatam.ac.id" class="hover:text-teal-500">
                     taxcenter@polibatam.ac.id
                 </a>
