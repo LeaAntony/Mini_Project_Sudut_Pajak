@@ -1,6 +1,6 @@
 @extends('layouts.secondary')
 
-@section('title', 'Layanan')
+@section('title', 'Layanan | Sudut Pajak')
 @section('judulBreadcrumbs', 'Layanan')
 @section('breadcrumbs')
 

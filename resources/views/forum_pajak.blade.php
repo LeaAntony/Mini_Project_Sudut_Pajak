@@ -1,6 +1,6 @@
 @extends('layouts.secondary')
 
-@section('title', 'Forum Pajak')
+@section('title', 'Forum Pajak | Sudut Pajak')
 @section('judulBreadcrumbs', 'Forum Pajak')
 @section('breadcrumbs')
 

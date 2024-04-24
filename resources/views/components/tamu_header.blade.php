@@ -6,7 +6,7 @@
     </div>
     <div class="navbar-center hidden lg:flex md:flex mr-36">
         <ul class="menu menu-horizontal px-1 text-base text-stone-400 font-medium">
-            <li><a href="/">BERANDA</a></li>
+            <li><a href="/" id="navBeranda">BERANDA</a></li>
             <li><a href="/layanan">LAYANAN</a></li>
             <li><a href="/kalkulator">KALKULATOR</a></li>
             <li><a href="https://taxcenter-polibatam.id">APLIKASI PAJAK</a></li>

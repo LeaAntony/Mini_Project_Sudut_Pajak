@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Kalkulator')
+@section('title', 'Kalkulator | Sudut Pajak')
 @section('content')
 
 <link rel="stylesheet" href="./css/page.css">

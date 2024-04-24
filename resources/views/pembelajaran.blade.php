@@ -1,6 +1,6 @@
 @extends('layouts.secondary')
 
-@section('title', 'Pembelajaran PPh')
+@section('title', 'Pembelajaran PPh | Sudut Pajak')
 @section('judulBreadcrumbs', 'Pembelajaran PPh')
 @section('breadcrumbs')
 

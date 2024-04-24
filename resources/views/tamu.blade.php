@@ -1,6 +1,6 @@
 @extends('layouts.tamu_main')
 
-@section('title', 'Home | Sudut Pajak')
+@section('title', 'Beranda | Sudut Pajak')
 
 @section('content')
 

@@ -1,6 +1,6 @@
 @extends('layouts.secondary')
 
-@section('title', 'Peraturan Pajak Daerah Kota Batam')
+@section('title', 'Peraturan Pajak Daerah Kota Batam | Sudut Pajak')
 @section('judulBreadcrumbs', 'Peraturan Pajak')
 @section('breadcrumbs')
 

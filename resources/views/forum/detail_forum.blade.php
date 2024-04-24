@@ -1,7 +1,7 @@
 @extends('layouts.secondary')
 
 @section('title', 'Forum Pajak')
-@section('judulBreadcrumbs', 'Forum Pajak')
+@section('judulBreadcrumbs', 'Forum Pajak | Sudut Pajak')
 @section('breadcrumbs')
 
 <li><a href="/layanan">Layanan</a></li>

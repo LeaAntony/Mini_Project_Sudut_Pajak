@@ -1,6 +1,6 @@
 @extends('layouts.secondary')
 
-@section('title', 'Materi Pelatihan Atau Sertifikasi')
+@section('title', 'Materi Pelatihan Atau Sertifikasi | Sudut Pajak')
 @section('judulBreadcrumbs', 'Detail Pelatihan Atau Sertifikasi')
 @section('breadcrumbs')
 

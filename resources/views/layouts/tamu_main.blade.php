@@ -27,5 +27,7 @@
     <footer>
         @include('components.footer')
     </footer>
+
+    <script src="/js/template/navbarHeader.js"></script>
 </body>
 </html>

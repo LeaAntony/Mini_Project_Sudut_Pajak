@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Detail Kuis')
+@section('title', 'Detail Kuis | Sudut Pajak')
 
 @section('content')
 

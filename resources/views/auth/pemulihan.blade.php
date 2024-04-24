@@ -1,6 +1,6 @@
 @extends('layouts.auth')
 
-@section('title', 'Pemulihan Sandi')
+@section('title', 'Pemulihan Sandi | Sudut Pajak')
 @section('content')
 
                 <div class="place-items-center sec-title">

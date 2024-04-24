@@ -1,6 +1,6 @@
 @extends('layouts.secondary')
 
-@section('title', 'Kategori Perbidang Usaha')
+@section('title', 'Kategori Perbidang Usaha | Sudut Pajak')
 @section('judulBreadcrumbs', 'Bidang Event Organizer')
 @section('breadcrumbs')
 

@@ -1,6 +1,6 @@
 @extends('layouts.secondary')
 
-@section('title', 'Detail Video Pembelajaran PPh')
+@section('title', 'Detail Video Pembelajaran PPh | Sudut Pajak')
 @section('judulBreadcrumbs', 'Detail Video Pembelajaran PPh')
 @section('breadcrumbs')
 <li><a href="/layanan">Layanan</a></li>
