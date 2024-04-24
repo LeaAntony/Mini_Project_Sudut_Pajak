@@ -5,10 +5,10 @@ namespace App\Http\Controllers\kuis;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class NilaiKuisController extends Controller
+class HasilKuisController extends Controller
 {
     public function tampilkan()
     {
-        return view('kuis/nilai_kuis');
+        return view('kuis/hasil_kuis');
     }
 }

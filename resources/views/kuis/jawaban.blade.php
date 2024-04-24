@@ -61,7 +61,7 @@
                 </div>
                 <div class="flex justify-center mt-10">
                     <a class="btn btn-wide bg-gradient-to-l from-emerald-500 to-blue-500 text-white" 
-                    href="/kuis/nilai_kuis">
+                    href="/kuis/hasil_kuis">
                         Kirim Jawaban
                     </a>
                 </div>

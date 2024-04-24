@@ -19,7 +19,7 @@
                         </ul>
                     </details>
                 </li>
-                <li><a href="/profil">Profil</a></li>
+                <li><a href="/profil">PROFIL</a></li>
             </ul>
         </div>
     </nav>
