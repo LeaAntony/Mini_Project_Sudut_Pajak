@@ -3,7 +3,7 @@
 @section('title', 'Kalkulator | Sudut Pajak')
 @section('content')
 
-<link rel="stylesheet" href="./css/page.css">
+<link rel="stylesheet" href="./css/template/page.css">
 
 <div class="my-6">
     <!-- Judul Besar -->

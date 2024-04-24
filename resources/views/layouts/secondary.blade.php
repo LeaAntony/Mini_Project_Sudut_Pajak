@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'My App')</title>
     <link rel="icon" type="image/png" href="/images/favicon.png">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/template/main.css">
     <link rel="stylesheet" href="/css/daisyui/daisyui.min.css">
     <link rel="stylesheet" href="/icons/uicons/css/uicons-thin-rounded.css">
     <link rel="stylesheet" href="/icons/uicons/css/uicons-regular-rounded.css">
