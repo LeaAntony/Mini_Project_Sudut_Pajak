@@ -54,7 +54,7 @@
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wYYnfRmTCvI" frameborder="0"
                         allowfullscreen class="block mt-7"></iframe>
                 </div>
-                <div class="mt-4">
+                <div class="mt-8">
                     <h2 class="text-xl font-semibold mb-4">Akses Link Pembelajaran</h2>
                     <p class="text-gray-700">Anda dapat mengunduh materi perpajakan sesuai dengan apa yang anda butuhkan
                         untuk mengatasi permasalahan perpajakan anda</p>
