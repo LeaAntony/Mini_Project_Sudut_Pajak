@@ -1,7 +1,7 @@
 @extends('layouts.secondary')
 
 @section('title', 'Infografis Pembelajaran PPh')
-@section('judulBreadcrumbs', 'Infografis Pembelajaran PPh')
+@section('judulBreadcrumbs', 'Detail Infografis Pembelajaran PPh')
 @section('breadcrumbs')
 
 <li><a href="/layanan">Layanan</a></li>
