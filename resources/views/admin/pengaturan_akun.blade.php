@@ -101,6 +101,6 @@
     </div>
 </div>
 
-<script src="/js/template/pengaturan_akun.js"></script>
+<script src="/js/pengaturan_akun.js"></script>
 
 @endsection

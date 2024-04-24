@@ -78,6 +78,6 @@
     </div>
 </div>
 
-<script src="/js/template/profil.js"></script>
+<script src="/js/profil.js"></script>
 
 @endsection

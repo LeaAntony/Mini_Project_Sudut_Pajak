@@ -79,6 +79,6 @@
     </div>
 </div>
 
-<script src="/js/template/tipepembelajaran.js"></script>
+<script src="/js/tipepembelajaran.js"></script>
 
 @endsection

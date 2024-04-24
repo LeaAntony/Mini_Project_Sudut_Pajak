@@ -77,6 +77,6 @@
     </div>
 </div>
 
-<script src="/js/template/pilgan.js"></script>
+<script src="/js/pilgan.js"></script>
 
 @endsection
