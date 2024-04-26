@@ -4,8 +4,8 @@
 
 @section('content')
 
-<div class="container mx-auto mb-32">
-    <div class="mx-20 my-10">
+<div class="container mx-auto mb-60">
+    <div class="m-10">
         <div class="flex gap-5">
             <svg class="fill-teal-500" id="kuis" height="64" viewBox="0 0 24 24" width="64"
                 xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
@@ -27,23 +27,32 @@
                         <p class="inline">1 kali</p>
                     </div>
                     <div class="mt-10">
-                        <p class="text-2xl font-bold">
+                        <p class="card-title text-2xl font-bold">
                             Ringkasan percobaan yang anda lakukan
                         </p>
                         <table class="table table-auto table-zebra mt-10">
-                            <thead>
-                                <tr class="text-lg font-bold text-black">
+                            <thead class="text-lg text-black">
+                                <tr>
                                     <th>Status</th>
                                     <th>Nilai/100.00</th>
                                     <th>Evaluasi</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr class="text-base">
-                                    <td>Dikirim Rabu, 24 April 2024</td>
-                                    <td>90.00/100.00</td>
+                            <tbody class="text-base">
+                                <tr class="hover">
+                                    <td class="grid">
+                                        <span>
+                                            Selesai
+                                        </span>
+                                        <span>
+                                            Dikirim Rabu, 24 April 2024
+                                        </span>
+                                    </td>
                                     <td>
-                                        <a href="/kuis/evaluasi" class="link link-hover">Evaluasi</a>
+                                        90.00/100.00
+                                    </td>
+                                    <td>
+                                        <a href="/kuis/evaluasi" class="link">Evaluasi</a>
                                     </td>
                                 </tr>
                             </tbody>

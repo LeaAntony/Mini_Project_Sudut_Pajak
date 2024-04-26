@@ -34,7 +34,7 @@
                             <p class="card-title text-2xl font-bold">Rangkuman Jawaban</p>
                         </div>
                         <div class="mt-10">
-                            <table class="table table-auto hover table-zebra">
+                            <table class="table table-auto table-zebra">
                                 <thead class="text-lg text-black">
                                     <tr>
                                         <th>Pertanyaan</th>
