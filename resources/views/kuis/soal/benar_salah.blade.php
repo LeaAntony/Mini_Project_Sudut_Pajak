@@ -4,8 +4,8 @@
 
 @section('content')
 
-<div class="container mx-auto mb-32">
-    <div class="mx-20 my-10">
+<div class="container mx-auto mb-60">
+    <div class="m-10">
         <div class="flex gap-5">
             <svg class="fill-teal-500" id="kuis" height="64" viewBox="0 0 24 24" width="64"
                 xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
@@ -15,7 +15,7 @@
             <p class="text-2xl font-bold">Kuis PPh 21 : Tes Pemahaman Tentang Pajak Gaji</p>
         </div>
 
-        <div class="container grid grid-cols-4 gap-5 mt-10">
+        <div class="container grid grid-cols-5 gap-5 mt-10">
             {{-- nomor soal --}}
             <div class="card w-full h-fit bg-base-100 border border-2 border-teal-500 shadow-md" id="nomor">
                 <div class="card-body">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             {{-- soal --}}
-            <div class="col-span-2">
+            <div class="col-span-3">
                 <div class="card w-full h-full bg-base-100 border border-2 border-teal-500 shadow-md" id="soal">
                     <div class="card-body">
                         <div class="box-border w-fit h-fit border-2 border-red-500 rounded-lg p-2 self-end">
@@ -75,7 +75,10 @@
             {{-- navigasi --}}
             <div class="card w-full h-fit bg-base-100 border border-2 border-teal-500 shadow-md" id="navigasi">
                 <div class="card-body">
-                    <div class="flex justify-center gap-5">
+                    <div class="self-center">
+                        <p class="card-title">Navigasi Soal</p>
+                    </div>
+                    <div class="flex justify-center gap-3 mt-5">
                         <a class="btn w-12 h-16 p-4 bg-gradient-to-l from-emerald-500 to-blue-500 text-white"
                         href="/kuis/soal/pilgan">
                             1

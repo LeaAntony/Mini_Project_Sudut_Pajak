@@ -4,8 +4,8 @@
 
 @section('content')
 
-<div class="container mx-auto mb-32">
-    <div class="mx-20 my-10">
+<div class="container mx-auto mb-60">
+    <div class="m-10">
         <div class="flex gap-5">
             <svg class="fill-teal-500" id="kuis" height="64" viewBox="0 0 24 24" width="64"
                 xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
@@ -15,14 +15,14 @@
             <p class="text-2xl font-bold">Kuis PPh 21 : Tes Pemahaman Tentang Pajak Gaji</p>
         </div>
 
-        <div class="container grid grid-cols-4 gap-5 mt-10">
+        <div class="container grid grid-cols-5 gap-5 mt-10">
             {{-- rangkuman jawaban --}}
-            <div class="col-span-3">
+            <div class="col-span-4">
                 <div class="card w-full h-full bg-base-100 border border-2 border-teal-500 shadow-md" id="soal">
                     <div class="card-body">
                         <div class="flex justify-between">
-                            <div class="inline">
-                                <a href="/kuis/soal/benar_salah" class="btn px-10">
+                            <div class="">
+                                <a class="btn" href="/kuis/soal/benar_salah">
                                     Kembali
                                 </a>
                             </div>
@@ -31,26 +31,26 @@
                             </div>
                         </div>
                         <div class="mt-10">
-                            <p class="text-xl font-bold">Rangkuman Jawaban</p>
+                            <p class="card-title text-2xl font-bold">Rangkuman Jawaban</p>
                         </div>
                         <div class="mt-10">
-                            <table class="table table-auto table-zebra">
-                                <thead>
-                                    <tr class="text-base text-black">
+                            <table class="table table-auto hover table-zebra">
+                                <thead class="text-lg text-black">
+                                    <tr>
                                         <th>Pertanyaan</th>
                                         <th>Status</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr>
+                                <tbody class="text-base">                                   
+                                    <tr class="hover">
                                         <th>1</th>
                                         <td>Jawaban Disimpan</td>
                                     </tr>
-                                    <tr>
+                                    <tr class="hover">
                                         <th>2</th>
                                         <td>Jawaban Disimpan</td>
                                     </tr>
-                                    <tr>
+                                    <tr class="hover">
                                         <th>3</th>
                                         <td>Jawaban Disimpan</td>
                                     </tr>
@@ -59,27 +59,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-center mt-10">
-                    <a class="btn btn-wide bg-gradient-to-l from-emerald-500 to-blue-500 text-white" 
-                    href="/kuis/hasil_kuis">
-                        Kirim Jawaban
-                    </a>
-                </div>
+                <div class="grid justify-center mt-10">
+                    <div class="">
+                        <a class="btn btn-wide bg-gray-200" href="/kuis/soal/benar_salah">
+                            Kembali ke Soal
+                        </a>
+                    </div>
+                    <div class="mt-5">
+                        <a class="btn btn-wide bg-gradient-to-l from-emerald-500 to-blue-500 text-white" 
+                        href="/kuis/hasil_kuis">
+                            Kirim Jawaban
+                        </a>
+                    </div>
+                </div>                
             </div>
             {{-- navigasi --}}
             <div class="card w-full h-fit bg-base-100 border border-2 border-teal-500 shadow-md" id="navigasi">
                 <div class="card-body">
-                    <div class="flex justify-center gap-5">
+                    <div class="self-center">
+                        <p class="card-title">Navigasi Soal</p>
+                    </div>
+                    <div class="flex justify-center gap-3 mt-5">
                         <a class="btn w-12 h-16 p-4 bg-gradient-to-l from-emerald-500 to-blue-500 text-white"
-                            href="/kuis/soal/pilgan">
+                        href="/kuis/soal/pilgan">
                             1
                         </a>
                         <a class="btn w-12 h-16 p-4 bg-gradient-to-l from-emerald-500 to-blue-500 text-white"
-                            href="/kuis/soal/essai">
+                        href="/kuis/soal/essai">
                             2
                         </a>
                         <a class="btn w-12 h-16 p-4 bg-gradient-to-l from-emerald-500 to-blue-500 text-white"
-                            href="/kuis/soal/benar_salah">
+                        href="/kuis/soal/benar_salah">
                             3
                         </a>
                     </div>
