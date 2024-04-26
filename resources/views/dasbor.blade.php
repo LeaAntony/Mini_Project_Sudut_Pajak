@@ -42,7 +42,7 @@
     <div class="grid grid-cols-2 gap-20 mx-20">
         <div class="my-auto">
             <h2 class="text-4xl font-bold">Sudut Pajak</h2>
-            <p class="leading-relaxed text-justify text-lg my-10">
+            <p class="leading-relaxed text-justify text-base my-10">
                 Kami "sudut pajak" merupakan layanan pajak berbasis website. Saat ini sudut pajak memberikan
                 layanan perpajakan online secara gratis baik konsultasi maupun secara teori dengan tujuan untuk
                 memberikan solusi permasalahan perpajakan oleh wajib pajak yang terdaftar dan yang belum
@@ -58,7 +58,7 @@
 
 {{-- counter --}}
 <div class="bg-gradient-to-b from-emerald-500 to-sky-500 my-24">
-    <div class="grid grid-cols-4 justify-items-center mx-40 py-20">
+    <div class="grid grid-cols-4 justify-items-center mx-20 py-20">
         <div class="relative w-fit">
             <img src="/images/dasbor/count-shape.png" class="w-full">
             <div class="absolute transform -translate-y-1/2 left-5 right-5 top-1/2 pb-5">
@@ -246,7 +246,7 @@
             <h2 class="text-4xl font-bold">
                 Aplikasi Online Pajak Solusi Pintar Mengelola Pajak Anda
             </h2>
-            <p class="text-justify text-lg leading-relaxed my-10">
+            <p class="text-justify text-base leading-relaxed my-10">
                 Mengelola pajak di Indonesia kini semakin mudah. Saatnya hitung, setor, dan lapor pajak perusahaan Anda di satu aplikasi pajak online terpadu
             </p>
             <a class="btn bg-gradient-to-l from-emerald-500 to-sky-500 rounded-full px-10 text-white"
@@ -433,7 +433,7 @@
 </div>
 
 {{-- kontak --}}
-<div class="relative mt-10">
+<div class="relative mt-20">
     <div class="relative z-10">
         <img src="/images/background/contact-bg.jpg" class="w-full h-full">
     </div>
