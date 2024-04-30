@@ -4,8 +4,8 @@
 
 @section('content')
 
-<div class="container w-screen h-screen mx-auto">
-    <div class="mx-20 my-10">
+<div class="container mx-auto mb-60">
+    <div class="m-10">
         <div class="flex gap-5">
             <svg class="fill-teal-500" id="kuis" height="64" viewBox="0 0 24 24" width="64"
                 xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
@@ -18,29 +18,41 @@
         <div class="mt-10">
             <div class="card w-full h-full bg-base-100 border border-2 border-teal-500 shadow-md">
                 <div class="card-body">
-                    <table class="table-auto">
-                        <tr>
-                            <td class="font-bold">Dibuka</td>
-                            <td class="font-bold">:</td>
-                            <td>Senin, 22 April 2024</td>
-                        </tr>
-                        <tr>
-                            <td class="font-bold">Waktu</td>
-                            <td class="font-bold">:</td>
-                            <td>25 menit</td>
-                        </tr>
-                        <tr>
-                            <td class="font-bold">Soal</td>
-                            <td class="font-bold">:</td>
-                            <td>20 soal</td>
-                        </tr>
-                    </table>
-                    <div class="card-actions justify-center mt-20">
-                        <a class="btn bg-gradient-to-l from-emerald-500 to-blue-500 text-white px-20"
-                        href="/kuis/soal/pilgan">
-                            Mulai
-                        </a>
+                    <div class="grid grid-cols-8 gap-5">
+                        <div class="grid gap-1">
+                            <p class="flex justify-between font-bold">
+                                <span>Dibuka</span>
+                                <span>:</span>
+                            </p>
+                            <p class="flex justify-between font-bold">
+                                <span>Waktu</span>
+                                <span>:</span>
+                            </p>
+                            <p class="flex justify-between font-bold">
+                                <span>Soal</span>
+                                <span>:</span>
+                            </p>                            
+                        </div>
+                        <div class="grid col-span-6 gap-1">
+                            <p>Senin, 22 April 2024</p>
+                            <p>25 menit</p>
+                            <p>20 soal</p>
+                        </div>
                     </div>
+                    <div class="grid gap-5 mt-20">
+                        <div class="card-actions justify-center">
+                            <a class="btn btn-wide bg-gradient-to-l from-emerald-500 to-blue-500 text-white"
+                            href="/kuis/soal/pilgan">
+                                Mulai
+                            </a>
+                        </div>
+                        <div class="card-actions justify-center">
+                            <a class="btn btn-wide"
+                            href="/kuis/hasil_kuis">
+                                Lihat Hasil
+                            </a>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </div>
