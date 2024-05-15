@@ -540,7 +540,7 @@
                         <td></td>
                         <td>
                             <x-link_button href="/kalkulator" class="sm:btn-sm md:btn-md lg:btn-lg">Reset</x-link_button>
-                            <x-link_button href="Perhitungan" class="sm:btn-sm md:btn-md lg:btn-lg">Simpan</x-link_button>
+                            <x-link_button href="/kalkulator#Perhitungan" class="sm:btn-sm md:btn-md lg:btn-lg">Simpan</x-link_button>
                         </td>
                     </tr>
                 </table>

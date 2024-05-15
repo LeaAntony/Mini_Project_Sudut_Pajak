@@ -14,7 +14,7 @@
 
 <div class="container-md mx-auto mb-40">
     <div class="grid grid-cols-2 gap-10 ml-20 mt-24">
-        <div class="card bg-base-100 shadow-xl rounded relative" style="width: 920px;">
+        <div class="card bg-base-100 shadow-xl rounded relative p-5" style="width: 920px;">
             <img src="/images/berita/1691555803.jpg" alt="Kuliner">
             <div class="flex items-center px-3 mt-8 text-blue-500">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-5" viewBox="0 0 20 20" fill="currentColor">
@@ -32,7 +32,7 @@
             </div>
             <article class="text-wrap px-8">
                 <p class="card-title text-2xl font-bold text-inherit hover:text-green-500 mt-3">Amsakar Achmad, Terus Dorong Pertumbuhan UMKM Menggerakkan Ekonomi Lokal</p>
-                <p class="text-base text-gray-600 mt-2">Wakil Walikota Kota Batam, Amsakar Achmad, terus memperkuat
+                <p class="text-base text-gray-600 mt-2 text-justify">Wakil Walikota Kota Batam, Amsakar Achmad, terus memperkuat
                     upayanya dalam mendorong pertumbuhan Usaha Mikro, Kecil, dan Menengah (UMKM) sebagai salah satu
                     pilar utama dalam menggerakkan ekonomi lokal. Dalam beberapa tahun terakhir, perhatian yang lebih
                     besar diberikan kepada sektor UMKM sebagai salah satu cara untuk menciptakan lapangan kerja,
