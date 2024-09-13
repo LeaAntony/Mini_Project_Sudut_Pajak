@@ -9,6 +9,6 @@ class BenarSalahController extends Controller
 {
     public function tampilkan()
     {
-        return view('kuis/soal/benar_salah');
+        return view('kuis.soal.benar_salah');
     }
 }

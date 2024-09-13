@@ -10452,7 +10452,7 @@
 			 * parameter - if it is not given, the value of `zeroRecords` will be used
 			 * instead (either the default or given value).
 			 */
-			"sEmptyTable": "No data available in table",
+			"sEmptyTable": "Tidak ada data yang tersedia pada tabel ini",
 	
 	
 			/**
@@ -10469,14 +10469,14 @@
 			 * * `\_PAGE\_` - Current page number
 			 * * `\_PAGES\_` - Total number of pages of data in the table
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ _ENTRIES-TOTAL_",
+			"sInfo": "Menampilkan _START_ sampai _END_ dari _TOTAL_ entri",
 	
 	
 			/**
 			 * Display information string for when the table is empty. Typically the
 			 * format of this string should match `info`.
 			 */
-			"sInfoEmpty": "Showing 0 to 0 of 0 _ENTRIES-TOTAL_",
+			"sInfoEmpty": "Menampilkan 0 sampai 0 dari 0 entri",
 	
 	
 			/**
@@ -10484,7 +10484,7 @@
 			 * to the information (`info`) to give an idea of how strong the filtering
 			 * is. The variable _MAX_ is dynamically updated.
 			 */
-			"sInfoFiltered": "(filtered from _MAX_ total _ENTRIES-MAX_)",
+			"sInfoFiltered": "(disaring dari _MAX_ total entri)",
 	
 	
 			/**
@@ -10554,7 +10554,7 @@
 			 * control over where it appears in the string. If "_INPUT_" is not given
 			 * then the input box is appended to the string automatically.
 			 */
-			"sSearch": "Search:",
+			"sSearch": "Pencarian:",
 	
 	
 			/**
@@ -10584,7 +10584,7 @@
 			 * displayed after filtering. `emptyTable` is shown when there is simply no
 			 * information in the table at all (regardless of filtering).
 			 */
-			"sZeroRecords": "No matching records found"
+			"sZeroRecords": "Tidak ditemukan data yang cocok"
 		},
 	
 	

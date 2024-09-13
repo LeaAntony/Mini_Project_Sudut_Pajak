@@ -90,8 +90,8 @@
         <!-- Menu Pencarian -->
         <div class="flex flex-wrap -mx-4 card-wrapper">
             <div class="mx-auto w-full ml-4 mb-4 justify-self-center">
-                <form action="#" method="GET">
-                    <input type="text" name="search" placeholder="Cari Spesialis disini"
+                <form action="/konsultasi/cari" method="GET">
+                    <input type="text" name="pencarian" placeholder="Cari Spesialis disini"
                         class="w-full h-10 pl-2 pr-12 py-3 text-0.5xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-l-lg rounded-r-lg border border-gray-300">
                 </form>
             </div>
@@ -100,9 +100,8 @@
 
         <div>
             <p class="font-bold text-2xl">Selamat Datang di Konsultasi</p></br>
-            <p class="text-sm">Ingin melakukan konsultasi dengan pakar pajak? tekan link dibawah ini</p></br>
+            <p class="text-sm">Ingin melakukan konsultasi dengan pakar pajak? cari pakar yang sesuai dibawah ini!</p></br>
         </div>
-        <button class="btn btn-sm btn-info text-white">Chat Konsultasi</button>
         </br>
         </br>
 
@@ -113,35 +112,25 @@
         </div>
 
         <div class="flex">
-            <!-- Pakar Pajak 1 -->
-            <div class="mr-4 text">
-                <img src="/images/konsultasi/pakar-1.jpg" class="w-32 h-32" alt="Pakar Pajak">
-            </div>
-            <div class="mr-4">
-                <p class="font-bold">Drs. Hakase Miurae</p>
-                <p>PPh badan</p>
-                <div class="ml-4">
-                    <span class="flex items-center">
-                        <i class="fa-solid fa-suitcase"></i>
-                        <p class="font-bold text-sm ml-2">5 tahun</p>
-                    </span>
+            @forelse ($konsultan as $index => $data)
+                <!-- Pakar Pajak 1 -->
+                <div class="mr-5 text">
+                    <img src="{{ asset($data->foto_profil_konsultan) }}" class="w-32 h-32 object-cover rounded" alt="Pakar Pajak">
                 </div>
-            </div>
-
-            <!-- Pakar Pajak 2 -->
-            <div class="ml-20">
-                <img src="/images/konsultasi/pakar-5.png" class="w-32 h-32" alt="Pakar Pajak">
-            </div>
-            <div class="ml-4">
-                <p class="font-bold">Hinata Hyuga</p>
-                <p>PPh Pasal 21</p>
-                <div class="ml-4">
-                    <span class="flex items-center">
-                        <i class="fa-solid fa-suitcase"></i>
-                        <p class="font-bold text-sm ml-2">3 tahun</p>
-                    </span>
+                <div class="mr-4">
+                    <p class="font-bold">{{ $data->nama_konsultan }}</p>
+                    <p>{{ $data->kategori_konsultan }}</p>
+                    <div class="">
+                        <span class="flex items-center">
+                            <i class="fa-solid fa-suitcase"></i>
+                            <p class="font-bold text-sm ml-2">{{ $data->jenjang_karir_konsultan }}</p>
+                        </span>
+                    </div>
+                    <a href="{{ url('/konsultasi/'.$data->id_konsultan.'/profil_konsultan') }}" class="btn btn-info text-white btn-sm text-xs mt-6">Selengkapnya</a>
                 </div>
-            </div>
+            @empty
+                <div class="col-span-3">Tidak ada Konsultan yang tersedia</div>
+            @endforelse
         </div>
         </br>
         <!-- End Rekomendasi Pakar Pajak -->
@@ -152,8 +141,9 @@
             <p class="text-sm">Pilih kategori Pakar Pajak yang sesuai kondisi</p></br>
         </div>
 
-        <a href="/konsultasi/detail_kategori">
-            <div class="flex">
+        
+        <div class="flex">
+            <a href="/konsultasi/kategori_konsultan?kategori=PPh Badan">
                 <!-- Kategori 1 -->
                 <div class="flex flex-col items-center mr-8">
                     <img src="/images/konsultasi/3_badan.png" class="w-30 h-30" alt="Kategori 1">
@@ -161,42 +151,52 @@
                         <p class=" text-center text-sm">PPh Badan</p>
                     </div>
                 </div>
+            </a>
 
-                <!-- Kategori 2 -->
+            <a href="/konsultasi/kategori_konsultan?kategori=PPh Tahunan Orang Pribadi">
+            <!-- Kategori 2 -->
                 <div class="flex flex-col items-center mr-8">
                     <img src="/images/konsultasi/1_tahunanPribadi.png" class="w-20 h-20" alt="Kategori 2">
                     <div class="mt-2">
                         <p class="text-center text-sm">PPh tahunan orang pribadi</p>
                     </div>
                 </div>
+            </a>
 
-                <!-- Kategori 3 -->
-                <div class="flex flex-col items-center mr-8">
-                    <img src="/images/konsultasi/4_pasal21.png" class="w-30 h-30" alt="Kategori 3">
-                    <div class="mt-2">
-                        <p class="text-center text-sm">PPh Pasal 21</p>
-                    </div>
-                </div>
-
-                <!-- Kategori 4 -->
-                <div class="flex flex-col items-center mr-8">
-                    <img src="/images/konsultasi/2_22dan23.png" class="w-20 h-20" alt="Kategori 4">
-                    <div class="mt-2">
-                        <p class="text-center text-sm">PPh Pasal 22 dan 23</p>
-                    </div>
-                </div>
-
-                <!-- Kategori 5 -->
-                <div class="flex flex-col items-center mr-8">
-                    <img src="/images/konsultasi/5_pasal25.png" class="w-30 h-30" alt="Kategori 5">
-                    <div class="mt-2">
-                        <p class="text-center text-sm">PPh Pasal 25</p>
-                    </div>
+            <a href="/konsultasi/kategori_konsultan?kategori=PPh Pasal 21">
+            <!-- Kategori 3 -->
+            <div class="flex flex-col items-center mr-8">
+                <img src="/images/konsultasi/4_pasal21.png" class="w-30 h-30" alt="Kategori 3">
+                <div class="mt-2">
+                    <p class="text-center text-sm">PPh Pasal 21</p>
                 </div>
             </div>
+            </a>
+
+            <a href="/konsultasi/kategori_konsultan?kategori=PPh Pasal 22 & 23">
+            <!-- Kategori 4 -->
+            <div class="flex flex-col items-center mr-8">
+                <img src="/images/konsultasi/2_22dan23.png" class="w-20 h-20" alt="Kategori 4">
+                <div class="mt-2">
+                    <p class="text-center text-sm">PPh Pasal 22 dan 23</p>
+                </div>
+            </div>
+            </a>
+
+            <a href="/konsultasi/kategori_konsultan?kategori=PPh Pasal 25">
+            <!-- Kategori 5 -->
+            <div class="flex flex-col items-center mr-8">
+                <img src="/images/konsultasi/5_pasal25.png" class="w-30 h-30" alt="Kategori 5">
+                <div class="mt-2">
+                    <p class="text-center text-sm">PPh Pasal 25</p>
+                </div>
+            </div>
+            </a>
+        </div>
+        
     </div>
 </div>
-</a>
+
 <!-- End Kategori Pakar Pajak -->
 
 <div class="w-full p-20 mx-auto">

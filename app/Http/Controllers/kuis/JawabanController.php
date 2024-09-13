@@ -9,6 +9,6 @@ class JawabanController extends Controller
 {
     public function tampilkan()
     {
-        return view('kuis/jawaban');
+        return view('kuis.jawaban');
     }
 }

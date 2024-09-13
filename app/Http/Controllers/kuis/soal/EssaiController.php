@@ -9,6 +9,6 @@ class EssaiController extends Controller
 {
     public function tampilkan()
     {
-        return view('kuis/soal/essai');
+        return view('kuis.soal.essai');
     }
 }

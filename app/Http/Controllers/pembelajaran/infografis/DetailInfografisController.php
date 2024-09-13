@@ -9,6 +9,6 @@ class DetailInfografisController extends Controller
 {
     public function tampilkan()
     {
-        return view('pembelajaran/infografis/detail_infografis');
+        return view('pembelajaran.infografis.detail_infografis');
     }
 }

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/template/title.css">
     <link rel="stylesheet" href="/css/template/footer.css">
     <script src="/js/daisyui/daisyui.min.js"></script>
+    <script src="/js/jquery/jquery-3.7.1.js"></script>
     
 </head>
 <body class="bg-slate-100 flex flex-col min-h-screen poppins">

@@ -9,6 +9,6 @@ class HasilKuisController extends Controller
 {
     public function tampilkan()
     {
-        return view('kuis/hasil_kuis');
+        return view('kuis.hasil_kuis');
     }
 }

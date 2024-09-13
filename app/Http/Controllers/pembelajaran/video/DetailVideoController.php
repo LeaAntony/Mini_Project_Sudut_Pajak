@@ -9,6 +9,6 @@ class DetailVideoController extends Controller
 {
     public function tampilkan()
     {
-        return view('pembelajaran/video/detail_video');
+        return view('pembelajaran.video.detail_video');
     }
 }

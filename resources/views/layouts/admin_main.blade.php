@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/daisyui/daisyui.min.css">
     <link rel="stylesheet" href="/icons/uicons/css/uicons-thin-rounded.css">
     <link rel="stylesheet" href="/icons/uicons/css/uicons-regular-rounded.css">
+    <script src="/js/jquery/jquery-3.7.1.js"></script>
     <script src="/js/daisyui/daisyui.min.js"></script>
     <script defer src="/js/alpinejs/intersect_alpinejs.min.js"></script>
     <script defer src="/js/alpinejs/alpinejs.min.js"></script>
@@ -29,47 +30,12 @@
         @include('components.admin_footer')
     </footer>
 
-    <script>
-        const sidebar = document.querySelector("aside");
-        const maxSidebar = document.querySelector(".max")
-        const miniSidebar = document.querySelector(".mini")
-        const roundout = document.querySelector(".roundout")
-        const maxToolbar = document.querySelector(".max-toolbar")
-        const logo = document.querySelector('.logo')
-        const content = document.querySelector('.content')
-
-        function openNav() {
-            if (sidebar.classList.contains('-translate-x-48')) {
-                // max sidebar 
-                sidebar.classList.remove("-translate-x-48")
-                sidebar.classList.add("translate-x-none")
-                maxSidebar.classList.remove("hidden")
-                maxSidebar.classList.add("flex")
-                miniSidebar.classList.remove("flex")
-                miniSidebar.classList.add("hidden")
-                maxToolbar.classList.add("translate-x-0")
-                maxToolbar.classList.remove("translate-x-24", "scale-x-0")
-                logo.classList.remove("ml-12")
-                content.classList.remove("ml-12")
-                content.classList.add("ml-12", "md:ml-60")
-            } else {
-                // mini sidebar
-                sidebar.classList.add("-translate-x-48")
-                sidebar.classList.remove("translate-x-none")
-                maxSidebar.classList.add("hidden")
-                maxSidebar.classList.remove("flex")
-                miniSidebar.classList.add("flex")
-                miniSidebar.classList.remove("hidden")
-                maxToolbar.classList.add("translate-x-24", "scale-x-0")
-                maxToolbar.classList.remove("translate-x-0")
-                logo.classList.add('ml-12')
-                content.classList.remove("ml-12", "md:ml-60")
-                content.classList.add("ml-12")
-
-            }
-
-        }
-    </script>
+    <script src="/js/template/sidebar.js"></script>
+    <script src="/js/template/alert.js"></script>
+    <script src="/js/jam.js"></script>
+    <script src="/js/sweetalert/sweetalert2@11.js"></script>
+    <script src="/js/template/sweetAlertHapus.js"></script>
+    <script src="/js/template/sweetAlertKeluar.js"></script>
 </body>
 
 </html>

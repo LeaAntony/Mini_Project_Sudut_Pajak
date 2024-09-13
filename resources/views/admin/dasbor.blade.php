@@ -13,44 +13,44 @@
             <div class="stats stats-vertical lg:stats-horizontal">
                 <div class="stat">
                     <div class="stat-title">Berita</div>
-                    <div class="stat-value text-green-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:36]'">
-                        <span class="supports-[counter-set]:sr-only text-green-400">36</span>
+                    <div class="stat-value text-green-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:{{ $jumlahBerita }}]'">
+                        <span class="supports-[counter-set]:sr-only text-green-400">{{ $jumlahBerita }}</span>
                     </div>
                 </div>
                 <div class="stat">
                     <div class="stat-title">Bidang Usaha</div>
-                    <div class="stat-value text-emerald-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:30]'">
-                        <span  class="supports-[counter-set]:sr-only text-cyan-500">30</span>
+                    <div class="stat-value text-emerald-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:{{ $jumlahBidangUsaha }}]'">
+                        <span  class="supports-[counter-set]:sr-only text-cyan-500">{{ $jumlahBidangUsaha }}</span>
                     </div>
                 </div>
                 <div class="stat">
                     <div class="stat-title">Konsultan</div>
-                    <div class="stat-value text-teal-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:40]'">
-                        <span class="supports-[counter-set]:sr-only text-blue-500">40</span>
+                    <div class="stat-value text-teal-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:{{ $jumlahKonsultan }}]'">
+                        <span class="supports-[counter-set]:sr-only text-blue-500">{{ $jumlahKonsultan }}</span>
                     </div>
                 </div>
                 <div class="stat">
                     <div class="stat-title">Kuis</div>
-                    <div class="stat-value text-cyan-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:20]'">
-                        <span class="supports-[counter-set]:sr-only text-blue-500">20</span>
+                    <div class="stat-value text-cyan-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:{{ $jumlahKuis }}]'">
+                        <span class="supports-[counter-set]:sr-only text-blue-500">{{ $jumlahKuis }}</span>
                     </div>
                 </div>
                 <div class="stat">
                     <div class="stat-title">Peraturan Pajak</div>
-                    <div class="stat-value text-sky-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:12]'">
-                        <span class="supports-[counter-set]:sr-only text-blue-300">12</span>
+                    <div class="stat-value text-sky-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:{{ $jumlahPeraturanPajak }}]'">
+                        <span class="supports-[counter-set]:sr-only text-blue-300">{{ $jumlahPeraturanPajak }}</span>
                     </div>
                 </div>
                 <div class="stat">
                     <div class="stat-title">Pelatihan</div>
-                    <div class="stat-value text-blue-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:16]'">
-                        <span class="supports-[counter-set]:sr-only text-blue-400">16</span>
+                    <div class="stat-value text-blue-400 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:{{ $jumlahPelatihan }}]'">
+                        <span class="supports-[counter-set]:sr-only text-blue-400">{{ $jumlahPelatihan }}</span>
                     </div>
                 </div>
                 <div class="stat">
                     <div class="stat-title">Pembelajaran</div>
-                    <div class="stat-value text-blue-500 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:16]'">
-                        <span class="supports-[counter-set]:sr-only text-blue-500">16</span>
+                    <div class="stat-value text-blue-500 transition-[_--num] duration-[5s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:{{ $jumlahPembelajaran }}]'">
+                        <span class="supports-[counter-set]:sr-only text-blue-500">{{ $jumlahPembelajaran }}</span>
                     </div>
                 </div>
             </div>

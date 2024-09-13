@@ -9,6 +9,6 @@ class InfografisController extends Controller
 {
     public function tampilkan()
     {
-        return view('pembelajaran/infografis/infografis');
+        return view('pembelajaran.infografis.infografis');
     }
 }

@@ -3,40 +3,44 @@
 @section('title', 'Tambah Kuis | Sudut Pajak')
 @section('content')
 
-<link rel="stylesheet" href="/css/datatables/datatables.datatables.css">
-<link rel="stylesheet" href="/css/datatables/datatables.tailwindcss.css">
-<script src="/js/jquery/jquery-3.7.1.js"></script>
-<script src="/js/datatables/datatables.js"></script>
-<script src="/js/datatables/datatables.tailwindcss.js"></script>
-
-@php
-    
-@endphp
 <x-admin_top_panel>Tambah Kuis</x-admin_top_panel>
 <div class="place-items-center">
     <div class="card bg-base-100 shadow-xl mx-16 overflow-visible -mt-10">
+        <x-back_link_button href="{{ url()->previous() }}" class="h-10 w-24 mx-8 mt-8">Kembali</x-back_link_button>
         <div class="card-body w-full">
             <h2 class="card-title">Form Tambah Kuis</h2>
-            <form action="/admin/kuis/soal/tambah_soal">
+            <form action="{{ route('kuis.store') }}" method="POST">
+                @csrf
+
                 <label class="form-control w-full">
                     <div class="label">
                         <span class="label-text">Judul</span>
                     </div>
-                    <input type="text" placeholder="Judul Kuis" class="input input-accent w-full" />
+                    <input required type="text" name="judul_kuis" placeholder="Judul Kuis" class="input input-accent w-full" />
+                    <x-input-error :messages="$errors->get('judul_kuis')" class="mt-2" />
                 </label>
                 <label class="form-control w-full">
                     <div class="label">
                         <span class="label-text">Waktu</span>
                     </div>
-                    <input type="text" placeholder="Waktu Kuis" class="input input-accent w-full" />
+                    <input required type="number" name="waktu_kuis" placeholder="Waktu Kuis" class="input input-accent w-full" />
+                    <span class="label-text text-sm text-red-400">*Dalam menit</span>
+                    <x-input-error :messages="$errors->get('waktu_kuis')" class="mt-2" />
                 </label>
+                <input required type="hidden" name="jumlah_soal_kuis" placeholder="Jumlah Soal Kuis" class="input input-accent w-full" value="0" />
                 <label class="form-control w-full">
                     <div class="label">
-                        <span class="label-text">Jumlah Soal</span>
+                        <span class="label-text">Status</span>
                     </div>
-                    <input type="text" placeholder="Jumlah Soal Kuis" class="input input-accent w-full" />
+                    <div>
+                        <input type="radio" name="status_kuis" value="Aktif" class="radio radio-info" checked /> Aktif
+                        <input type="radio" name="status_kuis" value="Non-Aktif" class="radio radio-info" /> Non-Aktif
+                    </div>
+                    <x-input-error :messages="$errors->get('status_kuis')" class="mt-2" />
                 </label>
-                <x-button class="sm:btn-sm md:btn-md lg:btn-lg mt-5">Tambah</x-button>
+                <div class="text-right">
+                    <x-button type="submit" class="sm:btn-sm md:btn-md lg:btn-lg mt-5">Tambah</x-button>
+                </div>
             </form>
         </div>
     </div>

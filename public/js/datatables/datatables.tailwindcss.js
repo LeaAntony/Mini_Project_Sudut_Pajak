@@ -82,7 +82,7 @@ $.extend( true, DataTable.ext.classes, {
 	table: 'dataTable min-w-full align-middle',
 	thead: {
 		row: 'bg-gradient-to-r from-green-400 to-blue-500',
-		cell: 'text-gray-900 font-semibold text-left'
+		cell: 'text-gray-900 font-semibold dt-head-left'
 	},
 	tbody: {
 		row: 'even:bg-gray-50',

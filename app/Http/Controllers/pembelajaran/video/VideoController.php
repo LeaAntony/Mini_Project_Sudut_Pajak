@@ -9,6 +9,6 @@ class VideoController extends Controller
 {
     public function tampilkan()
     {
-        return view('pembelajaran/video/video');
+        return view('pembelajaran.video.video');
     }
 }

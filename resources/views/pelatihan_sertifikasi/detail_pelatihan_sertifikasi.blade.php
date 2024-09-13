@@ -14,17 +14,15 @@
 
 <div class="container mx-auto">
     <div class="mt-20 mb-10 text-center">
-        <p class="text-sky-800 font-bold text-4xl">Mengapa kita harus mengikuti <br>Pelatihan Atau Sertifikasi</p></br>
-        <p class="text-1.8xl">Jadilah ahli pajak dan memanfaatkan kesempatan ini untuk mengembangkan karier anda.<br>
-            Ikuti pelatihan dan sertifikasi pajak yang befokus pada peraturan perpajakan yang berlaku saat ini.
-            Pemahaman mendalam tentang dunia <br>perpajakan dan strategi manajemen risiko pajak</p>
+        <div class="text-sky-800 font-bold text-4xl mb-5">{{ $pelatihan->judul_pelatihan }}</div>
+        <p class="text-1.8xl">{{ $pelatihan->deskripsi_pelatihan }}</p>
     </div>
 
     <div class="flex justify-center space-x-6">
 
         <div class="card bg-slate-100 w-100 ">
             <div class="card-body p-6">
-                <h2 class="text-xl font-semibold mb-4 mt-6">Unduh Materi PDF</h2>
+                <a href="{{ url('/lihat_pdf/'.$pelatihan->pdf_pelatihan) }}" class="text-xl font-semibold mb-4 mt-6 hover:text-blue-400">Unduh Materi PDF</a>
                 <p class="text-gray-700">Anda dapat mengunduh materi perpajakan sesuai dengan apa yang anda butuhkan
                     untuk mengatasi permasalahan perpajakan anda</p>
                 <div class="card-actions justify-end mt-4">
@@ -37,7 +35,7 @@
 
         <div class="card bg-slate-100 w-100 ">
             <div class="card-body p-6">
-                <h2 class="text-xl font-semibold mb-4 mt-6">Unduh Materi PPT</h2>
+                <a href="{{ $pelatihan->ppt_pelatihan }}" class="text-xl font-semibold mb-4 mt-6 hover:text-blue-400">Unduh Materi PPT</a>
                 <p class="text-gray-700">Anda dapat mengunduh materi perpajakan sesuai dengan apa yang anda butuhkan
                     untuk mengatasi permasalahan perpajakan anda</p>
                 <div class="card-actions justify-end mt-4">
@@ -51,11 +49,11 @@
         <div class="card bg-slate-100 w-100 ">
             <div class="card-body p-6">
                 <div class="flex justify-center">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wYYnfRmTCvI" frameborder="0"
+                    <iframe class="h-72 w-[100%]" src="{{ $pelatihan->link_pelatihan }}" frameborder="0"
                         allowfullscreen class="block mt-7"></iframe>
                 </div>
                 <div class="mt-8">
-                    <h2 class="text-xl font-semibold mb-4">Akses Link Pembelajaran</h2>
+                    <a href="{{ $pelatihan->link_pelatihan }}" class="text-xl font-semibold mb-4 mt-6 hover:text-blue-400">Akses Link Pembelajaran</a>
                     <p class="text-gray-700">Anda dapat mengunduh materi perpajakan sesuai dengan apa yang anda butuhkan
                         untuk mengatasi permasalahan perpajakan anda</p>
                     <div class="card-actions justify-end mt-4">

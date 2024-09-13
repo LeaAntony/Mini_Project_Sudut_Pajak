@@ -3,12 +3,6 @@
 @section('title', 'Detail Hasil Kuis | Sudut Pajak')
 @section('content')
 
-<link rel="stylesheet" href="/css/datatables/datatables.datatables.css">
-<link rel="stylesheet" href="/css/datatables/datatables.tailwindcss.css">
-<script src="/js/jquery/jquery-3.7.1.js"></script>
-<script src="/js/datatables/datatables.js"></script>
-<script src="/js/datatables/datatables.tailwindcss.js"></script>
-
 <x-admin_top_panel>Detail Hasil Kuis</x-admin_top_panel>
 <div class="place-items-center">
     <div class="card bg-base-100 shadow-xl mx-16 overflow-visible -mt-10">
@@ -128,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <x-button class="sm:btn-sm md:btn-md lg:btn-lg">Selesai</x-button>
+                <x-button type="submit" class="sm:btn-sm md:btn-md lg:btn-lg">Selesai</x-button>
             </form>
         </div>
     </div>

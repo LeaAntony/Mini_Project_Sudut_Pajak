@@ -9,6 +9,6 @@ class DetailForumController extends Controller
 {
     public function tampilkan()
     {
-        return view('forum/detail_forum');
+        return view('forum.detail_forum');
     }
 }

@@ -9,6 +9,6 @@ class PilganController extends Controller
 {
     public function tampilkan()
     {
-        return view('kuis/soal/pilgan');
+        return view('kuis.soal.pilgan');
     }
 }

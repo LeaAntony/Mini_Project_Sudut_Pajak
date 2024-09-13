@@ -15,25 +15,23 @@
         <div class="container mx-auto px-4 py-8">
             <div class="max-w-lg mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
                 <div class="px-4 py-6">
+                    <a href="{{ url()->previous() }}" class="btn bg-stone-300">Kembali</a>
                     <div class="flex justify-center">
-                        <img src="/images/konsultasi/pakar-1.jpg" class="w-32 h-32 rounded-full" alt="Pakar">
+                        <img src="{{ asset($konsultan->foto_profil_konsultan) }}" class="w-32 h-32 object-cover rounded-full" alt="Pakar">
                     </div>
-                    <h2 class="text-center mt-4 text-xl font-semibold">Drs. Hakase Miurae</h2>
-                    <p class="text-center text-sm text-gray-600">PPh Badan</p>
-                    <p class="text-center text-sm text-gray-600">5 tahun</p>
+                    <h2 class="text-center mt-4 text-xl font-semibold">{{ $konsultan->nama_konsultan }}</h2>
+                    <p class="text-center text-sm text-gray-600">{{ $konsultan->kategori_konsultan }}</p>
                     <div class="text-gray-700 mt-6">
-                        <p class="text-sm"><span class="font-semibold">Bio:</span> Konsultan berpengalaman
-                            dan terampil dalam bidang PPh Badan. Dengan lima tahun pengalaman di bidang ini, dan
-                            telah berhasil membantu berbagai klien dalam mengelola dan memecahkan masalah perpajakan.
-                            Keahlian dalam memahami kode etik dan regulasi pajak menjadi pilihan yang sangat tepat
-                            untuk memberikan saran pajak yang akurat dan efektif. </p>
-                        <p class="text-sm mt-2"><span class="font-semibold">Email:</span> HakaseMiurae@gmail.com</p>
-                        <p class="text-sm mt-2"><span class="font-semibold">Jenjang Karir:</span> Analisis Keuangan, Senior Analisis Keuangan.</p>
-                        <p class="text-sm mt-2"><span class="font-semibold">Alumnus:</span> Universitas Indonesia</p>
+                        <p class="text-sm"><span class="font-semibold">Bio:</span> {{ $konsultan->bio_konsultan }}</p>
+                        <p class="text-sm mt-2"><span class="font-semibold">Email:</span> {{ $konsultan->email_konsultan }}</p>
+                        <p class="text-sm mt-2"><span class="font-semibold">Nomor:</span> {{ $konsultan->nomor_konsultan }}</p>
+                        <p class="text-sm mt-2"><span class="font-semibold">Jenjang Karir:</span> {{ $konsultan->jenjang_karir_konsultan }}</p>
+                        <p class="text-sm mt-2"><span class="font-semibold">Alumnus:</span> {{ $konsultan->alumnus_konsultan }}</p>
                     </div>
                 </div>
                 <div class="px-4 pb-4">
-                    <a href="/konsultasi/chat" class="w-full btn btn-sm btn-info text-white">Chat</a>
+                    <a href="{{ url('https://wa.me/'.$konsultan->nomor_konsultan) }}" class="w-full btn btn-sm bg-green-400 text-white">Whatsapp</a>
+                    <a href="{{ url('https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to='.$konsultan->email_konsultan) }}t" class="w-full btn btn-sm bg-red-400 text-white">Email</a>
                 </div>
             </div>
         </div>

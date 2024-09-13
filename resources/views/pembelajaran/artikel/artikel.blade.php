@@ -34,12 +34,7 @@
             <br>
             <img src="/images/pembelajaran/shop.jpg" alt="Card Image" class="card-image" style="width: 80%; margin-top: 15px; margin-left: 60px;">
             <br>
-            <p class="text-sm text-gray-600 mt-2">Pajak Penghasilan (PPh) merupakan kewajiban yang tak terhindarkan bagi Usaha Mikro, Kecil, dan Menengah
-                (UMKM) di industri fashion. Bagaimana PPh memengaruhi aliran kas (cash flow) merupakan perhatian serius
-                bagi para pelaku usaha ini.
-                Dalam industri fashion yang dinamis, setiap penerimaan dan pengeluaran memiliki dampak signifikan
-                terhadap kelangsungan bisnis. PPh menjadi salah satu faktor yang dapat mengganggu keseimbangan aliran
-                kas, terutama jika tidak dikelola dengan bijak.  <a href="/pembelajaran/artikel/detail_artikel" class="text-blue-500">read more</a></p>
+            <p class="text-sm text-gray-600 mt-2">Pajak Penghasilan (PPh) merupakan kewajiban yang tak terhindarkan bagi Usaha Mikro, Kecil, dan Menengah (UMKM) di industri fashion. Bagaimana PPh memengaruhi aliran kas (cash flow) merupakan perhatian serius bagi para pelaku usaha ini. Dalam industri fashion yang terhadap kelangsungan bisnis. PPh menjadi salah satu faktor yang dapat mengganggu keseimbangan aliran kas, terutama jika tidak dikelola dengan bijak.  <a href="/pembelajaran/artikel/detail_artikel" class="text-blue-500">read more</a></p>
             <div class="flex items-center mt-4 text-blue-500">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M5 4a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H5zm10 12H5V8h10v8zm-3-7a1 1 0 011-1h1a1 1 0 110 2h-1a1 1 0 01-1-1zm-5 0a1 1 0 011-1h1a1 1 0 110 2H7a1 1 0 01-1-1z" />

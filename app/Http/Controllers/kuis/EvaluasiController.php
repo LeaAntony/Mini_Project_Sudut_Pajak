@@ -9,6 +9,6 @@ class EvaluasiController extends Controller
 {
     public function tampilkan()
     {
-        return view('kuis/evaluasi');
+        return view('kuis.evaluasi');
     }
 }

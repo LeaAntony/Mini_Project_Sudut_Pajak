@@ -25,4 +25,6 @@
     </div>
 </body>
 
+<script src="/js/template/alert.js"></script>
+
 </html>

@@ -9,6 +9,6 @@ class DetailKuisController extends Controller
 {
     public function tampilkan()
     {
-        return view('kuis/detail_kuis');
+        return view('kuis.detail_kuis');
     }
 }

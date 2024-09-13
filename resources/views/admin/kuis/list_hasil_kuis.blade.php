@@ -5,7 +5,6 @@
 
 <link rel="stylesheet" href="/css/datatables/datatables.datatables.css">
 <link rel="stylesheet" href="/css/datatables/datatables.tailwindcss.css">
-<script src="/js/jquery/jquery-3.7.1.js"></script>
 <script src="/js/datatables/datatables.js"></script>
 <script src="/js/datatables/datatables.tailwindcss.js"></script>
 

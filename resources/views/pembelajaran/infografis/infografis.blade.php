@@ -33,8 +33,7 @@
                     alt="infografis menghitung pph 21" style="max-width: 100%; height: 690px;" /></figure>
             <div class="card-body">
                 <a href="/pembelajaran/infografis/detail_infografis">
-                    <h2 class="card-title">Menghitung PPh Pasal 21 dengan
-                        penghasilan Netto Disetahunkan.</h2>
+                    <h2 class="card-title">Menghitung PPh Pasal 21 dengan penghasilan Netto Disetahunkan.</h2>
                 </a>
                 <div class="card-actions justify-end">
                 </div>

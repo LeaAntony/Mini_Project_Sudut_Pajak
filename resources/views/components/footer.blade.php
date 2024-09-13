@@ -36,9 +36,9 @@
     </nav>
     <nav class="mt-8 col-start-11 col-span-2">
         <h6 class="footer-title text-black">KEBIJAKAN PRIVASI</h6>
-        <a href="/dasbor#kontakKami" class="link link-hover link-accent text-stone-400">Kontak</a>
-        <a href="/masuk" class="link link-hover link-accent text-stone-400">Masuk</a>
-        <a href="/daftar" class="link link-hover link-accent text-stone-400">Daftar</a>
+        <a href="/#kontakKami" class="link link-hover link-accent text-stone-400">Kontak</a>
+        <a href="/register" class="link link-hover link-accent text-stone-400">Masuk</a>
+        <a href="/login" class="link link-hover link-accent text-stone-400">Daftar</a>
     </nav>
 </footer>
 <div class="footer-bottom text-center py-5">

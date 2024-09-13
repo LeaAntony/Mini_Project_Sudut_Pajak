@@ -55,8 +55,7 @@
             </div>
             <div class="card-body">
                 <!-- Menambahkan kelas card-title untuk menargetkan efek hover -->
-                <h2 class="card-title text-lg font-medium"><strong>Tips dan Trik! Cara Menghitung Pajak Penghasilan
-                        (PPh) dengan Mudah</strong></h2>
+                <h2 class="card-title text-lg font-medium"><strong>Tips dan Trik! Cara Menghitung Pajak Penghasilan (PPh) dengan Mudah</strong></h2>
             </div>
         </div>
         <!-- Card 2 -->

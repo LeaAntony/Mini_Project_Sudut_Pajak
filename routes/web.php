@@ -1,47 +1,19 @@
 <?php
 
-use App\Http\Controllers\admin\berita\EditBeritaController;
-use App\Http\Controllers\admin\berita\ListBeritaController;
-use App\Http\Controllers\admin\berita\TambahBeritaController;
-use App\Http\Controllers\admin\bidang_usaha\EditBidangUsahaController;
-use App\Http\Controllers\admin\bidang_usaha\ListBidangUsahaController;
-use App\Http\Controllers\admin\bidang_usaha\TambahBidangUsahaController;
+use App\Http\Controllers\admin\AdminBeritaController;
+use App\Http\Controllers\admin\AdminBidangUsahaController;
+use App\Http\Controllers\admin\AdminKonsultanController;
+use App\Http\Controllers\admin\AdminKuisController;
+use App\Http\Controllers\admin\AdminPelatihanController;
+use App\Http\Controllers\admin\AdminPembelajaranController;
+use App\Http\Controllers\admin\AdminPeraturanPajakController;
+use App\Http\Controllers\admin\AdminSoalController;
 use App\Http\Controllers\admin\DasborAdminController;
-use App\Http\Controllers\admin\Konsultan\EditKonsultanController;
-use App\Http\Controllers\admin\Konsultan\ListKonsultanController;
-use App\Http\Controllers\admin\Konsultan\TambahKonsultanController;
 use App\Http\Controllers\admin\kuis\DetailHasilKuisController;
-use App\Http\Controllers\admin\kuis\EditKuisController;
 use App\Http\Controllers\admin\kuis\ListHasilKuisController;
-use App\Http\Controllers\admin\kuis\ListKuisController;
-use App\Http\Controllers\admin\kuis\soal\EditSoalController;
-use App\Http\Controllers\admin\kuis\soal\ListSoalController;
-use App\Http\Controllers\admin\kuis\soal\TambahSoalController;
-use App\Http\Controllers\admin\kuis\TambahKuisController;
-use App\Http\Controllers\admin\pajak\EditPajakController;
-use App\Http\Controllers\admin\pajak\ListPajakController;
-use App\Http\Controllers\admin\pajak\TambahPajakController;
-use App\Http\Controllers\admin\pelatihan\EditPelatihanController;
-use App\Http\Controllers\admin\pelatihan\ListPelatihanController;
-use App\Http\Controllers\admin\pelatihan\TambahPelatihanController;
-use App\Http\Controllers\admin\pembelajaran\EditPembelajaranController;
-use App\Http\Controllers\admin\pembelajaran\ListPembelajaranController;
-use App\Http\Controllers\admin\pembelajaran\TambahPembelajaranController;
-use App\Http\Controllers\admin\PengaturanAkunController;
-use App\Http\Controllers\auth\DaftarController;
-use App\Http\Controllers\auth\IdentifikasiController;
-use App\Http\Controllers\auth\MasukController;
-use App\Http\Controllers\auth\PemulihanController;
-use App\Http\Controllers\berita\DetailBeritaController;
 use App\Http\Controllers\BeritaController;
-use App\Http\Controllers\bidang_usaha\AgriBisnisController;
-use App\Http\Controllers\bidang_usaha\EventController;
-use App\Http\Controllers\bidang_usaha\FashionController;
-use App\Http\Controllers\bidang_usaha\KosmetikController;
-use App\Http\Controllers\bidang_usaha\KulinerController;
-use App\Http\Controllers\bidang_usaha\OtomotifController;
 use App\Http\Controllers\BidangUsahaController;
-use App\Http\Controllers\DasborController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\forum\DetailForumController;
 use App\Http\Controllers\ForumPajakController;
 use App\Http\Controllers\KalkulatorController;
@@ -54,7 +26,6 @@ use App\Http\Controllers\kuis\soal\EssaiController;
 use App\Http\Controllers\kuis\soal\PilganController;
 use App\Http\Controllers\LayananController;
 use App\Http\Controllers\LihatPdfController;
-use App\Http\Controllers\pelatihan_sertifikasi\DetailPelatihanSertifikasiController;
 use App\Http\Controllers\PelatihanSertifikasiController;
 use App\Http\Controllers\pembelajaran\artikel\ArtikelController;
 use App\Http\Controllers\pembelajaran\artikel\DetailArtikelController;
@@ -66,86 +37,101 @@ use App\Http\Controllers\PembelajaranController;
 use App\Http\Controllers\PeraturanPajakController;
 use App\Http\Controllers\KuisController;
 use App\Http\Controllers\KonsultasiController;
-use App\Http\Controllers\konsultasi\DetailKategoriController;
-use App\Http\Controllers\konsultasi\ChatController;
-use App\Http\Controllers\konsultasi\ProfilKonsultanController;
-use App\Http\Controllers\ProfilController;
-use App\Http\Controllers\TamuController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
+// Auth::routes([
+//     'verify' => true
+// ]);
+
+// user
+Route::get('/', [DashboardController::class, 'show'])->name('dashboard');
+Route::get('/layanan', [LayananController::class, 'tampilkan']);
+
+Route::middleware(['auth', 'user'])->group(function () {
+    Route::middleware('auth')->group(function () {
+        Route::get('/profil', [ProfileController::class, 'edit'])->name('profile.edit');
+        Route::patch('/profil', [ProfileController::class, 'update'])->name('profile.update');
+        Route::delete('/profil', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    });
+
+    // berita
+    Route::get('/berita', [BeritaController::class, 'index']);
+    Route::get('/berita/{berita}/detail_berita', [BeritaController::class, 'show']);
+
+    // bidang usaha
+    Route::get('/bidang_usaha', [BidangUsahaController::class, 'index']);
+    Route::get('/bidang_usaha/{bidang_usaha}/detail_bidang_usaha', [BidangUsahaController::class, 'show']);
+
+    // konsultasi
+    Route::get('/konsultasi', [KonsultasiController::class, 'index']);
+    Route::get('/konsultasi/cari', [KonsultasiController::class, 'search']);
+    Route::get('/konsultasi/kategori_konsultan', [KonsultasiController::class, 'showKategori']);
+    Route::get('/konsultasi/{konsultan}/profil_konsultan', [KonsultasiController::class, 'showProfil']);
+
+    // pelatihan sertifikasi
+    Route::get('/pelatihan_sertifikasi', [PelatihanSertifikasiController::class, 'index']);
+    Route::get('/pelatihan_sertifikasi/{pelatihan}/detail_pelatihan_sertifikasi', [PelatihanSertifikasiController::class, 'show']);
+
 });
 
-Route::get('/', [TamuController::class, 'tampilkan']);
-Route::get('/dasbor', [DasborController::class, 'tampilkan']);
-Route::get('/masuk', [MasukController::class, 'tampilkan']);
-Route::get('/daftar', [DaftarController::class, 'tampilkan']);
-Route::get('/identifikasi', [IdentifikasiController::class, 'tampilkan']);
-Route::get('/pemulihan', [PemulihanController::class, 'tampilkan']);
-Route::get('/admin', [DasborAdminController::class, 'tampilkan']);
-Route::get('/admin/berita', [ListBeritaController::class, 'tampilkan']);
-Route::get('/admin/berita/tambah_berita', [TambahBeritaController::class, 'tampilkan']);
-Route::get('/admin/berita/edit_berita', [EditBeritaController::class, 'tampilkan']);
-Route::get('/admin/bidang_usaha', [ListBidangUsahaController::class, 'tampilkan']);
-Route::get('/admin/bidang_usaha/tambah_bidang_usaha', [TambahBidangUsahaController::class, 'tampilkan']);
-Route::get('/admin/bidang_usaha/edit_bidang_usaha', [EditBidangUsahaController::class, 'tampilkan']);
-Route::get('/admin/pajak', [ListPajakController::class, 'tampilkan']);
-Route::get('/admin/pajak/tambah_pajak', [TambahPajakController::class, 'tampilkan']);
-Route::get('/admin/pajak/edit_pajak', [EditPajakController::class, 'tampilkan']);
-Route::get('/admin/pelatihan', [ListPelatihanController::class, 'tampilkan']);
-Route::get('/admin/pelatihan/tambah_pelatihan', [TambahPelatihanController::class, 'tampilkan']);
-Route::get('/admin/pelatihan/edit_pelatihan', [EditPelatihanController::class, 'tampilkan']);
-Route::get('/admin/konsultan', [ListKonsultanController::class, 'tampilkan']);
-Route::get('/admin/konsultan/tambah_konsultan', [TambahKonsultanController::class, 'tampilkan']);
-Route::get('/admin/konsultan/edit_konsultan', [EditKonsultanController::class, 'tampilkan']);
-Route::get('/admin/kuis', [ListKuisController::class, 'tampilkan']);
-Route::get('/admin/kuis/tambah_kuis', [TambahKuisController::class, 'tampilkan']);
-Route::get('/admin/kuis/edit_kuis', [EditKuisController::class, 'tampilkan']);
-Route::get('/admin/kuis/hasil_kuis', [ListHasilKuisController::class, 'tampilkan']);
-Route::get('/admin/kuis/hasil_kuis/detail', [DetailHasilKuisController::class, 'tampilkan']);
-Route::get('/admin/kuis/soal', [ListSoalController::class, 'tampilkan']);
-Route::get('/admin/kuis/soal/tambah_soal', [TambahSoalController::class, 'tampilkan']);
-Route::get('/admin/kuis/soal/edit_soal', [EditSoalController::class, 'tampilkan']);
-Route::get('/admin/pembelajaran', [ListPembelajaranController::class, 'tampilkan']);
-Route::get('/admin/pembelajaran/tambah_pembelajaran', [TambahPembelajaranController::class, 'tampilkan']);
-Route::get('/admin/pembelajaran/edit_pembelajaran', [EditPembelajaranController::class, 'tampilkan']);
-Route::get('/admin/pengaturan_akun', [PengaturanAkunController::class, 'tampilkan']);
-Route::get('/layanan', [LayananController::class, 'tampilkan']);
+// admin
+Route::get('/admin', [DasborAdminController::class, 'show'])->middleware(['auth', 'admin']);
+
+Route::middleware(['auth', 'admin'])->prefix('admin')->scopeBindings()->group(function () {
+
+    Route::resource('berita', AdminBeritaController::class)->parameters([
+        'berita' => 'berita'
+    ]);
+    Route::resource('bidang_usaha', AdminBidangUsahaController::class);
+    Route::resource('konsultan', AdminKonsultanController::class);
+
+    // kuis
+    Route::resource('kuis', AdminKuisController::class)->parameters([
+        'kuis' => 'kuis'
+    ]);
+    Route::resource('kuis.soal', AdminSoalController::class)->parameters([
+        'kuis' => 'kuis'
+    ]);
+
+    // pelatihan
+    Route::resource('pelatihan', AdminPelatihanController::class);
+    Route::get('pelatihan/{pelatihan}/pdf', [AdminPelatihanController::class, 'showPdf']);
+    Route::get('pelatihan/{pelatihan}/ppt', [AdminPelatihanController::class, 'showPpt']);
+
+    Route::resource('pembelajaran', AdminPembelajaranController::class);
+    Route::resource('peraturan_pajak', AdminPeraturanPajakController::class);
+});
+
+
+require __DIR__.'/auth.php';
+
+Route::get('/admin/kuis/hasil_kuis', [ListHasilKuisController::class, 'tampilkan'])->middleware(['auth', 'admin']);
+Route::get('/admin/kuis/hasil_kuis/detail', [DetailHasilKuisController::class, 'tampilkan'])->middleware(['auth', 'admin']);
+
 Route::get('/peraturan_pajak_pusat', [PeraturanPajakController::class, 'tampilkanPusat']);
 Route::get('/peraturan_pajak_daerah', [PeraturanPajakController::class, 'tampilkanDaerah']);
-Route::get('/lihat_pdf', [LihatPdfController::class, 'tampilkan']);
+Route::get('/lihat_pdf', [LihatPdfController::class, 'tampilkan'])->middleware(['auth', 'user']);
 Route::get('/kalkulator', [KalkulatorController::class, 'tampilkan']);
-Route::get('/bidang_usaha', [BidangUsahaController::class, 'tampilkan']);
-Route::get('/bidang_usaha/agribisnis', [AgriBisnisController::class, 'tampilkan']);
-Route::get('/bidang_usaha/event', [EventController::class, 'tampilkan']);
-Route::get('/bidang_usaha/fashion', [FashionController::class, 'tampilkan']);
-Route::get('/bidang_usaha/kosmetik', [KosmetikController::class, 'tampilkan']);
-Route::get('/bidang_usaha/kuliner', [KulinerController::class, 'tampilkan']);
-Route::get('/bidang_usaha/otomotif', [OtomotifController::class, 'tampilkan']);
-Route::get('/pembelajaran', [PembelajaranController::class, 'tampilkan']);
-Route::get('/pembelajaran/artikel', [ArtikelController::class, 'tampilkan']);
-Route::get('/pembelajaran/artikel/detail_artikel', [DetailArtikelController::class, 'tampilkan']);
-Route::get('/pembelajaran/infografis', [InfografisController::class, 'tampilkan']);
-Route::get('/pembelajaran/infografis/detail_infografis', [DetailInfografisController::class, 'tampilkan']);
-Route::get('/pembelajaran/video', [VideoController::class, 'tampilkan']);
-Route::get('/pembelajaran/video/detail_video', [DetailVideoController::class, 'tampilkan']);
-Route::get('/forum_pajak', [ForumPajakController::class, 'tampilkan']);
-Route::get('/berita', [BeritaController::class, 'tampilkan']);
-Route::get('/pelatihan_sertifikasi', [PelatihanSertifikasiController::class, 'tampilkan']);
-Route::get('/pelatihan_sertifikasi/detail_pelatihan_sertifikasi', [DetailPelatihanSertifikasiController::class, 'tampilkan']);
-Route::get('/berita/detail_berita', [DetailBeritaController::class, 'tampilkan']);
-Route::get('/forum_pajak/detail_forum_pajak', [DetailForumController::class, 'tampilkan']);
-Route::get('/kuis', [KuisController::class, 'tampilkan']);
-Route::get('/kuis/detail_kuis', [DetailKuisController::class, 'tampilkan']);
-Route::get('/kuis/soal/benar_salah', [BenarSalahController::class, 'tampilkan']);
-Route::get('/kuis/soal/essai', [EssaiController::class, 'tampilkan']);
-Route::get('/kuis/soal/pilgan', [PilganController::class, 'tampilkan']);
-Route::get('/kuis/jawaban', [JawabanController::class, 'tampilkan']);
-Route::get('/kuis/hasil_kuis', [HasilKuisController::class, 'tampilkan']);
-Route::get('/kuis/evaluasi', [EvaluasiController::class, 'tampilkan']);
-Route::get('/konsultasi', [KonsultasiController::class, 'tampilkan']);
-Route::get('/konsultasi/detail_kategori', [DetailKategoriController::class, 'tampilkan']);
-Route::get('/konsultasi/chat', [ChatController::class, 'tampilkan']);
-Route::get('/konsultasi/profil_konsultan', [ProfilKonsultanController::class, 'tampilkan']);
-Route::get('/profil', [ProfilController::class, 'tampilkan']);
+
+
+Route::get('/pembelajaran', [PembelajaranController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/pembelajaran/artikel', [ArtikelController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/pembelajaran/artikel/detail_artikel', [DetailArtikelController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/pembelajaran/infografis', [InfografisController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/pembelajaran/infografis/detail_infografis', [DetailInfografisController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/pembelajaran/video', [VideoController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/pembelajaran/video/detail_video', [DetailVideoController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/forum_pajak', [ForumPajakController::class, 'tampilkan'])->middleware(['auth', 'user']);
+
+
+
+Route::get('/forum_pajak/detail_forum_pajak', [DetailForumController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/kuis', [KuisController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/kuis/detail_kuis', [DetailKuisController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/kuis/soal/benar_salah', [BenarSalahController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/kuis/soal/essai', [EssaiController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/kuis/soal/pilgan', [PilganController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/kuis/jawaban', [JawabanController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/kuis/hasil_kuis', [HasilKuisController::class, 'tampilkan'])->middleware(['auth', 'user']);
+Route::get('/kuis/evaluasi', [EvaluasiController::class, 'tampilkan'])->middleware(['auth', 'user']);

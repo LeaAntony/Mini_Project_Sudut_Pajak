@@ -3,7 +3,7 @@ function showSection(section) {
     document.getElementById('profilSection').classList.add('hidden');
     document.getElementById('pengaturanAkunSection').classList.add('hidden');
 
-    // Tombol yang sedang aktif diberikan kelas 'bg-blue-600'
+    // Tombol yang sedang aktif diberikan kelas warna
     document.getElementById('profilBtn').classList.remove('bg-gradient-to-r', 'from-green-400', 'to-teal-400',
         'hover:from-teal-300', 'hover:to-green-300', 'active:from-teal-200', 'active:to-green-200',
         'focus:outline-none', 'focus:ring', 'focus:ring-emerald-300', 'text-white');
