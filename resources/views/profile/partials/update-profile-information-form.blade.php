@@ -56,7 +56,7 @@
         </div>
 
         <div class="flex items-center gap-4">
-            <x-button type="submit" class="sm:btn-sm md:btn-md lg:btn-lg">simpan</x-button>
+            <x-button type="submit" class="sm:btn-sm md:btn-md lg:btn-lg">Simpan</x-button>
 
             @if (session('status') === 'profile-updated')
                 <p

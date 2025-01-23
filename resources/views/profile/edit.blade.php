@@ -17,7 +17,7 @@
                         @csrf
         
                         <a href="route('logout')" onclick="event.preventDefault(); this.closest('form').submit();" class="btn sm:btn-sm md:btn-md lg:btn-lg">
-                            <p>Keluar <i class="fi fi-rr-sign-out-alt"></i></p>
+                        <i class="fi fi-rr-sign-out-alt"></i><p>Keluar</p>
                         </a>
                     </form>
                 </h2>
